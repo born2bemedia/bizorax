@@ -1,6 +1,6 @@
 import { getPage, getPageSlugs } from "@/utils/blogUtils";
 import React from "react";
-import "@/styles/policy.scss";
+/* import "@/styles/policy.scss"; */
 
 export async function generateStaticParams() {
   const slugs = await getPageSlugs();
