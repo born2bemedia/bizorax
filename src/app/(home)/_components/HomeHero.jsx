@@ -63,7 +63,7 @@ const HomeHero = () => {
             <br />
             <br />
             <br />
-            HOME
+            HOME NEW
             <br />
             <br />
             <br />
