@@ -38,7 +38,24 @@ const Header = () => {
       <header className="header">
         <div className="header__container _container">
           <div className="header__body">
-            HEADER
+            <div className="header__col-01">
+              <Link href="/" className="header__logo"><LogoWhite /></Link>
+            </div>
+            <div className="header__col-02">
+              <nav className="header__nav">
+                <ul className="header__list">
+                  <li className="header__item">
+                    <Link href="/company" className="header__link">Company</Link>
+                  </li>
+                  <li className="header__item">
+                    <Link href="/expertise" className="header__link">Expertise</Link>
+                  </li>
+                  <li className="header__item">
+                    <Link href="/get-a-solution" className="header__link">Get a Solution</Link>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
         </div>
       </header>

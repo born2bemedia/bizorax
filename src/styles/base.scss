@@ -94,7 +94,7 @@ body {
   line-height: normal;
   font-weight: 400;
   margin: 0;
-  background-color: #f7f7f7;
+  background-color: #ecebe7;
   &::-webkit-scrollbar {
     background: transparent;
     width: 10px;
@@ -122,7 +122,7 @@ body {
 ._container {
   max-width: $maxWidthContainer + px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 16px;
 }
 
 .container {

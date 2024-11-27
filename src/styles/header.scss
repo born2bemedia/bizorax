@@ -1,5 +1,65 @@
 @import "mixin";
 
 .header {
-  
+    padding: 23px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+
+    @media(max-width: 767px) { 
+        padding: 12px 0;
+    }
+    &__container {
+    }
+
+    &__body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 32px;
+    }
+
+    &__col-01 {
+    }
+
+    &__logo {
+        svg {
+            width: 126px;
+            object-fit: cover;
+        }
+    }
+
+    &__col-02 {
+    }
+
+    &__nav {
+
+        @media(max-width: 767px) { 
+            display: none;
+        }
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        @include adaptiv-value('gap', 32, 16, 1);
+    }
+
+    &__item {
+    }
+
+    &__link {
+        font-size: 14px;
+        line-height: normal;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        transition: all 0.3s ease 0s;
+
+        &:hover { 
+            color: #CD8C2A;
+        }
+    }
 }
