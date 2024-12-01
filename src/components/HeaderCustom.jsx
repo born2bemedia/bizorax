@@ -8,7 +8,6 @@ import Instagram from "@/icons/social/Instagram";
 import X from "@/icons/social/Twitter";
 import LogoWhite from "@/icons/other/LogoWhite";
 import { usePathname } from "next/navigation";
-import Twitter from "@/icons/social/Twitter";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -34,7 +33,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="header">
+      <header className="header _white">
         <div className="header__container _container">
           <div className="header__body">
             <div className="header__col-01">
