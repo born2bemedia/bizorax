@@ -7,6 +7,7 @@ import HeaderCustom from "@/components/HeaderCustom";
 import Footer from "@/components/Footer";
 import { PopupsProvider } from "@/context/PopupsContext";
 import { usePathname } from "next/navigation";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const geist = Geist({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geist.className}`}>
+        <GoogleAnalytics gaId="G-CXE06DH8RK" />
         <PopupsProvider>
           {renderHeader()}
           <main className="site">{children}</main>
