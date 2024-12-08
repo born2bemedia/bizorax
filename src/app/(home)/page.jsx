@@ -1,6 +1,8 @@
 import HomeBlog from "./_components/HomeBlog";
 import HomeHero from "./_components/HomeHero";
 import HomeHow from "./_components/HomeHow";
+import HomeMain from "./_components/HomeMain";
+import HomeOur from "./_components/HomeOur";
 import HomeReady from "./_components/HomeReady";
 import HomeSolutions from "./_components/HomeSolutions";
 import HomeText from "./_components/HomeText";
@@ -26,8 +28,10 @@ export default function Home() {
       <HomeText />
       <HomeWhat />
       <HomeSolutions />
+      <HomeMain />
       <HomeHow />
       <HomeTools />
+      <HomeOur />
       <HomeBlog />
       <HomeReady />
     </>

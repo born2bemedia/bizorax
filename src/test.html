@@ -1,11 +1,47 @@
-<div class="tabs-solutions__tab tab1">
-    <div class="tabs-solutions__wrapper">
-        <div class="tabs-solutions__content">
-            <div class="tabs-solutions__col-01">
-                <div class="tabs-solutions__text">Tackling complex business hurdles with innovative, actionable solutions.</div>
-                <Link href="/challanges" class="tabs-solutions__link">Explore <ArrowRight /></Link>
+<section class="home-main">
+    <div class="home-main__container _container">
+        <div class="home-main__body">
+            <div class="home-main__top">
+                <h2 class="home-main__title">Main Services We Offer</h2>
+                <Link href="/capabilities" class="home-main__link">
+                    Explore All Services
+                </Link>
             </div>
-            <div class="tabs-solutions__col-02"><img src="/images/home/home-tab-01.jpg" alt="image" /></div>
+            <div class="home-main__content">
+                <Swiper
+                    ref={swiperRef}
+                    modules={[Navigation]}
+                    spaceBetween={32}
+                    loop={true}
+                    navigation={{
+                        prevEl: prevRef.current,
+                        nextEl: nextRef.current,
+                    }}
+                    onSlideChange={(swiper) => setCurrentSlide(swiper.realIndex + 1)}
+                    breakpoints={{
+                        575: { slidesPerView: 1 },
+                        767: { slidesPerView: 2 },
+                        992: { slidesPerView: 3 },
+                        1200: { slidesPerView: 4 },
+                    }}
+                >
+                    {slides.map((slide, index) => (
+                        <SwiperSlide key={index}>
+                            <div class="home-main-slider__item"
+                                style={{ backgroundImage: `url(${slide.image})` }}
+                            >
+                                <div class="home-main-slider__wrapper">
+                                    <h3
+                                        class="home-main-slider__title"
+                                        dangerouslySetInnerHTML={{ __html: slide.title }}
+                                    />
+                                    <div class="home-main-slider__text">{slide.text}</div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div>
         </div>
     </div>
-</div>
+</section>
