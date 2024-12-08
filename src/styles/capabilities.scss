@@ -1,0 +1,460 @@
+@import "./mixin.scss";
+
+.capa-hero {
+    @include adaptiv-value("padding-top", 135, 105, 1);
+    @include adaptiv-value("padding-bottom", 60, 40, 1);
+    background-color: #ecebe7;
+    &__container {
+    }
+
+    &__body {
+        display: flex;
+        gap: 24px;
+        position: relative;
+        @media (max-width: 992px) {
+            flex-direction: column;
+            gap: 16px;
+        }
+    }
+
+    &__col-01 {
+        width: 27%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 32, 24, 1);
+        line-height: normal;
+        font-weight: 800;
+        color: #232323;
+        span {
+            color: #cd8c2a;
+        }
+    }
+
+    &__col-02 {
+        width: 73%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__text {
+        @include adaptiv-value("font-size", 52, 32, 1);
+        line-height: normal;
+        color: #232323;
+        font-weight: 400;
+    }
+
+    &__links {
+        @include adaptiv-value("margin-top", 60, 24, 1);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 24px;
+        @media (max-width: 992px) {
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+            gap: 16px;
+        }
+    }
+
+    &__link {
+        padding: 16px 20px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        font-size: 14px;
+        line-height: normal;
+        font-weight: 500;
+        transition: all 0.3s ease 0s;
+
+        &:nth-child(1) {
+            background-color: #1d0a5b;
+            color: #e6ded0;
+            &:hover {
+                background-color: #cd8c2a;
+                color: #232323;
+            }
+        }
+
+        &:nth-child(2) {
+            background-color: #cd8c2a;
+            color: #232323;
+            &:hover {
+                background-color: #1d0a5b;
+                color: #e6ded0;
+            }
+        }
+    }
+}
+
+.capa-text {
+    padding: 60px 0;
+    background-color: #1d0a5b;
+    &__container {
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        @media (max-width: 992px) {
+            flex-direction: column-reverse;
+        }
+    }
+
+    &__col-01 {
+        width: 50%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__text {
+        @include adaptiv-value("font-size", 32, 18, 1);
+        line-height: normal;
+        color: #fff;
+    }
+
+    &__col-02 {
+        width: 45%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 52, 32, 1);
+        line-height: normal;
+        color: #fff;
+    }
+}
+
+.capa-plans {
+    background-color: #ecebe7;
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__plans {
+    }
+
+    &__plan {
+        @include adaptiv-value("padding-top", 100, 50, 1);
+        @include adaptiv-value("padding-bottom", 100, 50, 1);
+    }
+
+    &__top {
+        display: flex;
+        gap: 24px;
+        @media (max-width: 767px) {
+            flex-direction: column;
+        }
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 52, 32, 1);
+        line-height: normal;
+        color: #232323;
+        max-width: 520px;
+        width: 100%;
+        @media (max-width: 767px) {
+            max-width: 100%;
+        }
+    }
+
+    &__text {
+        max-width: 420px;
+        @include adaptiv-value("font-size", 24, 18, 1);
+        line-height: normal;
+        color: #232323;
+        @media (max-width: 767px) {
+            max-width: 100%;
+        }
+    }
+
+    &__slider {
+        margin: 40px 0 0 0;
+    }
+}
+
+.capa-services {
+    @include adaptiv-value("padding-top", 135, 105, 1);
+    @include adaptiv-value("padding-bottom", 60, 40, 1);
+    background-color: #ecebe7;
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 52, 32, 1);
+        line-height: normal;
+        color: #232323;
+    }
+
+    &__items {
+        margin: 40px 0 0 0;
+        display: flex;
+        align-items: stretch;
+        gap: 24px;
+        @media (max-width: 767px) {
+            flex-direction: column;
+        }
+    }
+
+    &__item {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        background-color: #1d0a5b;
+        border-radius: 8px;
+        padding: 24px;
+        @media (max-width: 992px) {
+            width: 50%;
+        }
+
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+    }
+
+    &__label {
+        font-size: 40px;
+        line-height: normal;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    &__text {
+        margin: 24px 0 0 0;
+        font-size: 10px;
+        line-height: 140%;
+        color: #fff;
+    }
+
+    &__list {
+        margin: 24px 0;
+    }
+
+    &__li {
+        &:first-of-type {
+            list-style: none;
+            margin-left: 0;
+        }
+        list-style: disc;
+        margin-left: 20px;
+        font-size: 12px;
+        line-height: 140%;
+        line-height: normal;
+        color: #fff;
+    }
+
+    &__price {
+        margin: auto 0 0 0;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        .title {
+        }
+        .price {
+            span {
+                font-size: 32px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    &__link {
+        margin: 24px 0 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #edebe7;
+        padding: 16px 32px;
+        border-radius: 4px;
+        color: #232323;
+        font-size: 14px;
+        line-height: normal;
+        transition: all 0.3s ease 0s;
+
+        &:hover {
+            background-color: #cd8c2a;
+            color: #1d0a5b;
+        }
+    }
+}
+
+.cappa-pricelist {
+    padding: 60px 0;
+    background-color: #cd8c2a;
+    &__container {
+    }
+
+    &__body {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        @media (max-width: 992px) {
+            flex-direction: column-reverse;
+        }
+    }
+
+    &__col-01 {
+        width: 70%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__text {
+        @include adaptiv-value("font-size", 32, 18, 1);
+        line-height: normal;
+        color: #fff;
+    }
+
+    &__col-02 {
+        width: 30%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 52, 32, 1);
+        line-height: normal;
+        color: #fff;
+    }
+
+    &__link {
+        margin: 10px 0 0 0;
+        display: flex;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+        font-size: 16px;
+        font-weight: 600;
+        transition: all 0.3s ease 0s;
+
+        svg {
+            path {
+                transition: all 0.3s ease 0s;
+            }
+        }
+
+        &:hover {
+            color: #1d0a5b;
+            border-color: #1d0a5b;
+
+            svg {
+                path {
+                    fill: #1d0a5b;
+                }
+            }
+        }
+    }
+}
+
+.capa-ready {
+    @include adaptiv-value("padding-top", 135, 105, 1);
+    @include adaptiv-value("padding-bottom", 60, 40, 1);
+    background-color: #ecebe7;
+    &__container {
+    }
+
+    &__body {
+        background-image: url("/images/capabilites/capa-img-01.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @include adaptiv-value("padding-top", 93, 50, 1);
+        @include adaptiv-value("padding-bottom", 93, 50, 1);
+        @include adaptiv-value("padding-left", 80, 50, 1);
+        border-radius: 16px;
+
+        @media(max-width: 992px) { 
+            padding: 60px 16px;
+        }
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 52, 32, 1);
+        line-height: normal;
+        color: #fff;
+        max-width: 560px;
+        @media(max-width: 767px) { 
+            max-width: 100%;
+            br { 
+                display: none;
+            }
+        }
+    }
+
+    &__buttons {
+        margin: 40px 0 0 0;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        @media(max-width: 992px) { 
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+
+    &__link {
+        &:nth-child(1) {
+            padding: 16px 20px;
+            background-color: #edebe7;
+            border-radius: 4px;
+            transition: all 0.3s ease 0s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: fit-content;
+
+            color: #cd8c2a;
+            font-size: 14px;
+            line-height: normal;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        &:nth-child(2) { 
+            padding: 16px 20px;
+            background-color: #e6ded0;
+            border-radius: 4px;
+            transition: all 0.3s ease 0s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: fit-content;
+    
+            color: #232323;
+            font-size: 14px;
+            line-height: normal;
+            font-weight: 500;
+            text-align: center;
+        }
+    }
+}

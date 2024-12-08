@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import { Geist } from "next/font/google";
 import "@/styles/base.scss";
 import HeaderDefault from "@/components/HeaderDefault";
@@ -18,19 +18,20 @@ const geist = Geist({
 export default function RootLayout({ children }) {
   const pathname = usePathname();
 
-  const renderHeader = () => {
-    if (pathname === "/") {
-      return <HeaderCustom />;
-    }
-    return <HeaderDefault />;
-  };
+  useEffect(() => {
+    console.log("Current pathname:", pathname);
+  }, [pathname]);
 
   return (
     <html lang="en">
       <body className={`${geist.className}`}>
         <GoogleAnalytics gaId="G-CXE06DH8RK" />
         <PopupsProvider>
-          {renderHeader()}
+          {pathname === "/" || pathname === "/industries" ? (
+            <HeaderCustom />
+          ) : (
+            <HeaderDefault />
+          )}
           <main className="site">{children}</main>
           <Footer />
         </PopupsProvider>

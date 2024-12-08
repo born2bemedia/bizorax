@@ -1,35 +1,36 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import "@/styles/challanges.scss";
+import "@/styles/capabilities.scss";
+import Link from "next/link";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
 
-const ChallangesToday = () => {
+const IndustriesText = () => {
     return (
         <>
-            <section className="challanges-today">
-                <div className="challanges-today__container _container">
-                    <div className="challanges-today__body">
-                        <div className="challanges-today__col-01">
+            <section className="indus-text">
+                <div className="indus-text__container _container">
+                    <div className="indus-text__body">
+                        <div className="indus-text__col-01">
                             <motion.div
                                 initial="hidden"
                                 whileInView="visible"
                                 viewport={{ once: true }}
                                 variants={fadeInUp}
                                 custom={0.1}
-                                className="challanges-today__text">
-                                In today’s fast-evolving market, businesses face unprecedented challenges that demand agility, insight, and expertise. From operational inefficiencies to the relentless pace of technological advancements, navigating these hurdles can feel overwhelming.
+                                className="indus-text__text">
+                                Every industry faces its own set of challenges in a world of constant disruption and innovation. At Bizorax, we pride ourselves on adapting our strategies to each sector’s dynamics. From reshaping operations to enabling sustainable growth, we craft solutions that precisely address industry-specific needs.
                             </motion.div>
                         </div>
-                        <div className="challanges-today__col-02">
+                        <div className="indus-text__col-02">
                             <motion.h2
                                 initial="hidden"
                                 whileInView="visible"
                                 viewport={{ once: true }}
                                 variants={fadeInUp}
                                 custom={0.2}
-                                className="challanges-today__title">
-                                The Challenges Businesses Face Today
+                                className="indus-text__title">
+                                Driving Change Across Diverse Industries
                             </motion.h2>
                         </div>
                     </div>
@@ -39,4 +40,4 @@ const ChallangesToday = () => {
     );
 };
 
-export default ChallangesToday;
+export default IndustriesText;
