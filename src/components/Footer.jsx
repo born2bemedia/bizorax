@@ -16,15 +16,15 @@ const Footer = () => {
           <div className="footer__row-01">
             <div className="footer__col-01">
               <Link href="/" className="footer__logo"><LogoWhite /></Link>
-              <ul className="footer__contacts">
-                {/* <li className="footer__contact">
+             {/*  <ul className="footer__contacts">
+                <li className="footer__contact">
                   Email:
                   <Link href="mailto:info@example.com" className="footer__contact-link">info@example.com</Link>
-                </li> */}
-                {/* <li className="footer__contact">
+                </li>
+                <li className="footer__contact">
                   Phone:
                   <Link href="tel:+19087654321" className="footer__contact-link">#############</Link>
-                </li> */}
+                </li>
                 <li className="footer__contact">
                   Registered address:
                   <Link href="#" className="footer__contact-link">Example</Link>
@@ -33,7 +33,7 @@ const Footer = () => {
                   Office address:
                   <Link href="#" className="footer__contact-link">Example</Link>
                 </li>
-              </ul>
+              </ul> */}
             </div>
             <div className="footer__col-02">
               <div className="footer__col">
