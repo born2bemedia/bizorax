@@ -1,0 +1,662 @@
+@import "./mixin.scss";
+
+.approach-hero {
+    background-image: url("/images/approach/img-01.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include adaptiv-value("padding-top", 170, 208, 1);
+    @include adaptiv-value("padding-bottom", 170, 208, 1);
+    @media (max-width: 767px) {
+        background-position: 65% center;
+    }
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__title {
+        color: #edebe7;
+        @include adaptiv-value("font-size", 100, 50, 1);
+        line-height: 100%;
+        font-weight: 800;
+
+        @media (max-width: 767px) {
+            br {
+                display: none;
+            }
+        }
+    }
+}
+
+.approach-every {
+    @include adaptiv-value("padding-top", 80, 60, 1);
+    @include adaptiv-value("padding-bottom", 80, 60, 1);
+    background-color: #ecebe7;
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__text {
+        @include adaptiv-value("font-size", 32, 18, 1);
+        line-height: normal;
+        color: #232323;
+        max-width: 950px;
+    }
+
+    &__buttons {
+        margin: 24px 0 0 0;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        @media (max-width: 767px) {
+            gap: 16px;
+        }
+    }
+
+    &__link {
+        padding: 16px 20px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        font-size: 14px;
+        line-height: normal;
+        font-weight: 500;
+        transition: all 0.3s ease 0s;
+
+        &:nth-child(1) {
+            background-color: #1d0a5b;
+            color: #e6ded0;
+            &:hover {
+                background-color: #cd8c2a;
+                color: #232323;
+            }
+        }
+
+        &:nth-child(2) {
+            background-color: #cd8c2a;
+            color: #232323;
+            &:hover {
+                background-color: #1d0a5b;
+                color: #e6ded0;
+            }
+        }
+    }
+}
+
+.approach-what {
+    @include adaptiv-value("padding-top", 100, 60, 1);
+    @include adaptiv-value("padding-bottom", 100, 60, 1);
+    background-color: #ecebe7;
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 52, 24, 1);
+        line-height: normal;
+        color: #232323;
+        font-weight: 400;
+    }
+
+    &__items {
+        @include adaptiv-value("margin-top", 40, 24, 1);
+        display: flex;
+        gap: 24px;
+        @media (max-width: 767px) {
+            flex-direction: column;
+        }
+    }
+
+    &__item {
+        width: 33.3333%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        background-color: #e6ded0;
+        border-radius: 8px;
+        padding: 32px 24px;
+        @media (max-width: 767px) {
+            width: 100%;
+            padding: 24px;
+            flex-direction: row;
+            gap: 16px;
+        }
+    }
+
+    &__icon {
+        img {
+            @media (max-width: 767px) {
+                width: 48px;
+                height: 48px;
+                object-fit: cover;
+            }
+        }
+    }
+
+    &__label {
+        @include adaptiv-value("font-size", 32, 18, 1);
+        line-height: normal;
+        font-weight: 500;
+        color: #000000;
+    }
+
+    &__text {
+        @include adaptiv-value("font-size", 18, 14, 1);
+        line-height: normal;
+        font-weight: 400;
+        color: #000000;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+.approach-our {
+    @include adaptiv-value("padding-top", 100, 60, 1);
+    @include adaptiv-value("padding-bottom", 100, 60, 1);
+    background-color: #cc8c2a;
+    &__container {
+        &._container {
+            @media (max-width: 992px) {
+                padding: 0;
+            }
+        }
+    }
+
+    &__body {
+        display: flex;
+        gap: 40px;
+        @media (max-width: 992px) {
+            flex-direction: column;
+        }
+    }
+
+    &__col-01 {
+        width: 50%;
+        position: relative;
+        @media (max-width: 992px) {
+            width: 100%;
+            padding: 0 16px;
+        }
+    }
+
+    &__wrapper {
+        position: sticky;
+        top: 16px;
+        left: 0;
+        height: fit-content;
+
+        @media (max-width: 992px) {
+            position: static;
+        }
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 52, 32, 1);
+        line-height: normal;
+        color: #fff;
+        font-weight: 400;
+    }
+
+    &__text {
+        margin: 24px 0 0 0;
+        @include adaptiv-value("font-size", 32, 18, 1);
+        line-height: normal;
+        color: #fff;
+    }
+
+    &__col-02 {
+        width: 50%;
+        padding: 0 0 0 40px;
+        border-left: 8px solid #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        @media (max-width: 992px) {
+            width: 100%;
+            border-width: 16px;
+        }
+    }
+
+    &__row {
+        display: flex;
+        align-items: flex-start;
+        gap: 24px;
+        @media (max-width: 767px) {
+            align-items: center;
+        }
+    }
+
+    &__number {
+        @include adaptiv-value("font-size", 120, 80, 1);
+        line-height: 100%;
+        font-weight: 900;
+        color: #fff;
+        min-width: 82px;
+
+        @media (max-width: 767px) {
+            min-width: 56px;
+        }
+    }
+
+    &__col {
+    }
+
+    &__label {
+        @include adaptiv-value("font-size", 40, 24, 1);
+        line-height: normal;
+        font-weight: 500;
+        color: #f3e6d3;
+        @media (max-width: 767px) {
+            margin: 0 0 5px 0;
+        }
+    }
+
+    &__list {
+    }
+
+    &__li {
+        margin: 0 0 0 15px;
+        list-style: disc;
+        @include adaptiv-value("font-size", 16, 14, 1);
+        color: #f3e6d3;
+    }
+}
+
+.approach-solutions {
+    background-color: #ecebe7;
+    @include adaptiv-value("padding-top", 80, 30, 1);
+    @include adaptiv-value("padding-bottom", 80, 30, 1);
+    position: relative;
+    z-index: 2;
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 24, 16, 1);
+        line-height: normal;
+        color: #232323;
+        font-weight: 600;
+    }
+
+    &__text {
+        margin: 24px 0 0 0;
+        max-width: 960px;
+        @include adaptiv-value("font-size", 52, 32, 1);
+        line-height: normal;
+        color: #232323;
+    }
+
+    &__tabs {
+        margin: 40px 0 0 0;
+    }
+}
+
+.tabs-solutions {
+    display: flex;
+    gap: 24px;
+    position: relative;
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        min-width: 302px;
+        max-width: 302px;
+    }
+
+    &__content {
+    }
+
+    &__tab {
+    }
+
+    &__button {
+        padding: 16px;
+        border-bottom: 1px solid #535351;
+        font-size: 32px;
+        line-height: normal;
+        color: #898884;
+        text-align: start;
+
+        &.active {
+            color: #232323;
+        }
+    }
+
+    &__wrapper {
+        @media (max-width: 992px) {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+    }
+
+    &__col-01 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        max-width: 302px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+
+        @media (max-width: 767px) {
+            position: static;
+            order: 3;
+            padding: 0 0 24px 0;
+            border-bottom: 1px solid #000000;
+            width: 100%;
+            max-width: 100%;
+            margin: 0 0 24px 0;
+        }
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: normal;
+        font-weight: 600;
+        color: #232323;
+    }
+
+    &__label {
+        order: 1;
+        font-size: 24px;
+        line-height: normal;
+        font-weight: 400;
+        @media (min-width: 993px) {
+            display: none;
+        }
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        width: fit-content;
+        border-bottom: 1px solid #232323;
+        color: #232323;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: normal;
+        transition: all 0.3s ease 0s;
+        svg {
+            path {
+                transition: all 0.3s ease 0s;
+                fill: #232323;
+            }
+        }
+        &:hover {
+            color: #cd8c2a;
+            border-color: #cd8c2a;
+
+            svg {
+                path {
+                    fill: #cd8c2a;
+                }
+            }
+        }
+    }
+
+    &__col-02 {
+        @media (max-width: 992px) {
+            order: 2;
+        }
+        img {
+            border-radius: 16px;
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+}
+
+.approach-how {
+    background-color: #ecebe7;
+    position: relative;
+    z-index: 2;
+    @include adaptiv-value("padding-top", 60, 30, 1);
+    @include adaptiv-value("padding-bottom", 60, 30, 1);
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 52, 32, 1);
+        line-height: normal;
+        font-weight: 400;
+        text-align: center;
+        color: #232323;
+    }
+
+    &__link {
+        margin: 25px auto 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        width: fit-content;
+        border-bottom: 1px solid #232323;
+        color: #232323;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: normal;
+        transition: all 0.3s ease 0s;
+        svg {
+            path {
+                transition: all 0.3s ease 0s;
+                fill: #232323;
+            }
+        }
+        &:hover {
+            color: #cd8c2a;
+            border-color: #cd8c2a;
+
+            svg {
+                path {
+                    fill: #cd8c2a;
+                }
+            }
+        }
+    }
+
+    &__items {
+        margin: 40px 0 0 0;
+        display: flex;
+        gap: 40px;
+        @media (max-width: 767px) {
+            column-gap: 15px;
+            row-gap: 32px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    &__item {
+        width: 25%;
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+    }
+
+    &__number {
+        @include adaptiv-value("font-size", 80, 50, 1);
+        line-height: normal;
+        font-weight: 600;
+        color: #cd8c2a;
+    }
+
+    &__text {
+        margin: 16px 0 0 0;
+        @include adaptiv-value("font-size", 24, 12, 1);
+        font-weight: 400;
+        text-transform: capitalize;
+        color: #cd8c2a;
+    }
+
+    &__desc {
+        max-width: 800px;
+        margin: 24px auto 0 auto;
+        @include adaptiv-value("font-size", 18, 16, 1);
+        font-weight: 400;
+        color: #232323;
+        text-align: center;
+    }
+}
+
+.approach-ready {
+    background-color: #cd8c2a;
+    background-image: url("/images/approach/img-06.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    z-index: 2;
+    @media (max-width: 992px) {
+        background-image: none;
+    }
+    &__container {
+        @media (max-width: 992px) {
+            &._container {
+                padding: 0;
+            }
+        }
+    }
+
+    &__body {
+        display: flex;
+        @media (max-width: 992px) {
+            flex-direction: column;
+            row-gap: 30px;
+        }
+    }
+
+    &__col-01 {
+        @include adaptiv-value("padding-top", 80, 50, 1);
+        @include adaptiv-value("padding-bottom", 80, 50, 1);
+        width: 40%;
+        padding-right: 50px;
+        background-color: #cd8c2a;
+        @media (max-width: 992px) {
+            width: 100%;
+            padding: 60px 16px 0 16px;
+        }
+    }
+
+    &__col-02 {
+        @media (max-width: 992px) {
+            background-image: url("/images/approach/img-06.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 400px;
+            width: 100%;
+
+            @media (max-width: 767px) {
+                background-image: url("/images/approach/img-07.jpg");
+            }
+        }
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 52, 38, 1);
+        line-height: 120%;
+        color: #fff;
+
+        @media (max-width: 767px) {
+            br {
+                display: none;
+            }
+        }
+    }
+
+    &__buttons {
+        @include adaptiv-value("margin-top", 40, 24, 1);
+        display: flex;
+        justify-content: flex-start;
+        gap: 24px;
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+        }
+    }
+
+    &__btn-01 {
+        padding: 16px 20px;
+        background-color: #edebe7;
+        border-radius: 4px;
+        transition: all 0.3s ease 0s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+
+        color: #cd8c2a;
+        font-size: 14px;
+        line-height: normal;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    &__btn-02 {
+        padding: 16px 20px;
+        background-color: #e6ded0;
+        border-radius: 4px;
+        transition: all 0.3s ease 0s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+
+        color: #232323;
+        font-size: 14px;
+        line-height: normal;
+        font-weight: 500;
+        text-align: center;
+    }
+}
+
+.approach-sliders {
+    @include adaptiv-value("padding-top", 80, 50, 1);
+    @include adaptiv-value("padding-bottom", 80, 50, 1);
+    background-color: #ecebe7;
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__title {
+        @include adaptiv-value('font-size', 52, 32, 1);
+        line-height: normal;
+        color: #232323;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    &__sliders {
+        
+    }
+
+    &__slider {
+    }
+}
