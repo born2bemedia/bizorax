@@ -1,49 +1,28 @@
-<section class="team-how">
-    <div class="team-how__container _container">
-        <div class="team-how__body">
-            <motion.h2
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                variants={fadeInUp}
-                custom={0.1}
-                class="team-how__title">How We Work Together:</motion.h2>
-            <div class="team-how__items">
-                <motion.div
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true }}
-                    variants={fadeInUp}
-                    custom={0.2}
-                    class="team-how__item">
-                    <div class="team-how__text">Weekly brainstorming sessions to explore creative approaches to challenges.</div>
-                </motion.div>
-                <motion.div
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true }}
-                    variants={fadeInUp}
-                    custom={0.3}
-                    class="team-how__item">
-                    <div class="team-how__text">Cross-departmental collaboration to ensure holistic solutions.</div>
-                </motion.div>
-                <motion.div
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true }}
-                    variants={fadeInUp}
-                    custom={0.4}
-                    class="team-how__item">
-                    <div class="team-how__text">An open culture where every idea is valued and considered.</div>
-                </motion.div>
-            </div>
-            <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                variants={fadeInUp}
-                custom={0.2}
-                class="team-how__desc">The best part of working at Bizorax is knowing that everyone is committed to the same goal: helping our clients succeed.</motion.div>
-        </div>
-    </div>
-</section>
+"use client";
+import React, { useState, useEffect } from "react";
+import "@/styles/cases.scss";
+
+
+const CasesStudies = () => {
+    return (
+        <>
+            <section className="cases-studies">
+                <div className="cases-studies__container">
+                    <div className="cases-studies__body">
+                        <h2 className="cases-studies__title">Case Studies</h2>
+                        <div className="cases-studies__rows">
+                            <div className="cases-studies__row"></div>
+                            <div className="cases-studies__row"></div>
+                            <div className="cases-studies__row"></div>
+                            <div className="cases-studies__row"></div>
+                            <div className="cases-studies__row"></div>
+                            <div className="cases-studies__row"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </>
+    );
+};
+
+export default CasesStudies;
