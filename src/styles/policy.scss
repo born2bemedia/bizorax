@@ -1,0 +1,75 @@
+@import "./mixin.scss";
+
+
+.policy {
+
+    &__body {
+    }
+
+    &__top {
+        background-color: #1D0A5B;
+        @include adaptiv-value('padding-top', 215, 294, 1);
+        @include adaptiv-value('padding-bottom', 60, 40, 1);
+    }
+
+    &__wrapper {
+        
+    }
+
+    &__title {
+        @include adaptiv-value('font-size', 52, 32, 1);
+        line-height: normal;
+        color: #fff;
+    }
+
+    &__content {
+        @include adaptiv-value('padding-top', 100, 50, 1);
+        @include adaptiv-value('padding-bottom', 100, 50, 1);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: #1D0A5B;
+        @include adaptiv-value('font-size', 24, 16, 1);
+
+        ol { 
+            display: flex;
+            flex-direction: column;
+            @include adaptiv-value('gap', 24, 16, 1);
+            li { 
+                margin: 0 0 0 25px;
+            }
+        }
+
+        h2 { 
+            @include adaptiv-value('font-size', 52, 24, 1);
+            @include adaptiv-value('margin-top', 40, 24, 1);
+            @include adaptiv-value('margin-bottom', 40, 24, 1);
+        }
+
+        h3 { 
+            @include adaptiv-value('margin-top', 24, 16, 1);
+            @include adaptiv-value('margin-bottom', 24, 16, 1);
+            @include adaptiv-value('font-size', 32, 18, 1);
+        }
+
+        ul {
+            @include adaptiv-value('margin-top', 24, 16, 1);
+            @include adaptiv-value('margin-bottom', 24, 16, 1);
+            display: flex;
+            flex-direction: column;
+            li { 
+                margin: 0 0 0 25px;
+                list-style: disc;
+            }
+        }
+
+        a { 
+            color: #1D0A5B;
+            text-decoration: underline;
+            transition: all 0.3s ease 0s;
+
+            &:hover { 
+                color: #CD8C2A;
+            }
+        }
+    }
+}

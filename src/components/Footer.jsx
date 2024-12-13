@@ -101,7 +101,7 @@ const Footer = () => {
                 </ul>
                 <ul className="footer__politics">
                   <li className="footer__policy">
-                    <Link href="/refun-policy" className="footer__policy-link">Refund Policy</Link>
+                    <Link href="/refund-policy" className="footer__policy-link">Refund Policy</Link>
                   </li>
                   <li className="footer__policy">
                     <Link href="/cookie-policy" className="footer__policy-link">Cookie Policy</Link>

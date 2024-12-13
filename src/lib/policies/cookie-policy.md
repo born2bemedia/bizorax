@@ -2,43 +2,119 @@
 title: "Cookie policy"
 ---
 
-Nexoria uses cookies and similar tracking technologies to enhance the browsing experience, analyze site traffic, and understand user preferences. This Cookie Policy explains what cookies are, how we use them, and your choices regarding their use.
+
+1. This Cookie Policy explains how Bizorax uses cookies and similar technologies to enhance your experience on our website.
+2. By continuing to use our website, you consent to the use of cookies as outlined in this policy.
+3. We encourage you to read this policy thoroughly to understand how we manage, collect, and utilise cookies.
 
 ## What Are Cookies?
-Cookies are small text files placed on your device by websites you visit. They are widely used to make websites work more efficiently and to provide information to the site owners. Cookies can be categorized into different types based on their purpose:
 
-- **Essential Cookies:** These cookies are necessary for the website to function and cannot be disabled. They allow you to navigate the site and use its features.
-- **Performance Cookies:** These cookies collect information about how visitors use our website, such as which pages are visited most often. This data helps us improve our site’s performance and user experience.
-- **Functionality Cookies:** These cookies allow our website to remember your choices (such as your username, language, or region) and provide enhanced features and personalization.
-- **Targeting Cookies:** Our advertising partners may set these cookies through our site. They may be used to build a profile of your interests and show you relevant ads on other sites.
+1. Cookies are small text files stored on your device when you visit a website. These files collect and store data about your interactions with the site, such as preferences, login details, or browsing activities. Cookies are vital for ensuring websites function smoothly and provide a personalised experience.
+2. Cookies serve various purposes, such as:
+
+- Enhancing website usability.
+- Analysing site performance.
+- Delivering targeted and relevant advertising content.
+
+3. Cookies are categorised based on their purpose, duration, and origin.
+
+## Types of Cookies Used by Bizorax
+
+1. We use several types of cookies to optimise the functionality and user experience of our website:
+
+### Essential Cookies
+
+1. These cookies are critical for the basic operations of our website. They enable core functionalities such as:
+
+- Navigating between pages.
+- Securing access to restricted areas.
+- Maintaining session information.
+
+2. Certain website features may not function correctly without these cookies, and your browsing experience could be significantly impacted.
+
+### Analytical/Performance Cookies
+1. These cookies help us understand how visitors interact with our website. They collect aggregated data, including:
+
+- Frequently visited pages.
+- Navigation paths.
+- Errors encountered during browsing.
+
+2. The insights derived from these cookies allow us to refine our website’s functionality, ensuring an improved user experience. Analytical cookies do not store personal information.
+
+### Functionality Cookies
+
+1. Functionality cookies enable our website to remember your preferences and past interactions. Examples include:
+
+- Remembering language or regional preferences.
+- Storing customised display settings.
+
+2. By recalling your choices, these cookies offer a more tailored and seamless browsing experience.
+
+### Targeting/Advertising Cookies
+
+1. Targeting cookies deliver advertisements that align with your interests and browsing habits. These cookies:
+
+- Track your interactions across multiple websites.
+- Allow us to measure the performance of advertising campaigns.
+- Help ensure that the ads you see are relevant to your preferences.
+
+2. These cookies also enable us to optimise our marketing strategies based on user engagement data.
 
 ## How We Use Cookies
-We use cookies for various purposes, including:
 
-- To ensure the proper functioning of our website and its services.
-- To analyze website usage and enhance user experience.
-Remember your preferences and settings.
-- To deliver targeted advertisements and track the effectiveness of our marketing efforts.
+1. Bizorax uses cookies for several purposes:
 
-## Your Choices Regarding Cookies
-You have several options to manage your cookie preferences:
+### Ensuring Website Functionality
 
-- **Browser Settings:** Most web browsers allow you to control cookies through their settings. You can set your browser to refuse cookies or to alert you when cookies are being sent. If you disable cookies, some parts of our website may malfunction.
-- **Opt-Out Links:** You can opt out of performance and targeting cookies through various online tools. For example, you can use the Network Advertising Initiative’s opt-out tool or the Digital Advertising Alliance’s opt-out page.
-- **Cookie Consent Management:** When you visit our website, you will see a cookie consent banner that allows you to accept or reject non-essential cookies.
+1. Cookies are integral to the smooth operation of our website. They:
+
+- Support navigation and functionality.
+- Facilitate secure transactions and access.
+
+### Improving Website Performance
+
+1. With analytical cookies, we monitor site usage to identify bottlenecks and improve functionality. Insights gained from these cookies allow us to deliver a more efficient and user-friendly website.
+
+### Personalising Your Experience
+
+1. Functionality cookies help us deliver a tailored experience by remembering:
+
+- Your preferences, such as language or regional settings.
+- Past interactions with the website to offer relevant content.
+
+### Delivering Relevant Advertising
+
+1. Targeting cookies helps us serve ads that resonate with your interests. They enable us to track the effectiveness of campaigns and ensure advertisements align with your needs and preferences.
+
+### Managing Cookies
+
+1. You have control over how cookies are stored and used on your device. Most web browsers allow you to:
+
+- Block or delete cookies.
+- Adjust privacy settings.
+- Enable notifications when cookies are placed.
+
+2. However, disabling cookies may limit access to certain features or affect the website’s functionality. To manage cookies, consult your browser’s settings or visit your browser provider’s help section for detailed instructions.
 
 ## Third-Party Cookies
+1. Bizorax may integrate cookies from third-party service providers, including:
 
-Our website may contain cookies from third-party services that are not in our control. These cookies are used for various purposes, including analytics and advertising. We encourage you to review the privacy policies of these third parties for more information about their use of cookies.
+- Analytics Services: For tracking and evaluating site performance.
+- Advertising Networks: To deliver targeted ads based on your browsing behaviour.
+- Social Media Plugins: To enable the sharing of content on social platforms.
+
+2. These cookies are subject to the privacy policies of their respective providers. Bizorax does not have control over third-party cookie practices and recommends reviewing their policies to understand their data handling processes.
 
 ## Changes to This Cookie Policy
 
-We may update this Cookie Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you when we make significant changes by posting the updated policy on our website with a new effective date.
+1. Bizorax reserves the right to update this Cookie Policy as needed. Updates may reflect:
+
+- Changes in our practices.
+- Compliance with new legal requirements.
+- Enhancements to website features or functionality.
+
+2. We will notify users of significant changes by posting the revised policy on our website. The new policy will take effect immediately upon posting. We encourage you to review this page periodically to stay informed about our use of cookies.
 
 ## Contact Us
 
-If you have any questions about our Cookie Policy or our use of cookies, please contact us at:
-
-- Email: info@nexoria.ai 
-- Phone <a href="tel:+48573587868">+48573587868</a>
-- Website: https://nexoria.ai 
+1. Please provide as much detail as possible regarding your inquiry to help us address your concerns effectively. If you have questions or concerns about this Cookie Policy or how we use cookies, please get in touch with us via: <a href="https://bizorax.com/contact.">https://bizorax.com/contact.</a>

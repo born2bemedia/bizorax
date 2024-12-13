@@ -2,202 +2,176 @@
 title: "Privacy policy"
 ---
 
+1. At Bizorax, accessible at <a href="https://bizorax.com">https://bizorax.com</a>, your privacy is paramount to us.
+2. This Privacy Policy explains how we collect, use, and safeguard your information when interacting with our website and services.
+3. You agree to the practices described in this policy by accessing or using our site.
+4. Any updates or modifications to this Privacy Policy will be reflected on this page.
 
-## Welcome to Nexoria!
+## Overview
 
-Protecting your business information is one of our top priorities. This Privacy Policy outlines how we manage the data we collect through our website and services, ensuring your data is secure and handled by data protection laws.
-You acknowledge and agree to our data handling practices as described by engaging with our website and using our services. If you have concerns, please discontinue use and contact us directly.
+1. Protecting Your Data: Your personal information is never sold, rented, or shared without your consent.
+2. No Unsolicited Communication: Bizorax does not engage in spam. All communications will be relevant and directly from us.
+3. Secure Transactions: Your payment information is never accessed or processed without your permission.
+4. Compliance Focus: Bizorax adheres to the General Data Protection Regulation (GDPR) and applicable data protection laws, ensuring transparency and control over your data.
 
-## Company Information
+## Data Processor Information
 
-Nexoria, operated by Acceptance Solutions Group LLC, is responsible for managing your data. You can reach us using the following details:
-- Company Name: Acceptance Solutions Group LLC
-- Registered Office:Hamilton Development, Unit B, Charlestown, Nevis, West Indies
-- Registration Number: LLC23233
-- Contact Email: info@nexoria.ai 
+1. Bizorax services are provided under the management of Bizorax, the company responsible for data processing:
 
-## Data Utilisation
+- Data Processor: Bizorax
+- Contact Information: <a href="https://bizorax.com">https://bizorax.com</a>
 
-We collect and use your data to deliver, improve, and customise our services. Here’s how your data is utilised:
+## Role and Responsibilities
 
-- Delivering Services: We process the information provided to fulfil your service requests and meet contractual obligations.
-- Improving Services: Your feedback and usage data help us refine and enhance our service offerings to better suit your business needs.
-- Personalisation: We use collected data to customise your experience, ensuring content and recommendations are relevant to your business.
+1. As the data processor, Bizorax ensures the following:
 
-**Security and Compliance**
+- Data Collection and Processing: Handling personal data following privacy regulations and Bizorax’s instructions.
+- Data Security: Implementing technical and organisational measures to secure personal data from unauthorised access or misuse.
+- Data Retention: Maintaining appropriate retention schedules and ensuring timely deletion or anonymization of data no longer needed
 
-- Protecting Data: We take extensive measures to safeguard your data from unauthorised access and breaches. This includes using advanced security technologies, such as encryption, to protect your information.
-- Legal Compliance: We may use or disclose your information to meet legal obligations or respond to lawful requests from regulatory authorities. This ensures compliance with relevant laws and regulations.
-- Research and Improvement: We analyse anonymized data to conduct research and continually improve our services. This helps us serve your business more effectively by refining features and optimising performance.
+## Handling of Your Personal Data
 
-**Third-Party Services**
+### What We Collect and How We Use It
 
-- Service Providers: We may share your data with third-party vendors that help deliver our services, such as IT support, cloud storage, or payment processing. These vendors are required to handle your data confidentially and securely.
-- Business Transactions: Your data may be part of a business change such as a merger, acquisition, or sale. We will ensure your information remains protected under our privacy standards throughout the process.
+1. Bizorax collects personal and business-related information to enhance your experience and provide tailored services.
 
-**Data Collection Methods**
+### Types of Data Collected
 
-- We collect your data through various channels, including:
-- Forms: Information provided by you directly through forms or requests.
-- Cookies: Data collected automatically through cookies when you interact with our website.
-- Analytical Tools: Data gathered through analytics to understand usage patterns and enhance our services.
-We are committed to collecting and protecting only what is necessary with rigorous security measures.
+1. Personal Identification Information: Includes your name, email address, phone number, and any other details provided via forms or communications.
+2. Business Information: Includes details about your organisation to help us customise our services.
 
-## How We Use User Data
+### How We Collect Data
 
-At Nexoria, we utilise user data to deliver superior IT services and ensure a seamless experience for our clients. Below is a breakdown of how we use your data:
+1. Through Forms: Information entered on our site for inquiries, subscriptions, or service requests.
+2. Direct Correspondence: Communications via email, phone, or our website.
+3. Cookies and Tracking Technologies: Automatically collected data through cookies to improve functionality and personalise your experience.
 
-**Delivering Our Services**
+## How We Use Your Data
 
-- Service Fulfilment: We use your data to provide IT solutions, process orders, manage agreements, and deliver the services you have requested.
-- Operational Support: Your information is essential to maintaining and supporting our IT infrastructure, ensuring it meets performance standards.
+1. The information collected is used for:
 
-**Enhancing Service Quality**
+- Personalised Services: Customising our offerings based on your business needs.
+- Improved User Experience: Enhancing site performance and usability through analysis of interactions.
+- Efficient Communication: Sending service updates, promotional offers, and responses to your inquiries.
+- Customer Support: Addressing concerns or requests effectively.
 
-- Service Improvement: By analysing feedback and usage patterns, we can identify areas for improvement and refine our offerings.
-Personalised Experience: We tailor recommendations and optimise our services based on the data collected to align with your specific business needs.
+## Use of Cookies and Tracking Technologies
 
-**Communication and Assistance**
+1. Cookies are small files stored on your device to enhance your interaction with our website. Bizorax uses cookies to:
 
-- Client Support: Your contact details allow us to provide timely customer support, address inquiries, and offer technical assistance when necessary.
-- Updates and Notifications: We may send you essential updates regarding service changes, new features, or any developments that could benefit your business.
+- Track user preferences for personalised services.
+- Monitor website usage to improve features
 
-**Security and Compliance**
+2. You can manage or disable cookies through your browser settings. However, disabling cookies may limit access to certain functionalities on our site.
 
-- Security Measures: We use your data to monitor the security of our systems, detect unauthorised access, and prevent potential threats.
-- Regulatory Compliance: We may utilise your data to ensure compliance with industry standards and regulations and respond to legal inquiries.
+## Data Sharing
 
-**Research and Development**
-- Analytics and Research: We analyse anonymized and aggregated data to gain insights into usage trends and improve our services through data-driven decisions.
+1. At Bizorax, we prioritise the confidentiality of your personal information and ensure that it is only shared under strict circumstances to facilitate services, meet legal obligations, or improve functionality.
 
-**Data Retention**
+### Sharing with Trusted Service Providers
 
-At Nexoria, we are committed to handling your data responsibly in compliance with applicable data protection laws. Our data retention practices are designed to keep your information only for as long as necessary to fulfil its intended purpose. Below is an overview of how we manage data retention:
+2. We collaborate with carefully selected third-party service providers who assist us in delivering and maintaining our services. These providers may include:
 
-**Retention Time**
+- Technical Support Providers: Ensuring the seamless operation and maintenance of our website.
+- Marketing Partners: Assisting with outreach campaigns while strictly adhering to confidentiality agreements.
+- Data Analytics Services: Analysing user behaviour to enhance functionality and optimise user experiences.
 
-- Service Provision: We retain personal data for the time necessary to deliver and support your requested IT services. This includes maintaining service agreements, processing transactions, and resolving service-related issues.
-- Legal and Compliance Requirements: In some cases, we may need to retain data for an extended period to comply with legal, regulatory, and contractual obligations. This ensures that we meet our legal responsibilities and maintain adherence to industry standards.
+3. These trusted partners are bound by contractual obligations to use your information solely for agreed-upon purposes and to ensure it remains secure and confidential.
 
-**Data Deletion and Anonymization**
+### Legal Requirements
 
-- End of Service: When using our services ends, we take steps to delete or anonymize your data securely. This minimises potential risks associated with prolonged data retention and ensures the protection of your privacy.
-- Anonymization: In certain situations, we may anonymize data instead of deleting it. Anonymized data cannot be traced back to individual users and may be used for analytics and improving our services.
+1. Bizorax may share personal data to:
 
-**Data Review**
+- Comply with legal obligations, regulatory inquiries, or court orders.
+- Enforce our legal rights and ensure compliance with our Terms of Use.
+- Protect the safety, rights, and property of Bizorax, its users, or the public in critical circumstances.
 
-- Periodic Review: We regularly review the data we hold to ensure it is still relevant and necessary for its intended purpose. Any data no longer required or exceeded its retention period is securely deleted or anonymized.
-- Data Minimization: In accordance with the principle of data minimization, we retain only information necessary to achieve specific goals and discard data that is no longer required.
+2. Such disclosures are made only when necessary and within the scope of applicable laws.
 
-**Secure Disposal**
+### Sharing Non-Personal Information
 
-- Deletion Procedures: When it’s time to delete data, we use secure methods to ensure complete and irreversible removal from our systems. We follow industry best practices for data destruction to prevent unauthorised access or recovery.
-- Ongoing Security: Throughout the data retention period and deletion process, we implement robust security measures to protect your data from unauthorised access and potential breaches.
+1. We may share aggregated, non-personally identifiable information, such as statistical or analytical data, with third parties for:
 
-## Data Protection Practices
+- Marketing purposes are to demonstrate site traffic and engagement trends.
+- Industry research is needed to contribute to broader insights into user behaviour.
 
-At Nexoria, protecting your data is our top priority. We implement comprehensive security measures and protocols to safeguard your information against unauthorised access, breaches, and misuse. Below is an outline of the robust strategies we employ to ensure the security of your data:
+2. This data cannot be traced back to individual users and is used responsibly to enhance our services and market reach.
 
-**Security Protocols**
+### Links to External Websites
 
-- Encryption: We use cutting-edge encryption technologies to secure data in transit and at rest. This ensures that your information is protected, whether transmitted online or stored within our systems.
-- Firewalls and Intrusion Detection: Our network is secured with advanced firewalls and intrusion detection systems to monitor and prevent unauthorised access. These systems are crucial in defending against cyber threats and ensuring the integrity of your data.
+1. Our website may include links to third-party websites, services, or platforms for your convenience or reference. These links are provided as additional resources and do not signify Bizorax’s endorsement of the external site or its content.
 
-**Access Controls**
+### Responsibility and Liability
 
-- Role-Based Access: We apply role-based access controls to restrict only data access to authorised personnel. Team members and partners have access only to the data required for their specific roles, reducing the likelihood of unauthorised exposure.
-- Authentication: Strong authentication practices, including multi-factor authentication (MFA), are in place to verify the identity of anyone accessing our systems. This added layer of protection helps prevent unauthorised access.
+2. Bizorax does not control or monitor these external platforms and is not responsible for:
 
-**Data Handling Procedures**
-- Data Minimization: We collect only the data necessary for specific purposes and limit access accordingly. Minimising data collection reduces the risk of unnecessary or excessive data exposure.
-- Secure Storage: Our storage systems comply with stringent security standards, including robust physical security for data centres and secure digital storage protocols, ensuring your data remains safe.
+- The accuracy or completeness of their content.
+- Their privacy practices, including data collection and usage policies.
+- The security measures are in place to protect your data.
 
-**Regular Security Audits**
+### Encouraging Caution
 
-- Vulnerability Assessments: We perform regular security audits and vulnerability assessments to detect and resolve potential system weaknesses. These assessments enable us to stay ahead of emerging threats and continuously fortify our defences.
-- Compliance Checks: We regularly review data protection strategies to ensure compliance with relevant regulations and industry standards. This ensures our security measures remain up-to-date and legally compliant.
+1. We strongly encourage users to:
 
-**Incident Response**
+- Review any third-party site’s privacy policies and terms of use before providing personal information.
+- Exercise caution when interacting with external platforms, particularly those requiring sensitive details.
 
-- Incident Management: In the event of a data breach or security incident, we have predefined incident response protocols designed to mitigate the impact swiftly. This includes notifying affected parties and taking corrective actions to prevent future occurrences.
-- Continuous Improvement: We continually update and improve our data protection measures based on lessons learned from incidents and evolving security challenges. This proactive stance helps us maintain a high level of security.
+2. By navigating to these third-party websites, you acknowledge that you do so at your own risk.
 
-**Employee Training**
-- Awareness Programs: We provide ongoing training and awareness initiatives to educate employees on data protection and cybersecurity best practices. Ensuring staff are informed about their responsibilities is key to protecting customer data.
+## Online Policy Scope
 
-**Third-Party Security**
+1. This Privacy Policy applies exclusively to personal data collected through the Bizorax website and associated services.
 
-- Vendor Management: We carefully vet and monitor all third-party service providers that handle data on our behalf. These vendors must adhere to our data protection standards and sign confidentiality agreements to secure your data. 
+### What Is Covered
 
-**Secure Data Transmission**
+1. The policies outlined here govern:
 
-- Secure Communication Channels: All data transmitted over the internet is protected using secure communication protocols such as HTTPS. This encryption safeguards sensitive information during online interactions. 
+- Data entered into forms on our website.
+- Information collected via cookies or tracking technologies while browsing the site.
+- Personal details provided through direct communications with Bizorax.
 
-## User Rights
+### What Is Not Covered
 
-At Nexoria, we are dedicated to respecting and safeguarding your rights concerning your data. In compliance with applicable data protection laws, we offer the following rights to our users:
+1. This policy does not apply to:
 
-**Right to Access**
+- Offline interactions, such as phone calls or in-person discussions.
+- Data shared through unrelated platforms or third-party websites, even if accessed via links on our site.
 
-- Request Information: You have the right to request access to the personal data we hold about you. This includes details about the data we collect, how it is used, and with whom it is shared.
-- Obtain a Copy: You can request a copy of your data in a structured, commonly used, and machine-readable format, enabling you to review and verify the information we have.
+2. Understanding this scope allows you to manage better how and where your data is shared.
 
-**Right to Rectification**
+## Your Rights Under GDPR
 
-- Correct Inaccuracies: If any personal data we hold about you is inaccurate or incomplete, you can request its correction or update.
-Timely Updates: We will promptly correct any inaccurate data to ensure your information remains up-to-date and accurate.
+1. Bizorax is committed to ensuring compliance with the General Data Protection Regulation (GDPR) for users residing in the European Economic Area (EEA). This regulation grants you specific rights concerning your personal data.
 
-**Right to Erasure**
+2. Your Rights Include:
 
-- Request Deletion: You have the right to request the deletion of your data under certain conditions, such as when the data is no longer necessary for the purpose it was collected or if you withdraw your consent.
-- Limitations: We may need to retain specific data due to legal or contractual obligations, even if you request deletion.
+- Access: You can request detailed information about the personal data we hold about you, including the purposes of processing and the categories of data collected.
+- Rectification: If you find any inaccuracies in your data, you have the right to correct or complete them.
+- Erasure (Right to Be Forgotten): Under certain conditions, you can request the deletion of your data unless retention is legally required.
+- Restriction: You may limit how your data is processed in specific situations, such as while a dispute about its accuracy or legality is resolved.
+- Objection: You have the right to object to processing your data for purposes such as direct marketing.
+- Data Portability: You can obtain a copy of your data in a structured, commonly used, and machine-readable format for transfer to another service provider.
 
-**Right to Restrict Processing**
-- Limit Use: You have the right to request the restriction of the processing of your personal data in certain situations. We will continue to store your data but cease processing it unless legally required to do so.
-- Processing Restrictions: This right applies if you contest the accuracy of your data, if processing is unlawful, or if you object to processing based on legitimate interests.
+## How to Exercise These Rights
 
-**Right to Data Portability**
-- Transfer Data: You can request that your personal data be transferred to another organisation or to you directly in a structured, commonly used, and machine-readable format.
-- Ease of Transfer: This right allows you to move, copy, or transfer your data, giving you greater control over your personal information.
+1. To submit a request related to your GDPR rights, please get in touch with us via <a href="https://bizorax.com/contact.">https://bizorax.com/contact.</a>
 
-**Right to Object**
-- Object to Processing: You have the right to object to processing your personal data for reasons based on legitimate interests or for direct marketing purposes.
-- Review and Response: We will review your objection and assess whether we have legitimate grounds to continue processing your data or whether we need to stop processing.
+2. We will respond to your inquiries promptly, typically within 30 days.
 
-**Right to Withdraw Consent**
-- Revoke Consent: If we process your data based on your consent, you can withdraw that consent at any time. This will not affect the legality of data processing conducted before the withdrawal.
-- Ease of Withdrawal: You can withdraw your consent by contacting us using the methods outlined in our Privacy Policy.
+## Modifications to This Privacy Policy
 
-**Right to Lodge a Complaint**
-- Regulatory Authority: If you believe we are not handling your data in compliance with data protection laws, you can file a complaint with the relevant data protection authority.
-- Contact Information: The relevant authority's official website has information, or you can contact us for assistance.
+1. Bizorax reserves the right to amend or update this Privacy Policy as required to reflect changes in legal requirements, business practices, or service updates.
 
-## Exercising Your Rights
 
-To exercise these rights, please contact us at info@nexoria.ai. We will respond to your request promptly and in compliance with applicable data protection laws. To ensure a timely response, please provide sufficient information to verify your identity and specify the nature of your request.
-Nexoria is committed to upholding your data rights and ensuring that you have full control over your personal information.
-Updates to This Policy
-At Nexoria, we are committed to ensuring the accuracy and relevance of our Privacy Policy. We regularly review and update this policy to reflect our current practices, legal obligations, and any changes in data protection laws.
+### Notification of Changes
 
-**Regular Reviews**
+1. Where to Find Updates: Changes will be posted on this page, prominently displaying the “Last Updated” date.
+2. Your Responsibility: We recommend reviewing this Privacy Policy periodically to stay informed of any updates.
 
-- Ongoing Updates: We regularly review our Privacy Policy to ensure it aligns with evolving data protection regulations, technological advancements, and business operations.
-- Policy Adjustments: Changes may be implemented to comply with new legal requirements, address technological developments, or enhance our data protection procedures.
+## Your Continued Use of Our Services
+1. By continuing to use our website or services after modifications to this policy, you acknowledge and agree to the updated terms.
+2. Bizorax is committed to transparency in managing your personal data and will always notify you of significant changes to our data-handling practices.
 
-**Notification of Changes**
-- Communication: We will notify you by posting the updated policy on our website when significant changes are made. The revised version will indicate the date of the most recent update.
-- User Awareness: We encourage you to periodically review this policy to stay informed about how we protect and manage your personal data.
+## Contact Bizorax
 
-**Your Responsibility**
-- Informed Consent: By continuing to use our website and services after changes to the Privacy Policy, you acknowledge and accept the updated terms.
-- Review Practice: We recommend that you regularly check this policy to ensure you are aware of any modifications and understand how they may impact your data.
-
-Nexoria remains committed to safeguarding your privacy and ensuring transparency in how we handle your personal information.
-
-## Contact Information
-
-For any inquiries regarding this Privacy Policy or to request permission to use any content, please contact us:
-
-- Email: info@nexoria.ai 
-- Phone <a href="tel:+48573587868">+48573587868</a>
-- Website: https://nexoria.ai 
+1. We are committed to addressing your inquiries and ensuring your privacy is protected. If you have questions or concerns regarding this Privacy Policy or our data practices, you can reach us at: <a href="https://bizorax.com/contact.">https://bizorax.com/contact.</a>

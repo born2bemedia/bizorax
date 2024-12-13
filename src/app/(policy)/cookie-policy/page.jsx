@@ -1,6 +1,6 @@
 import { getPage, getPageSlugs } from "@/utils/blogUtils";
 import React from "react";
-/* import "@/styles/policy.scss"; */
+import "@/styles/policy.scss";
 
 export async function generateStaticParams() {
   const slugs = await getPageSlugs();
@@ -34,13 +34,14 @@ const CookiePolicy = async () => {
   const page = await getPage("cookie-policy");
   return (
     <>
-      <div className="policy-head"></div>
       <section className="policy">
-        <div className="policy__container">
-          <div className="policy__body">
-            <h1 className="policy__title">{page.title}</h1>
-            <article dangerouslySetInnerHTML={{ __html: page.body }} className="policy__content" />
+        <div className="policy__body">
+          <div className="policy__top">
+            <div className="policy__wrapper _container">
+              <h1 className="policy__title">{page.title}</h1>
+            </div>
           </div>
+          <article dangerouslySetInnerHTML={{ __html: page.body }} className="policy__content _container" />
         </div>
       </section>
     </>

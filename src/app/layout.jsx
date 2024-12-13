@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <body className={`${geist.className}`}>
         <GoogleAnalytics gaId="G-CXE06DH8RK" />
         <PopupsProvider>
-          {pathname === "/" || pathname === "/industries" || pathname === "/approach" || pathname === "/insights" ? (
+          {pathname === "/" || pathname === "/industries" || pathname === "/approach" || pathname === "/insights" || pathname === "/terms-and-conditions" || pathname === "/privacy-policy" || pathname === "/cookie-policy" || pathname === "/refund-policy" ? (
             <HeaderCustom />
           ) : (
             <HeaderDefault />

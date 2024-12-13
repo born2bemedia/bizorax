@@ -19,7 +19,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params: { locale } }) {
-  const page = await getPage("privacy-policy", locale);
+  const page = await getPage("refund-policy", locale);
 
   return {
     title: page.title,
@@ -30,8 +30,8 @@ export async function generateMetadata({ params: { locale } }) {
   };
 }
 
-const PrivacyPolicy = async () => {
-  const page = await getPage("privacy-policy");
+const RefundPolicy = async () => {
+  const page = await getPage("refund-policy");
   return (
     <>
       <section className="policy">
@@ -48,4 +48,4 @@ const PrivacyPolicy = async () => {
   );
 };
 
-export default PrivacyPolicy;
+export default RefundPolicy;
