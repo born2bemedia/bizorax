@@ -1,0 +1,222 @@
+@import "./mixin.scss";
+
+.insight-hero {
+    @include adaptiv-value("padding-top", 157, 140, 1);
+    @include adaptiv-value("padding-bottom", 64, 40, 1);
+    background-color: #1d0a5b;
+    &__container {
+    }
+
+    &__body {
+        display: flex;
+        gap: 24px;
+        @media (max-width: 992px) {
+            flex-direction: column;
+            gap: 16px;
+        }
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 52, 32, 1);
+        line-height: normal;
+        color: #fff;
+        font-weight: 400;
+        width: 45%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__text {
+        @include adaptiv-value("font-size", 24, 18, 1);
+        line-height: normal;
+        color: #fff;
+        width: 55%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+}
+
+.insight-main {
+    @include adaptiv-value("padding-top", 100, 50, 1);
+    @include adaptiv-value("padding-bottom", 100, 50, 1);
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 52, 24, 1);
+        line-height: normal;
+        color: #232323;
+    }
+
+    &__content {
+        @include adaptiv-value("margin-top", 40, 24, 1);
+        display: flex;
+        gap: 24px;
+        @media (max-width: 992px) {
+            flex-direction: column;
+        }
+    }
+
+    &__col-01 {
+        width: 67%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__link-main {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        .image {
+            width: 100%;
+            object-fit: cover;
+            @media (max-width: 767px) {
+                height: 400px;
+            }
+        }
+
+        .title {
+            font-size: 32px;
+            line-height: normal;
+            color: #1d0a5b;
+            font-weight: 500;
+        }
+
+        .text {
+            color: #1d0a5b;
+            font-size: 14px;
+            line-height: normal;
+        }
+    }
+
+    &__col-02 {
+        width: 33%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        padding: 16px;
+        border-bottom: 1px solid #c2c4c7;
+        @media (max-width: 767px) {
+            padding: 8px 16px;
+            &:first-child {
+                border-top: 1px solid #c2c4c7;
+            }
+        }
+    }
+
+    &__label {
+        @include adaptiv-value("font-size", 24, 18, 1);
+        line-height: normal;
+        color: #232323;
+        font-weight: 500;
+    }
+
+    &__link {
+        margin: 16px 0 0 0;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        width: fit-content;
+        color: #cd8c2a;
+        font-size: 16px;
+        font-weight: 600;
+        transition: all 0.3s ease 0s;
+
+        svg {
+            path {
+                transition: all 0.3s ease 0s;
+                fill: #cd8c2a;
+            }
+        }
+
+        &:hover {
+            color: #1d0a5b;
+            svg {
+                path {
+                    fill: #1d0a5b;
+                }
+            }
+        }
+    }
+
+    &__articles {
+        @include adaptiv-value("margin-top", 40, 24, 1);
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+        column-gap: 24px;
+        row-gap: 40px;
+        @media (max-width: 992px) {
+            gap: 24px;
+        }
+    }
+
+    &__article {
+        padding: 16px;
+        border-radius: 16px;
+        transition: all 0.3s ease 0s;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        &:hover {
+            background-color: #e6ded1;
+        }
+        @media (max-width: 767px) {
+            &:first-of-type {
+                background-color: #e6ded1;
+            }
+        }
+        .title {
+            font-size: 32px;
+            line-height: normal;
+            font-weight: 500;
+            color: #232323;
+        }
+        .text {
+            color: #4b4b49;
+            font-size: 24px;
+            line-height: normal;
+        }
+        .link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            width: fit-content;
+            color: #cd8c2a;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease 0s;
+
+            svg {
+                path {
+                    transition: all 0.3s ease 0s;
+                    fill: #cd8c2a;
+                }
+            }
+
+            &:hover {
+                color: #1d0a5b;
+                svg {
+                    path {
+                        fill: #1d0a5b;
+                    }
+                }
+            }
+        }
+    }
+}

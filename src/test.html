@@ -1,28 +1,61 @@
-"use client";
-import React, { useState, useEffect } from "react";
-import "@/styles/cases.scss";
-
-
-const CasesStudies = () => {
-    return (
-        <>
-            <section className="cases-studies">
-                <div className="cases-studies__container">
-                    <div className="cases-studies__body">
-                        <h2 className="cases-studies__title">Case Studies</h2>
-                        <div className="cases-studies__rows">
-                            <div className="cases-studies__row"></div>
-                            <div className="cases-studies__row"></div>
-                            <div className="cases-studies__row"></div>
-                            <div className="cases-studies__row"></div>
-                            <div className="cases-studies__row"></div>
-                            <div className="cases-studies__row"></div>
-                        </div>
-                    </div>
+<section class="article-main">
+    <div class="article-main__container _container">
+        <div class="article-main__body">
+            <div class="article-main__col-01">
+                <div class="article-main__wrapper">
+                    <h3 class="article-main__title">On this article</h3>
+                    <ul class="article-main__table">
+                        {[
+                            { id: "section1", label: "Understanding Market Disruptions" },
+                            { id: "section2", label: "Key Strategies for Navigating Disruptions" },
+                            { id: "section3", label: "Example Section 3" },
+                            { id: "section4", label: "Example Section 4" },
+                            { id: "section5", label: "Example Section 5" },
+                            { id: "section6", label: "Example Section 6" },
+                        ].map((section) => (
+                            <li key={section.id}>
+                                <ScrollLink
+                                    to={section.id}
+                                    smooth={true}
+                                    duration={500}
+                                    offset={-50}
+                                    class={`article-main__link ${activeSection === section.id ? "_active" : ""}`}
+                                    onSetActive={() => setActiveSection(section.id)}
+                                >
+                                    {section.label}
+                                </ScrollLink>
+                            </li>
+                        ))}
+                    </ul>
                 </div>
-            </section>
-        </>
-    );
-};
-
-export default CasesStudies;
+            </div>
+            <div class="article-main__col-02">
+                <div id="section1" class="article-main__row">
+                    <h2>Understanding Market Disruptions</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officiis harum, a voluptatem labore nesciunt iure nihil minus ratione perspiciatis, consectetur dolorum dolore quos!</p>
+                    <p>Eligendi beatae, quia iure debitis quibusdam necessitatibus soluta ea aliquid voluptates cumque aperiam! Odio, enim. Suscipit similique in ullam ratione culpa, corrupti incidunt sit laboriosam!</p>
+                </div>
+                <div id="section2" class="article-main__row">
+                    <h2>Key Strategies for Navigating Disruptions</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officiis harum, a voluptatem labore nesciunt iure nihil minus ratione perspiciatis, consectetur dolorum dolore quos!</p>
+                </div>
+                <div id="section3" class="article-main__row">
+                    <h2>Example Section 3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officiis harum, a voluptatem labore nesciunt iure nihil minus ratione perspiciatis, consectetur dolorum dolore quos!</p>
+                </div>
+                <div id="section4" class="article-main__row">
+                    <h2>Example Section 4</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officiis harum, a voluptatem labore nesciunt iure nihil minus ratione perspiciatis, consectetur dolorum dolore quos!</p>
+                </div>
+                <div id="section5" class="article-main__row">
+                    <h2>Example Section 5</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officiis harum, a voluptatem labore nesciunt iure nihil minus ratione perspiciatis, consectetur dolorum dolore quos!</p>
+                </div>
+                <div id="section6" class="article-main__row">
+                    <h2>Example Section 6</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officiis harum, a voluptatem labore nesciunt iure nihil minus ratione perspiciatis, consectetur dolorum dolore quos!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
