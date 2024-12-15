@@ -1,10 +1,98 @@
-<section class="policy">
-    <div class="policy__body">
-      <div class="policy__top">
-        <div class="policy__wrapper _container">
-          <h1 class="policy__title">{page.title}</h1>
-        </div>
+<section class="contact-main">
+  <div class="contact-main__container _container">
+      <div class="contact-main__body">
+          <div class="contact-main__col-01">
+              <div class="contact-main__block-01">
+                  <motion.h2
+                      initial="hidden"
+                      whileInView="visible"
+                      viewport={{ once: true }}
+                      variants={fadeInUp}
+                      custom={0.1}
+                      class="contact-main__title">
+                      Follow Us on Social Media
+                  </motion.h2>
+                  <motion.div
+                      initial="hidden"
+                      whileInView="visible"
+                      viewport={{ once: true }}
+                      variants={fadeInUp}
+                      custom={0.2}
+                      class="contact-main__text">Follow us on social media for updates, industry insights, and tips to help your business grow.</motion.div>
+                  <motion.ul
+                      initial="hidden"
+                      whileInView="visible"
+                      viewport={{ once: true }}
+                      variants={fadeInUp}
+                      custom={0.3}
+                      class="contact-main__socials">
+                      <li class="contact-main__social">
+                          <Link href="#" class="contact-main__link _facebook">Facebook <ArrowTopRight /></Link>
+                      </li>
+                      <li class="contact-main__social">
+                          <Link href="#" class="contact-main__link _instagram">Instagram <ArrowTopRight /></Link>
+                      </li>
+                      <li class="contact-main__social">
+                          <Link href="#" class="contact-main__link _twitter">Twitter <ArrowTopRight /></Link>
+                      </li>
+                  </motion.ul>
+              </div>
+              <div class="contact-main__block-02">
+                  <motion.h2
+                      initial="hidden"
+                      whileInView="visible"
+                      viewport={{ once: true }}
+                      variants={fadeInUp}
+                      custom={0.1}
+                      class="contact-main__title">
+                      Reach Us Directly
+                  </motion.h2>
+                  <motion.div
+                      initial="hidden"
+                      whileInView="visible"
+                      viewport={{ once: true }}
+                      variants={fadeInUp}
+                      custom={0.2}
+                      class="contact-main__text">
+                      Whether you’re looking for solutions, have a question, or just want to connect, here’s how you can reach us:
+                  </motion.div>
+                  <motion.ul
+                      initial="hidden"
+                      whileInView="visible"
+                      viewport={{ once: true }}
+                      variants={fadeInUp}
+                      custom={0.3}
+                      class="contact-main__contacts">
+                      <li class="contact-main__contact">
+                          Email:
+                          <Link href="mailto:info@bizorax.com" class="contact-main__link-contact">info@bizorax.com</Link>
+                      </li>
+                      <li class="contact-main__contact">
+                          Phone:
+                          <Link href="tel:+48573503926" class="contact-main__link-contact">+48573503926</Link>
+                      </li>
+                      <li class="contact-main__contact">
+                          Registered address:
+                          <Link href="#" class="contact-main__link-contact">Królowej Marysieńki 90/lok. 7, Warsaw, 02-954, Poland</Link>
+                      </li>
+                      <li class="contact-main__contact">
+                          Office address:
+                          <Link href="#" class="contact-main__link-contact">86 Hoża street, Unit 210, Warsaw, Postcode 00-682, Poland</Link>
+                      </li>
+                  </motion.ul>
+              </div>
+          </div>
+          <div class="contact-main__col-02">
+              <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  variants={fadeInUp}
+                  custom={0.2}
+                  class="contact-main__form">
+                      {/* FORM */}
+              </motion.div>
+          </div>
       </div>
-      <article dangerouslySetInnerHTML={{ __html: page.body }} class="policy__content _container" />
-    </div>
-  </section>
+  </div>
+</section>

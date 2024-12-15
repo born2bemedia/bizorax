@@ -7,12 +7,12 @@ const Snipper = () => {
             <path d="M30.9547 57.6305C31.4445 58.1232 32.2389 58.1232 32.7288 57.6305L32.7901 57.569C33.2799 57.0765 33.2799 56.2778 32.7901 55.7853L30.5529 53.536C41.6858 51.0066 50 41.0029 50 29.0445C50 16.5377 40.9062 6.16791 29.0048 4.25159V8.10959C38.8082 9.98232 46.2207 18.6422 46.2207 29.0445C46.2207 38.959 39.487 47.2908 30.3675 49.6718L32.7289 47.2974C33.2189 46.8047 33.2189 46.0061 32.7289 45.5136C32.2391 45.021 31.4447 45.021 30.9549 45.5136L27.2845 49.2041C25.9838 50.5119 25.9838 52.6324 27.2845 53.9402L30.9547 57.6305Z" fill="url(#paint1_linear_2047_602)" />
             <defs>
                 <linearGradient id="paint0_linear_2047_602" x1="20.1659" y1="3.82123" x2="8.62519" y2="46.1456" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#315149" />
-                    <stop offset="1" stop-color="#315149" />
+                    <stop stopColor="#315149" />
+                    <stop offset="1" stopColor="#315149" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_2047_602" x1="29.8341" y1="54.1788" x2="41.3748" y2="11.8544" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#6D6D6D" />
-                    <stop offset="1" stop-color="#6D6D6D" />
+                    <stop stopColor="#6D6D6D" />
+                    <stop offset="1" stopColor="#6D6D6D" />
                 </linearGradient>
             </defs>
         </svg>
