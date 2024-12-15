@@ -36,7 +36,7 @@ const ServicePopup = () => {
     website: "",
     budget: "",
     email: "",
-    phone: "", 
+    phone: "",
     message: "",
     service: `${currentService}`,
   };
@@ -72,7 +72,7 @@ const ServicePopup = () => {
       if (response.ok) {
         setSubmitting(false);
         setIsSuccess(true);
-        resetForm(); 
+        resetForm();
       } else {
         setStatus({ success: false });
         setIsSuccess(false);
@@ -91,7 +91,10 @@ const ServicePopup = () => {
       <div className="popup-inner">
         <div className="order-popup">
           <div className="order-popup__content">
-            <div className="order-popup__top">
+            <div className="order-popup__col-01">
+              <img src="/images/capabilites/img-02.jpg" alt="image" />
+            </div>
+            <div className={`order-popup__col-02 ${isSuccess ? "hidden" : ""}`}>
               <h2 className="order-popup__title">{currentService}</h2>
               <button
                 className="order-popup__close"
@@ -100,9 +103,6 @@ const ServicePopup = () => {
               >
                 <CloseIcon />
               </button>
-            </div>
-
-            <div className={`order-popup__form ${isSuccess ? "hidden" : ""}`}>
               <div className="request-form">
                 <div className="wrapper">
                   <Formik
@@ -179,10 +179,10 @@ const ServicePopup = () => {
                           />
                         </div>
 
-                        <div className="row">
+                        <div className="row _phone">
                           <PhoneInput
                             country={countryCode}
-                            value={values.phone} 
+                            value={values.phone}
                             onChange={(value) => setFieldValue("phone", value)}
                             placeholder="Phone"
                             className={touched.phone && errors.phone ? "invalid" : ""}
