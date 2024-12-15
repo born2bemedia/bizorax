@@ -9,6 +9,9 @@ import { PopupsProvider } from "@/context/PopupsContext";
 import { usePathname } from "next/navigation";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
+import ServicePopup from "@/components/ServicePopup";
+
+
 const geist = Geist({
   subsets: ["latin"],
   weight: ["100", "300", "400", "500", "600", "700", "900"],
@@ -34,6 +37,7 @@ export default function RootLayout({ children }) {
           )}
           <main className="site">{children}</main>
           <Footer />
+          <ServicePopup />
         </PopupsProvider>
       </body>
     </html>

@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import "@/styles/capabilities.scss";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
+import OrderButton from "@/components/OrderButton";
 
 const CapabilitiesServices = () => {
     return (
@@ -42,12 +43,11 @@ const CapabilitiesServices = () => {
                                     <h4 className="title">Price:</h4>
                                     <div className="price">From <span>€3,000</span></div>
                                 </div>
-                                <button className="capa-services__link">Get Started →</button>
-                                {/*  <OrderButton
+                                <OrderButton
                                     className={"capa-services__link"}
                                     text={"Get Started →"}
-                                    service={slide.service}
-                                /> */}
+                                    service={"Essential Plan"}
+                                />
                             </motion.div>
                             <motion.div
                                 initial="hidden"
@@ -75,7 +75,11 @@ const CapabilitiesServices = () => {
                                     <h4 className="title">Price:</h4>
                                     <div className="price">From <span>€3,000</span></div>
                                 </div>
-                                <button className="capa-services__link">Get Started →</button>
+                                <OrderButton
+                                    className={"capa-services__link"}
+                                    text={"Get Started →"}
+                                    service={"Growth Plan"}
+                                />
                             </motion.div>
                             <motion.div
                                 initial="hidden"
@@ -103,7 +107,11 @@ const CapabilitiesServices = () => {
                                     <h4 className="title">Price:</h4>
                                     <div className="price">From <span>€3,000</span></div>
                                 </div>
-                                <button className="capa-services__link">Get Started →</button>
+                                <OrderButton
+                                    className={"capa-services__link"}
+                                    text={"Get Started →"}
+                                    service={"Advanced Plan"}
+                                />
                             </motion.div>
                             <motion.div
                                 initial="hidden"
@@ -131,7 +139,11 @@ const CapabilitiesServices = () => {
                                     <h4 className="title">Price:</h4>
                                     <div className="price">From <span>€3,000</span></div>
                                 </div>
-                                <button className="capa-services__link">Get Started →</button>
+                                <OrderButton
+                                    className={"capa-services__link"}
+                                    text={"Get Started →"}
+                                    service={"Enterprise Plan"}
+                                />
                             </motion.div>
                         </div>
                     </div>
