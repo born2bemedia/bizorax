@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from "react";
 import "@/styles/capabilities.scss";
 import Link from "next/link";
+import CapabilitiesSlider1 from "../CapabilitiesSliders/CapabilitiesSlider1";
+import CapabilitiesSlider2 from "../CapabilitiesSliders/CapabilitiesSlider2";
 
 const CapabilitiesPlans = () => {
     return (
@@ -16,7 +18,9 @@ const CapabilitiesPlans = () => {
                                     <h2 className="capa-plans__title">Strategic Planning</h2>
                                     <div className="capa-plans__text">Helping businesses chart a clear path to success with tailored strategies:</div>
                                 </div>
-                                <div className="capa-plans__slider"></div>
+                                <div className="capa-plans__slider">
+                                    <CapabilitiesSlider1 />
+                                </div>
                             </div>
                             {/* 02 */}
                             <div className="capa-plans__plan">
@@ -24,7 +28,9 @@ const CapabilitiesPlans = () => {
                                     <h2 className="capa-plans__title">Operational Efficiency</h2>
                                     <div className="capa-plans__text">Streamlining operations to drive productivity and reduce costs:</div>
                                 </div>
-                                <div className="capa-plans__slider"></div>
+                                <div className="capa-plans__slider">
+                                    <CapabilitiesSlider2 />
+                                </div>
                             </div>
                             {/* 03 */}
                             <div className="capa-plans__plan">
