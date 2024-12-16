@@ -187,6 +187,7 @@
 
     &__slider {
         margin: 40px 0 0 0;
+        position: relative;
     }
 }
 
@@ -461,7 +462,7 @@
 }
 
 .capa-slider {
-
+    position: relative;
     .swiper-wrapper {
         display: flex;
         align-items: stretch;
@@ -518,12 +519,41 @@
     }
 
     &__buttons {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        transform: translate(0, -50%) !important;
+        z-index: 30;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
     }
 
     &__prev {
+        width: 56px;
+        height: 56px;
+        border-radius: 1000px;
+        background-color: #fff;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transform: rotate(-180deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        visibility: hidden;
     }
 
     &__next {
+        width: 56px;
+        height: 56px;
+        border-radius: 1000px;
+        background-color: #fff;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     &__link { 

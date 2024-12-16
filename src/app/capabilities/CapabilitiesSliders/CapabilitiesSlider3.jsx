@@ -9,60 +9,59 @@ import { motion } from "framer-motion";
 import { fadeInUp } from "@/utils/animations";
 import OrderButton from "@/components/OrderButton";
 
-const CapabilitiesSlider2 = () => {
+const CapabilitiesSlider3 = () => {
 
     const slides = [
         {
-            title: "<span>Process</span> <span>Optimization</span>",
-            text: "Identifying and eliminating inefficiencies in workflows.",
-            service: 'Process Optimization',
+            title: "<span>Market</span> <span>Research & </span> <span>Analysis</span>",
+            text: "Comprehensive studies to identify opportunities.",
+            service: 'Market Research & Analysis',
         },
         {
-            title: "<span>Cost-Reduction</span> <span>Strategies</span>",
-            text: "Cutting unnecessary expenses while maintaining quality.",
-            service: 'Cost-Reduction Strategies',
+            title: "<span>Entry</span> <span>Strategy</span> <span>Development</span>",
+            text: "Crafting a plan tailored to the target market.",
+            service: 'Entry Strategy Development',
         },
         {
-            title: "<span>Automation</span> <span>Integration</span>",
-            text: "Leveraging tools like RPA to automate repetitive tasks.",
-            service: 'Automation Integration',
+            title: "<span>Regulatory</span> <span>Compliance</span> <span>Guidance</span>",
+            text: "Navigating legal and cultural nuances.",
+            service: 'Regulatory Compliance Guidance',
         },
         {
-            title: "<span>Employee</span> <span>Productivity</span> <span>Programs</span>",
-            text: "Enhancing team output through training and support.",
-            service: 'Employee Productivity Programs',
+            title: "<span>Competitor</span> <span>Landscape</span> <span>Analysis</span>",
+            text: "Understanding your competition in the new market.",
+            service: 'Competitor Landscape Analysis',
         },
         {
-            title: "<span>Lean</span> <span>Management</span> <span>Implementation</span>",
-            text: "Adopting Lean principles to maximise value.",
-            service: 'Lean Management Implementation',
+            title: "<span>Localization</span> <span>Strategies</span>",
+            text: "Adapting products and services to meet local demands.",
+            service: 'Localization Strategies',
         },
         {
-            title: "<span>Supply</span> <span>Chain</span> <span>Optimization</span>",
-            text: "Improving logistics and inventory management.",
-            service: 'Supply Chain Optimization',
+            title: "<span>Channel</span> <span>Partnership</span> <span>Development</span>",
+            text: "Identifying and securing local partnerships.",
+            service: 'Channel Partnership Development',
         },
         {
-            title: "<span>Time</span> <span>Management</span> <span>Systems</span>",
-            text: "Implementing solutions to track and improve time utilisation.",
-            service: 'Time Management Systems',
+            title: "<span>Pricing</span> <span>Strategy</span> <span>Design</span>",
+            text: "Setting competitive and profitable prices.",
+            service: 'Pricing Strategy Design',
         },
         {
-            title: "<span>KPI</span> <span>Monitoring</span> <span>Dashboards</span>",
-            text: "Providing real-time performance analytics.",
-            service: 'KPI Monitoring Dashboards',
+            title: "<span>Brand</span> <span>Positioning</span> <span>for New Markets</span>",
+            text: "Establishing your presence and reputation.",
+            service: 'Brand Positioning for New Markets',
         },
         {
-            title: "<span>Cross-Department</span> <span>Collaboration</span> <span>Frameworks</span>",
-            text: "Enhancing communication and teamwork.",
-            service: 'Cross-Department Collaboration Frameworks',
+            title: "<span>Go-To-Market</span> <span>Execution</span> <span>Support</span>",
+            text: "Helping launch your business in the new market.",
+            service: 'Go-To-Market Execution Support',
         },
         {
-            title: "Change Impact Assessment",
-            text: "Evaluating how operational shifts affect the organisation.",
-            service: 'Change Impact Assessment',
+            title: "<span>Post-Entry</span> <span>Monitoring & Adjustments</span>",
+            text: "Continuously optimising your market presence.",
+            service: 'Post-Entry Monitoring & Adjustments',
         },
-
     ];
 
     const [currentSlide, setCurrentSlide] = useState(1);
@@ -133,4 +132,4 @@ const CapabilitiesSlider2 = () => {
     );
 };
 
-export default CapabilitiesSlider2;
+export default CapabilitiesSlider3;

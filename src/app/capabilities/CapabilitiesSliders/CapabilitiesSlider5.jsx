@@ -9,60 +9,59 @@ import { motion } from "framer-motion";
 import { fadeInUp } from "@/utils/animations";
 import OrderButton from "@/components/OrderButton";
 
-const CapabilitiesSlider2 = () => {
+const CapabilitiesSlider5 = () => {
 
     const slides = [
         {
-            title: "<span>Process</span> <span>Optimization</span>",
-            text: "Identifying and eliminating inefficiencies in workflows.",
-            service: 'Process Optimization',
+            title: "<span>Stakeholder</span> <span>Engagement</span> <span>Programs</span>",
+            text: "Ensuring alignment and buy-in for changes.",
+            service: 'Stakeholder Engagement Programs',
         },
         {
-            title: "<span>Cost-Reduction</span> <span>Strategies</span>",
-            text: "Cutting unnecessary expenses while maintaining quality.",
-            service: 'Cost-Reduction Strategies',
+            title: "<span>Change</span> <span>Readiness</span> <span>Assessments</span>",
+            text: "Evaluating your organisation’s preparedness.",
+            service: 'Change Readiness Assessments',
         },
         {
-            title: "<span>Automation</span> <span>Integration</span>",
-            text: "Leveraging tools like RPA to automate repetitive tasks.",
-            service: 'Automation Integration',
+            title: "<span>Transition</span> <span>Roadmaps</span>",
+            text: "Providing clear steps for smooth change implementation.",
+            service: 'Transition Roadmaps',
         },
         {
-            title: "<span>Employee</span> <span>Productivity</span> <span>Programs</span>",
-            text: "Enhancing team output through training and support.",
-            service: 'Employee Productivity Programs',
+            title: "<span>Employee</span> <span>Training & </span> <span>Development</span>",
+            text: "Preparing teams for new processes.",
+            service: 'Employee Training & Development',
         },
         {
-            title: "<span>Lean</span> <span>Management</span> <span>Implementation</span>",
-            text: "Adopting Lean principles to maximise value.",
-            service: 'Lean Management Implementation',
+            title: "<span>Communication</span> <span>Strategies</span>",
+            text: "Keeping stakeholders informed and engaged.",
+            service: 'Communication Strategies',
         },
         {
-            title: "<span>Supply</span> <span>Chain</span> <span>Optimization</span>",
-            text: "Improving logistics and inventory management.",
-            service: 'Supply Chain Optimization',
+            title: "<span>Resistance</span> <span>Management</span> <span>Plans</span>",
+            text: "Addressing barriers to change.",
+            service: 'Resistance Management Plans',
         },
         {
-            title: "<span>Time</span> <span>Management</span> <span>Systems</span>",
-            text: "Implementing solutions to track and improve time utilisation.",
-            service: 'Time Management Systems',
+            title: "<span>Leadership</span> <span>Coaching</span>",
+            text: "Empowering leaders to guide their teams through change.",
+            service: 'Leadership Coaching',
         },
         {
-            title: "<span>KPI</span> <span>Monitoring</span> <span>Dashboards</span>",
-            text: "Providing real-time performance analytics.",
-            service: 'KPI Monitoring Dashboards',
+            title: "<span>Cultural</span> <span>Transformation</span> <span>Programs</span>",
+            text: "Shaping a culture that embraces innovation.",
+            service: 'Cultural Transformation Programs',
         },
         {
-            title: "<span>Cross-Department</span> <span>Collaboration</span> <span>Frameworks</span>",
-            text: "Enhancing communication and teamwork.",
-            service: 'Cross-Department Collaboration Frameworks',
+            title: "<span>Post-Change</span> <span>Evaluation</span>",
+            text: "Measuring the success of change initiatives.",
+            service: 'Post-Change Evaluation',
         },
         {
-            title: "Change Impact Assessment",
-            text: "Evaluating how operational shifts affect the organisation.",
-            service: 'Change Impact Assessment',
+            title: "<span>Continuous</span> <span>Improvement</span> <span>Frameworks</span>",
+            text: "Ensuring long-term benefits of changes.",
+            service: 'Continuous Improvement Frameworks',
         },
-
     ];
 
     const [currentSlide, setCurrentSlide] = useState(1);
@@ -133,4 +132,4 @@ const CapabilitiesSlider2 = () => {
     );
 };
 
-export default CapabilitiesSlider2;
+export default CapabilitiesSlider5;

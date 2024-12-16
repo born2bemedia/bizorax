@@ -9,60 +9,59 @@ import { motion } from "framer-motion";
 import { fadeInUp } from "@/utils/animations";
 import OrderButton from "@/components/OrderButton";
 
-const CapabilitiesSlider2 = () => {
+const CapabilitiesSlider4 = () => {
 
     const slides = [
         {
-            title: "<span>Process</span> <span>Optimization</span>",
-            text: "Identifying and eliminating inefficiencies in workflows.",
-            service: 'Process Optimization',
+            title: "<span>Legacy</span> <span>System</span> <span>Modernization</span>",
+            text: "Upgrading outdated infrastructure.",
+            service: 'Legacy System Modernization',
         },
         {
-            title: "<span>Cost-Reduction</span> <span>Strategies</span>",
-            text: "Cutting unnecessary expenses while maintaining quality.",
-            service: 'Cost-Reduction Strategies',
+            title: "<span>Cloud</span> <span>Migration</span> <span>Services</span>",
+            text: "Transitioning to scalable and secure cloud platforms.",
+            service: 'Cloud Migration Services',
         },
         {
-            title: "<span>Automation</span> <span>Integration</span>",
-            text: "Leveraging tools like RPA to automate repetitive tasks.",
-            service: 'Automation Integration',
+            title: "<span>Digital</span> <span>Process</span> <span>Automation</span>",
+            text: "Automating workflows for increased efficiency.",
+            service: 'Digital Process Automation',
         },
         {
-            title: "<span>Employee</span> <span>Productivity</span> <span>Programs</span>",
-            text: "Enhancing team output through training and support.",
-            service: 'Employee Productivity Programs',
+            title: "<span>Data</span> <span>Analytics</span> <span>Integration</span>",
+            text: "Harnessing data for better decision-making.",
+            service: 'Data Analytics Integration',
         },
         {
-            title: "<span>Lean</span> <span>Management</span> <span>Implementation</span>",
-            text: "Adopting Lean principles to maximise value.",
-            service: 'Lean Management Implementation',
+            title: "<span>CRM</span> <span>System</span> <span>Implementation</span>",
+            text: "Enhancing customer relationship management.",
+            service: 'CRM System Implementation',
         },
         {
-            title: "<span>Supply</span> <span>Chain</span> <span>Optimization</span>",
-            text: "Improving logistics and inventory management.",
-            service: 'Supply Chain Optimization',
+            title: "<span>Cybersecurity</span> <span>Solutions</span>",
+            text: "Protecting your business from digital threats.",
+            service: 'Cybersecurity Solutions',
         },
         {
-            title: "<span>Time</span> <span>Management</span> <span>Systems</span>",
-            text: "Implementing solutions to track and improve time utilisation.",
-            service: 'Time Management Systems',
+            title: "<span>IoT</span> <span>Integration</span>",
+            text: "Enabling smart devices to improve operations.",
+            service: 'IoT Integration',
         },
         {
-            title: "<span>KPI</span> <span>Monitoring</span> <span>Dashboards</span>",
-            text: "Providing real-time performance analytics.",
-            service: 'KPI Monitoring Dashboards',
+            title: "<span>E-Commerce</span> <span>Platform</span> <span>Development</span>",
+            text: "Building robust online sales platforms.",
+            service: 'E-Commerce Platform Development',
         },
         {
-            title: "<span>Cross-Department</span> <span>Collaboration</span> <span>Frameworks</span>",
-            text: "Enhancing communication and teamwork.",
-            service: 'Cross-Department Collaboration Frameworks',
+            title: "<span>Digital</span> <span>Training</span> <span>Programs</span>",
+            text: "Equipping teams with skills to thrive in a digital world.",
+            service: 'Digital Training Programs',
         },
         {
-            title: "Change Impact Assessment",
-            text: "Evaluating how operational shifts affect the organisation.",
-            service: 'Change Impact Assessment',
+            title: "<span>AI and Machine</span> <span>Learning</span> <span>Adoption</span>",
+            text: "Using AI for predictive analysis and automation.",
+            service: 'AI and Machine Learning Adoption',
         },
-
     ];
 
     const [currentSlide, setCurrentSlide] = useState(1);
@@ -133,4 +132,4 @@ const CapabilitiesSlider2 = () => {
     );
 };
 
-export default CapabilitiesSlider2;
+export default CapabilitiesSlider4;

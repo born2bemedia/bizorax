@@ -9,60 +9,59 @@ import { motion } from "framer-motion";
 import { fadeInUp } from "@/utils/animations";
 import OrderButton from "@/components/OrderButton";
 
-const CapabilitiesSlider2 = () => {
+const CapabilitiesSlider6 = () => {
 
     const slides = [
         {
-            title: "<span>Process</span> <span>Optimization</span>",
-            text: "Identifying and eliminating inefficiencies in workflows.",
-            service: 'Process Optimization',
+            title: "<span>Employee</span> <span>Performance</span> <span>Metrics</span> <span>Development</span>",
+            text: "Defining measurable KPIs for staff.",
+            service: 'Employee Performance Metrics Development',
         },
         {
-            title: "<span>Cost-Reduction</span> <span>Strategies</span>",
-            text: "Cutting unnecessary expenses while maintaining quality.",
-            service: 'Cost-Reduction Strategies',
+            title: "<span>Sales</span> <span>Funnel</span> <span>Optimization</span>",
+            text: "Improving conversion rates.",
+            service: 'Sales Funnel Optimization',
         },
         {
-            title: "<span>Automation</span> <span>Integration</span>",
-            text: "Leveraging tools like RPA to automate repetitive tasks.",
-            service: 'Automation Integration',
+            title: "<span>Financial</span> <span>Performance</span> <span>Audits</span>",
+            text: "Identifying areas to increase profitability.",
+            service: 'Financial Performance Audits',
         },
         {
-            title: "<span>Employee</span> <span>Productivity</span> <span>Programs</span>",
-            text: "Enhancing team output through training and support.",
-            service: 'Employee Productivity Programs',
+            title: "<span>Customer</span> <span>Experience</span> <span>Enhancements</span>",
+            text: "Boosting satisfaction and retention.",
+            service: 'Customer Experience Enhancements',
         },
         {
-            title: "<span>Lean</span> <span>Management</span> <span>Implementation</span>",
-            text: "Adopting Lean principles to maximise value.",
-            service: 'Lean Management Implementation',
+            title: "<span>Team</span> <span>Collaboration</span> <span>Tools</span>",
+            text: "Implementing platforms for seamless teamwork.",
+            service: 'Team Collaboration Tools',
         },
         {
-            title: "<span>Supply</span> <span>Chain</span> <span>Optimization</span>",
-            text: "Improving logistics and inventory management.",
-            service: 'Supply Chain Optimization',
+            title: "<span>Market</span> <span>Share</span> <span>Growth</span> <span>Strategies</span>",
+            text: "Tactics to capture a larger market share.",
+            service: 'Market Share Growth Strategies',
         },
         {
-            title: "<span>Time</span> <span>Management</span> <span>Systems</span>",
-            text: "Implementing solutions to track and improve time utilisation.",
-            service: 'Time Management Systems',
+            title: "<span>Supply</span> <span>Chain</span> <span>Performance</span> <span>Metrics</span>",
+            text: "Tracking and improving logistics KPIs.",
+            service: 'Supply Chain Performance Metrics',
         },
         {
-            title: "<span>KPI</span> <span>Monitoring</span> <span>Dashboards</span>",
-            text: "Providing real-time performance analytics.",
-            service: 'KPI Monitoring Dashboards',
+            title: "<span>Technology</span> <span>Utilisation</span> <span>Reviews</span>",
+            text: "Ensuring tools are used effectively.",
+            service: 'Technology Utilisation Reviews',
         },
         {
-            title: "<span>Cross-Department</span> <span>Collaboration</span> <span>Frameworks</span>",
-            text: "Enhancing communication and teamwork.",
-            service: 'Cross-Department Collaboration Frameworks',
+            title: "<span>Leadership</span> <span>Development</span> <span>Programs</span>",
+            text: "Strengthening management effectiveness.",
+            service: 'Leadership Development Programs',
         },
         {
-            title: "Change Impact Assessment",
-            text: "Evaluating how operational shifts affect the organisation.",
-            service: 'Change Impact Assessment',
+            title: "<span>Quarterly</span> <span>Performance</span> <span>Reviews</span>",
+            text: "Monitoring and optimising progress.",
+            service: 'Quarterly Performance Reviews',
         },
-
     ];
 
     const [currentSlide, setCurrentSlide] = useState(1);
@@ -133,4 +132,4 @@ const CapabilitiesSlider2 = () => {
     );
 };
 
-export default CapabilitiesSlider2;
+export default CapabilitiesSlider6;
