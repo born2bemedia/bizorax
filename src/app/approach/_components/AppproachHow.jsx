@@ -5,6 +5,7 @@ import Link from "next/link";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
 import ArrowRight from "@/icons/other/ArrowRight";
+import CountUpOnViewport from "@/components/CountUpOnViewport";
 
 const AppproachHow = () => {
 
@@ -36,7 +37,7 @@ const AppproachHow = () => {
                             variants={fadeInUp}
                             custom={0.1}
                             className="approach-how__item">
-                            <div className="approach-how__number">20%</div>
+                            <div className="approach-how__number"><CountUpOnViewport targetNumber={20} />%</div>
                             <div className="approach-how__text">industries served with tailored solutions.</div>
                         </motion.div>
                         <motion.div
@@ -46,7 +47,7 @@ const AppproachHow = () => {
                             variants={fadeInUp}
                             custom={0.2}
                             className="approach-how__item">
-                            <div className="approach-how__number">50+</div>
+                            <div className="approach-how__number"><CountUpOnViewport targetNumber={50} />+</div>
                             <div className="approach-how__text">of clients report significant performance improvements within 6 months.</div>
                         </motion.div>
                         <motion.div
@@ -56,7 +57,7 @@ const AppproachHow = () => {
                             variants={fadeInUp}
                             custom={0.3}
                             className="approach-how__item">
-                            <div className="approach-how__number">90%</div>
+                            <div className="approach-how__number"><CountUpOnViewport targetNumber={90} />%</div>
                             <div className="approach-how__text">expert consultants specialising in strategy, operations, and growth.</div>
                         </motion.div>
                         <motion.div
@@ -66,7 +67,7 @@ const AppproachHow = () => {
                             variants={fadeInUp}
                             custom={0.4}
                             className="approach-how__item">
-                            <div className="approach-how__number">€12M+</div>
+                            <div className="approach-how__number">€<CountUpOnViewport targetNumber={12} />M+</div>
                             <div className="approach-how__text">lient satisfaction with our projects so far.</div>
                         </motion.div>
                     </div>

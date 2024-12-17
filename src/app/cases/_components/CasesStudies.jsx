@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState, useRef } from "react";
 import "@/styles/cases.scss";
-
+import CountUpOnViewport from "@/components/CountUpOnViewport";
 
 const CasesStudies = () => {
     const [visibleRows, setVisibleRows] = useState(new Set());
@@ -91,15 +91,15 @@ const CasesStudies = () => {
                                             <h4 className="label">Results</h4>
                                             <div className="items">
                                                 <div className="item">
-                                                    <div className="number">25%</div>
+                                                    <div className="number"><CountUpOnViewport targetNumber={25} />%</div>
                                                     <div className="text">reduction in operational costs achieved within 6 months.</div>
                                                 </div>
                                                 <div className="item">
-                                                    <div className="number">30%</div>
+                                                    <div className="number"><CountUpOnViewport targetNumber={30} />%</div>
                                                     <div className="text">improvement in supply chain efficiency led to faster restocking times.</div>
                                                 </div>
                                                 <div className="item">
-                                                    <div className="number">100+</div>
+                                                    <div className="number"><CountUpOnViewport targetNumber={100} />+</div>
                                                     <div className="text">locations now benefit from enhanced tracking and reporting.</div>
                                                 </div>
                                             </div>
@@ -152,11 +152,11 @@ const CasesStudies = () => {
                                             <h4 className="label">Results</h4>
                                             <div className="items">
                                                 <div className="item">
-                                                    <div className="number">40%</div>
+                                                    <div className="number"><CountUpOnViewport targetNumber={40} />%</div>
                                                     <div className="text">increase in revenue recorded within 12 months.</div>
                                                 </div>
                                                 <div className="item">
-                                                    <div className="number">80%</div>
+                                                    <div className="number"><CountUpOnViewport targetNumber={80} />%</div>
                                                     <div className="text">faster customer acquisition boosted market share significantly.</div>
                                                 </div>
                                                 <div className="item">
@@ -213,15 +213,15 @@ const CasesStudies = () => {
                                             <h4 className="label">Results</h4>
                                             <div className="items">
                                                 <div className="item">
-                                                    <div className="number">50%</div>
+                                                    <div className="number"><CountUpOnViewport targetNumber={50} />%</div>
                                                     <div className="text">increase in patient engagement delivered through the new platform.</div>
                                                 </div>
                                                 <div className="item">
-                                                    <div className="number">500K</div>
+                                                    <div className="number"><CountUpOnViewport targetNumber={500} />K</div>
                                                     <div className="text">saved annually by streamlining IT operations.</div>
                                                 </div>
                                                 <div className="item">
-                                                    <div className="number">3</div>
+                                                    <div className="number"><CountUpOnViewport targetNumber={3} /></div>
                                                     <div className="text">months was all it took to achieve full compliance with healthcare regulations.</div>
                                                 </div>
                                             </div>
@@ -273,15 +273,15 @@ const CasesStudies = () => {
                                             <h4 className="label">Results</h4>
                                             <div className="items">
                                                 <div className="item">
-                                                    <div className="number">25%</div>
+                                                    <div className="number"><CountUpOnViewport targetNumber={25} />%</div>
                                                     <div className="text">reduction in delivery times improved customer satisfaction scores.</div>
                                                 </div>
                                                 <div className="item">
-                                                    <div className="number">15%</div>
+                                                    <div className="number"><CountUpOnViewport targetNumber={15} />%</div>
                                                     <div className="text">decrease in transportation costs achieved within the first quarter.</div>
                                                 </div>
                                                 <div className="item">
-                                                    <div className="number">35%</div>
+                                                    <div className="number"><CountUpOnViewport targetNumber={35} />%</div>
                                                     <div className="text">boost in inventory accuracy minimized stockouts effectively.</div>
                                                 </div>
                                             </div>
@@ -334,15 +334,15 @@ const CasesStudies = () => {
                                             <h4 className="label">Results</h4>
                                             <div className="items">
                                                 <div className="item">
-                                                    <div className="number">35%</div>
+                                                    <div className="number"><CountUpOnViewport targetNumber={35} />%</div>
                                                     <div className="text">improvement in employee retention achieved within 6 months.</div>
                                                 </div>
                                                 <div className="item">
-                                                    <div className="number">20%</div>
+                                                    <div className="number"><CountUpOnViewport targetNumber={20} />%</div>
                                                     <div className="text">increase in productivity levels resulted in enhanced client satisfaction.</div>
                                                 </div>
                                                 <div className="item">
-                                                    <div className="number">50%</div>
+                                                    <div className="number"><CountUpOnViewport targetNumber={50} />%</div>
                                                     <div className="text">jump in engagement survey scores demonstrated team improvement.</div>
                                                 </div>
                                             </div>
@@ -395,15 +395,15 @@ const CasesStudies = () => {
                                             <h4 className="label">Results</h4>
                                             <div className="items">
                                                 <div className="item">
-                                                    <div className="number">3</div>
+                                                    <div className="number"><CountUpOnViewport targetNumber={3} /></div>
                                                     <div className="text">new markets successfully entered within 12 months.</div>
                                                 </div>
                                                 <div className="item">
-                                                    <div className="number">50%</div>
+                                                    <div className="number"><CountUpOnViewport targetNumber={50} />%</div>
                                                     <div className="text">growth in international sales drove significant revenue gains.</div>
                                                 </div>
                                                 <div className="item">
-                                                    <div className="number">100%</div>
+                                                    <div className="number"><CountUpOnViewport targetNumber={100} />%</div>
                                                     <div className="text">compliance achieved in all target regions, ensuring smooth market entry.</div>
                                                 </div>
                                             </div>

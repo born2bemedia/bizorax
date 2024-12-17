@@ -5,6 +5,7 @@ import Link from "next/link";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
 import ArrowRight from "@/icons/other/ArrowRight";
+import CountUpOnViewport from "@/components/CountUpOnViewport";
 
 const HomeWhat = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -123,7 +124,7 @@ const HomeWhat = () => {
                                     variants={fadeInUp}
                                     custom={0.1}
                                     className="home-what__block">
-                                    <div className="home-what__number">5+</div>
+                                    <div className="home-what__number"><CountUpOnViewport targetNumber={5} />+</div>
                                     <div className="home-what__desk">industries served with <br /> tailored solutions.</div>
                                 </motion.div>
                                 <motion.div
@@ -133,7 +134,7 @@ const HomeWhat = () => {
                                     variants={fadeInUp}
                                     custom={0.2}
                                     className="home-what__block">
-                                    <div className="home-what__number">100%</div>
+                                    <div className="home-what__number"><CountUpOnViewport targetNumber={100} />%</div>
                                     <div className="home-what__desk">client satisfaction with <br /> our projects so far.</div>
                                 </motion.div>
                                 <motion.div
@@ -143,7 +144,7 @@ const HomeWhat = () => {
                                     variants={fadeInUp}
                                     custom={0.3}
                                     className="home-what__block">
-                                    <div className="home-what__number">8</div>
+                                    <div className="home-what__number"><CountUpOnViewport targetNumber={8} /></div>
                                     <div className="home-what__desk">expert consultants <br /> specialising in strategy, <br /> operations, and growth.</div>
                                 </motion.div>
                                 <motion.div
@@ -153,7 +154,7 @@ const HomeWhat = () => {
                                     variants={fadeInUp}
                                     custom={0.4}
                                     className="home-what__block">
-                                    <div className="home-what__number">90%</div>
+                                    <div className="home-what__number"><CountUpOnViewport targetNumber={90} />%</div>
                                     <div className="home-what__desk">of clients report significant <br /> performance improvements <br /> within 6 months.</div>
                                 </motion.div>
                             </div>
