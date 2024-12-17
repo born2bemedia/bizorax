@@ -240,4 +240,9 @@
             color: #cd8c2a;
         }
     }
+
+    &__label { 
+        @include adaptiv-value('margin-top', 120, 60, 1);
+        @include adaptiv-value('font-size', 52, 24, 1);
+    }
 }

@@ -27,7 +27,7 @@ const InsightsMain = () => {
                                 variants={fadeInUp}
                                 custom={0.1}
                                 className="insight-main__col-01">
-                                <Link href="#" className="insight-main__link-main">
+                                <Link href="/navigating-market-disruptions-in-2025" className="insight-main__link-main">
                                     <img src="/images/insights/img-01.jpg" alt="image" className="image" />
                                     <h2 className="title">Navigating Market Disruptions <br /> in 2025</h2>
                                     <div className="text">Uncover strategies to adapt to unpredictable market shifts, minimise risks, and turn challenges into opportunities for growth.</div>
@@ -43,7 +43,7 @@ const InsightsMain = () => {
                                         custom={0.1}
                                         className="insight-main__item">
                                         <h3 className="insight-main__label">Navigating Market Disruptions in 2025</h3>
-                                        <Link href="#" className="insight-main__link">Read more <ArrowRight /></Link>
+                                        <Link href="/navigating-market-disruptions-in-2025" className="insight-main__link">Read more <ArrowRight /></Link>
                                     </motion.div>
                                     <motion.div
                                         initial="hidden"
@@ -53,7 +53,7 @@ const InsightsMain = () => {
                                         custom={0.2}
                                         className="insight-main__item">
                                         <h3 className="insight-main__label">Top 5 Digital Tools to Streamline Business Operations</h3>
-                                        <Link href="#" className="insight-main__link">Read more <ArrowRight /></Link>
+                                        <Link href="/top-5-digital-tools-to-streamline-business-operations" className="insight-main__link">Read more <ArrowRight /></Link>
                                     </motion.div>
                                     <motion.div
                                         initial="hidden"
@@ -63,7 +63,7 @@ const InsightsMain = () => {
                                         custom={0.3}
                                         className="insight-main__item">
                                         <h3 className="insight-main__label">Future-Proofing Your Business: Strategies for 2025 and Beyond</h3>
-                                        <Link href="#" className="insight-main__link">Read more <ArrowRight /></Link>
+                                        <Link href="/future-proofing-your-business-strategies-for-2025-and-beyond" className="insight-main__link">Read more <ArrowRight /></Link>
                                     </motion.div>
                                 </div>
                             </div>
@@ -75,32 +75,32 @@ const InsightsMain = () => {
                             variants={fadeInUp}
                             custom={0.2}
                             className="insight-main__articles">
-                            <Link href="#" className="insight-main__article">
+                            <Link href="/navigating-market-disruptions-in-2025" className="insight-main__article">
                                 <h3 className="title">Navigating Market Disruptions in 2025</h3>
                                 <div className="text">Uncover strategies to adapt to unpredictable market shifts, minimise risks, and turn challenges into opportunities for growth.</div>
                                 <div className="link">Read more <ArrowRight /> </div>
                             </Link>
-                            <Link href="#" className="insight-main__article">
+                            <Link href="/top-5-digital-tools-to-streamline-business-operations" className="insight-main__article">
                                 <h3 className="title">Top 5 Digital Tools to Streamline Business Operations</h3>
                                 <div className="text">Discover the must-have tools that enhance efficiency, improve workflows, and empower your team to achieve more in less time.</div>
                                 <div className="link">Read more <ArrowRight /> </div>
                             </Link>
-                            <Link href="#" className="insight-main__article">
+                            <Link href="/future-proofing-your-business-strategies-for-2025-and-beyond" className="insight-main__article">
                                 <h3 className="title">Future-Proofing Your Business: Strategies for 2025 and Beyond</h3>
                                 <div className="text">Learn how to prepare your business for upcoming technological advancements, market changes, and emerging trends.</div>
                                 <div className="link">Read more <ArrowRight /> </div>
                             </Link>
-                            <Link href="#" className="insight-main__article">
+                            <Link href="/the-rise-of-aI-in-business-opportunities-and-challenges-in-2025" className="insight-main__article">
                                 <h3 className="title">The Rise of AI in Business: Opportunities and Challenges in 2025</h3>
                                 <div className="text">Explore how artificial intelligence reshapes industries and how businesses can leverage it effectively.</div>
                                 <div className="link">Read more <ArrowRight /> </div>
                             </Link>
-                            <Link href="#" className="insight-main__article">
+                            <Link href="/sustainable-business-practices-balancing-profit-and-responsibility" className="insight-main__article">
                                 <h3 className="title">Sustainable Business Practices: Balancing Profit and Responsibility</h3>
                                 <div className="text">Learn how incorporating sustainability can drive long-term success and customer loyalty.</div>
                                 <div className="link">Read more <ArrowRight /> </div>
                             </Link>
-                            <Link href="#" className="insight-main__article">
+                            <Link href="/mastering-change-management-thriving-in-a-rapidly-evolving-world" className="insight-main__article">
                                 <h3 className="title">Mastering Change Management: Thriving in a Rapidly Evolving World</h3>
                                 <div className="text">Discover strategies to lead your team through change and build resilience in your business.</div>
                                 <div className="link">Read more <ArrowRight /> </div>

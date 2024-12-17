@@ -39,8 +39,8 @@ const CapabilitiesHero = () => {
                                 variants={fadeInUp}
                                 custom={0.3}
                                 className="capa-hero__links">
-                                <Link href="#" className="capa-hero__link">View Service Packages</Link>
-                                <Link href="/contact" className="capa-hero__link">Request a Custom Solution</Link>
+                                <Link href="/packages" className="capa-hero__link">View Service Packages</Link>
+                                <Link href="/request" className="capa-hero__link">Request a Custom Solution</Link>
                             </motion.div>
                         </div>
                     </div>

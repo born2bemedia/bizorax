@@ -29,21 +29,21 @@ const HomeBlog = () => {
                             variants={fadeInUp}
                             custom={0.2}
                             className="home-blog__items">
-                            <Link href="#" className="home-blog__item">
+                            <Link href="/navigating-market-disruptions-in-2025" className="home-blog__item">
                                 <div className="home-blog__wrapper">
                                     <h3 className="home-blog__label">Navigating <br /> Market Disruptions <br /> in 2025</h3>
                                     <div className="home-blog__text">Tips for adapting to evolving economic landscapes.</div>
                                     <div className="home-blog__more">Read more <ArrowRight /></div>
                                 </div>
                             </Link>
-                            <Link href="#" className="home-blog__item">
+                            <Link href="/top-5-digital-tools-to-streamline-business-operations" className="home-blog__item">
                                 <div className="home-blog__wrapper">
                                     <h3 className="home-blog__label">Top 5 Digital Tools to Streamline Business Operations</h3>
                                     <div className="home-blog__text">Insights into tools driving efficiency and innovation.</div>
                                     <div className="home-blog__more">Read more <ArrowRight /></div>
                                 </div>
                             </Link>
-                            <Link href="#" className="home-blog__item">
+                            <Link href="/future-proofing-your-business-strategies-for-2025-and-beyond" className="home-blog__item">
                                 <div className="home-blog__wrapper">
                                     <h3 className="home-blog__label">Future-Proofing Your Business: Strategies for 2025 and Beyond</h3>
                                     <div className="home-blog__text">Preparing for technological and market shifts.</div>

@@ -139,6 +139,30 @@ const ArticleMain = () => {
                         </div>
                     </motion.div>
                 </div>
+                <h3 className="article-main__label">Relevant articles</h3>
+                <motion.div
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true }}
+                    variants={fadeInUp}
+                    custom={0.2}
+                    className="insight-main__articles">
+                    <Link href="/navigating-market-disruptions-in-2025" className="insight-main__article">
+                        <h3 className="title">Navigating Market Disruptions in 2025</h3>
+                        <div className="text">Uncover strategies to adapt to unpredictable market shifts, minimise risks, and turn challenges into opportunities for growth.</div>
+                        <div className="link">Read more <ArrowRight /> </div>
+                    </Link>
+                    <Link href="/top-5-digital-tools-to-streamline-business-operations" className="insight-main__article">
+                        <h3 className="title">Top 5 Digital Tools to Streamline Business Operations</h3>
+                        <div className="text">Discover the must-have tools that enhance efficiency, improve workflows, and empower your team to achieve more in less time.</div>
+                        <div className="link">Read more <ArrowRight /> </div>
+                    </Link>
+                    <Link href="/future-proofing-your-business-strategies-for-2025-and-beyond" className="insight-main__article">
+                        <h3 className="title">Future-Proofing Your Business: Strategies for 2025 and Beyond</h3>
+                        <div className="text">Learn how to prepare your business for upcoming technological advancements, market changes, and emerging trends.</div>
+                        <div className="link">Read more <ArrowRight /> </div>
+                    </Link>
+                </motion.div>
             </div>
         </section>
     );

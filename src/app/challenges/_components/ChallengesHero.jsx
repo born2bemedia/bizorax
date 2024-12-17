@@ -40,8 +40,8 @@ const ChallengesHero = () => {
                                 variants={fadeInUp}
                                 custom={0.3}
                                 className="challanges-hero__buttons">
-                                <Link href="#" className="challanges-hero__link">Explore Solutions</Link>
-                                <Link href="/contact" className="challanges-hero__link">Request a Consultation</Link>
+                                <Link href="/capabilities" className="challanges-hero__link">Explore Solutions</Link>
+                                <Link href="/request" className="challanges-hero__link">Request a Consultation</Link>
                             </motion.div>
                         </div>
                     </div>

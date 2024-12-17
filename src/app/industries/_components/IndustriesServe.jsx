@@ -40,7 +40,7 @@ const IndustriesServe = () => {
                                 custom={0.3}
                                 className="indus-serve__links">
                                 <Link href="/capabilities" className="indus-serve__link">Explore Solutions</Link>
-                                <Link href="/contact" className="indus-serve__link">Request a Consultation</Link>
+                                <Link href="/request" className="indus-serve__link">Request a Consultation</Link>
                             </motion.div>
                         </div>
                     </div>

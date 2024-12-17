@@ -15,14 +15,14 @@ const HomeOur = () => {
             details: [
                 "Reduced operational costs by 25%.",
                 "Improved supply chain efficiency by 30%."
-            ]
+            ],
         },
         {
             title: "Scaling Growth for a Tech Startup",
             details: [
                 "Boosted revenue by 40% within 12 months.",
                 "Developed a go-to-market strategy that drove 80% faster customer acquisition."
-            ]
+            ],
         },
         {
             title: "Driving Digital Transformation for a Healthcare Provider",
@@ -30,6 +30,7 @@ const HomeOur = () => {
                 "Enhanced patient engagement by 50%.",
                 "Streamlined IT operations, saving $500K annually."
             ]
+            ,
         }
     ];
 
@@ -66,7 +67,7 @@ const HomeOur = () => {
                         {items.map((item, index) => (
                             <Link
                                 key={index}
-                                href="#"
+                                href="/cases"
                                 className={`home-our__item ${
                                     activeIndex === index ? "_active" : ""
                                 }`}

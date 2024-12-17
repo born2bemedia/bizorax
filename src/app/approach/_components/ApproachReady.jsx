@@ -30,7 +30,7 @@ const ApproachReady = () => {
                                 custom={0.2}
                                 className="approach-ready__buttons">
                                 <Link href="/request" className="approach-ready__btn-01">Request a Consultation</Link>
-                                <Link href="/contact" className="approach-ready__btn-02">Explore Solutions</Link>
+                                <Link href="/capabilities" className="approach-ready__btn-02">Explore Solutions</Link>
                             </motion.div>
                         </div>
                         <div className="approach-ready__col-02"></div>
