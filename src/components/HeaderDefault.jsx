@@ -5,7 +5,6 @@ import "@/styles/base.scss";
 import Link from "next/link";
 import Facebook from "@/icons/social/Facebook";
 import Instagram from "@/icons/social/Instagram";
-import X from "@/icons/social/Twitter";
 import LogoWhite from "@/icons/other/LogoWhite";
 import { usePathname } from "next/navigation";
 import Twitter from "@/icons/social/Twitter";
@@ -77,7 +76,7 @@ const Header = () => {
                   <Link href="#"><Facebook /></Link>
                 </li>
                 <li className="header__social _twitter">
-                  <Link href="#"><Facebook /></Link>
+                  <Link href="#"><Twitter /></Link>
                 </li>
                 <li className="header__social _instagram">
                   <Link href="#"><Instagram /></Link>

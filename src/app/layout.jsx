@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 import { PopupsProvider } from "@/context/PopupsContext";
 import { usePathname } from "next/navigation";
 import { GoogleAnalytics } from "@next/third-parties/google";
-
+/* import { NextIntlClientProvider, useMessages } from "next-intl"; */
 import ServicePopup from "@/components/ServicePopup";
 
 
