@@ -1,11 +1,12 @@
+import "@/styles/base.scss";
 import AppproachHow from "./_components/AppproachHow";
 import ApproachEvery from "./_components/ApproachEvery";
 import ApproachHero from "./_components/ApproachHero";
 import ApproachOur from "./_components/ApproachOur";
 import ApproachReady from "./_components/ApproachReady";
-import ApproachSliders from "./_components/ApproachSliders";
 import AppproachSolutions from "./_components/ApproachSolutions";
 import ApproachWhat from "./_components/ApproachWhat";
+import HomePartners from "./_components/HomePartners";
 
 
 export const metadata = {
@@ -28,7 +29,7 @@ export default function Approach() {
             <ApproachWhat />
             <ApproachOur />
             <AppproachSolutions />
-            <ApproachSliders />
+            <HomePartners />
             <AppproachHow />
             <ApproachReady />
         </>

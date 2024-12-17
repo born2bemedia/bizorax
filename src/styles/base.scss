@@ -520,3 +520,19 @@ body {
     object-fit: cover;
   }
 }
+
+.home-partners {
+  background-color: #ecebe7;
+  position: relative;
+  z-index: 30;
+  &__container {
+
+    .row1,
+    .row2,
+    .row3 { 
+      .item { 
+        width: 1280px;
+      }
+    }
+  }
+}
