@@ -3,14 +3,14 @@ import InsightsMain from "./_components/InsightsMain";
 
 
 export const metadata = {
-    title: "",
+    title: "Bizorax Insights | Articles and Strategies for Business Growth",
     description:
-        "",
+        "Stay informed with expert insights, actionable tips, and the latest business strategy and innovation trends from Bizorax.",
     openGraph: {
-        title: "",
+        title: "Bizorax Insights | Articles and Strategies for Business Growth",
         description:
-            "",
-        images: "",
+            "Stay informed with expert insights, actionable tips, and the latest business strategy and innovation trends from Bizorax.",
+        images: "/images/meta-banner.jpg",
     },
 };
 

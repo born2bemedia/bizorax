@@ -3,14 +3,14 @@ import ArticleMain from "./_components/ArticleMain";
 
 
 export const metadata = {
-    title: "",
+    title: "The Rise of AI in Business: Opportunities and Challenges in 2025",
     description:
-        "",
+        "Understand how AI transforms industries, the opportunities it brings, and the challenges businesses must address in 2025.",
     openGraph: {
-        title: "",
+        title: "The Rise of AI in Business: Opportunities and Challenges in 2025",
         description:
-            "",
-        images: "",
+            "Understand how AI transforms industries, the opportunities it brings, and the challenges businesses must address in 2025.",
+        images: "/images/meta-banner.jpg",
     },
 };
 

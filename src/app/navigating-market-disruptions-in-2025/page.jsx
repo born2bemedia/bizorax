@@ -3,14 +3,14 @@ import ArticleMain from "./_components/ArticleMain";
 
 
 export const metadata = {
-    title: "",
+    title: "Navigating Market Disruptions in 2025",
     description:
-        "",
+        "Discover strategies to adapt to market disruptions in 2025 and prepare your business for future challenges.",
     openGraph: {
-        title: "",
+        title: "Navigating Market Disruptions in 2025",
         description:
-            "",
-        images: "",
+            "Discover strategies to adapt to market disruptions in 2025 and prepare your business for future challenges.",
+        images: "/images/meta-banner.jpg",
     },
 };
 

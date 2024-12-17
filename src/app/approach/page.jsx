@@ -10,14 +10,14 @@ import HomePartners from "./_components/HomePartners";
 
 
 export const metadata = {
-    title: "",
+    title: "Our Proven Approach to Business Success | Bizorax",
     description:
-        "",
+        "Learn how Bizorax’s structured and innovative approach helps businesses achieve measurable results and sustained growth.",
     openGraph: {
-        title: "",
+        title: "Our Proven Approach to Business Success | Bizorax",
         description:
-            "",
-        images: "",
+            "Learn how Bizorax’s structured and innovative approach helps businesses achieve measurable results and sustained growth.",
+        images: "/images/meta-banner.jpg",
     },
 };
 

@@ -3,14 +3,14 @@ import ContactMain from "./_components/ContactMain";
 import ContactTake from "./_components/ContactTake";
 
 export const metadata = {
-    title: "",
+    title: "Contact Bizorax | Let’s Talk Business Solutions",
     description:
-        "",
+        "Reach out to Bizorax for inquiries, collaborations, or tailored solutions. We’re here to help your business thrive.",
     openGraph: {
-        title: "",
+        title: "Contact Bizorax | Let’s Talk Business Solutions",
         description:
-            "",
-        images: "",
+            "Reach out to Bizorax for inquiries, collaborations, or tailored solutions. We’re here to help your business thrive.",
+        images: "/images/meta-banner.jpg",
     },
 };
 

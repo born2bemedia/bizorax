@@ -12,14 +12,14 @@ import HomeTools from "./_components/HomeTools";
 import HomeWhat from "./_components/HomeWhat";
 
 export const metadata = {
-  title: "",
+  title: "Bizorax: Tailored Business Solutions for Growth and Success",
   description:
-    "",
+    "Bizorax helps businesses overcome challenges and achieve their goals through strategic planning, operational efficiency, and innovative solutions.",
   openGraph: {
-    title: "",
+    title: "Bizorax: Tailored Business Solutions for Growth and Success",
     description:
-      "",
-    images: "",
+      "Bizorax helps businesses overcome challenges and achieve their goals through strategic planning, operational efficiency, and innovative solutions.",
+    images: "/images/meta-banner.jpg",
   },
 };
 

@@ -3,14 +3,14 @@ import ArticleMain from "./_components/ArticleMain";
 
 
 export const metadata = {
-    title: "",
+    title: "Sustainable Business Practices: Balancing Profit and Responsibility",
     description:
-        "",
+        "Learn how to integrate sustainable practices into your business strategy, balancing profitability with responsibility.",
     openGraph: {
-        title: "",
+        title: "Sustainable Business Practices: Balancing Profit and Responsibility",
         description:
-            "",
-        images: "",
+            "Learn how to integrate sustainable practices into your business strategy, balancing profitability with responsibility.",
+        images: "/images/meta-banner.jpg",
     },
 };
 

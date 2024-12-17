@@ -3,14 +3,14 @@ import ArticleMain from "./_components/ArticleMain";
 
 
 export const metadata = {
-    title: "",
+    title: "Top 5 Digital Tools to Streamline Business Operations",
     description:
-        "",
+        "Learn about the top digital tools to enhance productivity, improve workflows, and streamline business operations.",
     openGraph: {
-        title: "",
+        title: "Top 5 Digital Tools to Streamline Business Operations",
         description:
-            "",
-        images: "",
+            "Learn about the top digital tools to enhance productivity, improve workflows, and streamline business operations.",
+            images: "/images/meta-banner.jpg",А
     },
 };
 

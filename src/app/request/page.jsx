@@ -3,14 +3,14 @@ import RequestHero from "./_components/RequestHero";
 import RequestMessage from "./_components/RequestMessage";
 
 export const metadata = {
-    title: "",
+    title: "Request Tailored Business Solutions | Bizorax",
     description:
-        "",
+        "Let Bizorax craft a customised plan for your business. Share your needs, and our experts will design a strategy just for you.",
     openGraph: {
-        title: "",
+        title: "Request Tailored Business Solutions | Bizorax",
         description:
-            "",
-        images: "",
+            "Let Bizorax craft a customised plan for your business. Share your needs, and our experts will design a strategy just for you.",
+        images: "/images/meta-banner.jpg",
     },
 };
 

@@ -11,14 +11,14 @@ import TeamWork from "./_components/TeamWork";
 
 
 export const metadata = {
-    title: "",
+    title: "Meet the Bizorax Team | Expertise Driving Success",
     description:
-        "",
+        "Get to know the skilled professionals behind Bizorax, who are dedicated to crafting innovative solutions for business success.",
     openGraph: {
-        title: "",
+        title: "Meet the Bizorax Team | Expertise Driving Success",
         description:
-            "",
-        images: "",
+            "Get to know the skilled professionals behind Bizorax, who are dedicated to crafting innovative solutions for business success.",
+        images: "/images/meta-banner.jpg",
     },
 };
 

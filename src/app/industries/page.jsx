@@ -8,14 +8,14 @@ import IndustriesText from "./_components/IndustriesText";
 import IndustriesUnder from "./_components/IndustriesUnder";
 
 export const metadata = {
-    title: "",
+    title: "Industries We Serve | Bizorax’s Expertise Across Sectors",
     description:
-        "",
+        "Bizorax provides specialised solutions for healthcare, finance, technology, and more industries. Learn how we can help your sector thrive.",
     openGraph: {
-        title: "",
+        title: "Industries We Serve | Bizorax’s Expertise Across Sectors",
         description:
-            "",
-        images: "",
+            "Bizorax provides specialised solutions for healthcare, finance, technology, and more industries. Learn how we can help your sector thrive.",
+        images: "/images/meta-banner.jpg",
     },
 };
 

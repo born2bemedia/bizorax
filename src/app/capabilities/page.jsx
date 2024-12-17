@@ -7,14 +7,14 @@ import CapabilitiesText from "./_components/CapabilitiesText";
 
 
 export const metadata = {
-    title: "",
+    title: "Comprehensive Business Capabilities by Bizorax",
     description:
-        "",
+        "Discover Bizorax’s full range of tailored business solutions, including strategic planning, digital transformation, and market expansion.",
     openGraph: {
-        title: "",
+        title: "Comprehensive Business Capabilities by Bizorax",
         description:
-            "",
-        images: "",
+            "Discover Bizorax’s full range of tailored business solutions, including strategic planning, digital transformation, and market expansion.",
+        images: "/images/meta-banner.jpg",
     },
 };
 

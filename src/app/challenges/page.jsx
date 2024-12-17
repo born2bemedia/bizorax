@@ -9,14 +9,14 @@ import ChallangesToday from "./_components/ChallangesToday";
 import ChallengesHero from "./_components/ChallengesHero";
 
 export const metadata = {
-    title: "",
+    title: "Business Challenges and Strategic Solutions with Bizorax",
     description:
-        "",
+        "Explore how Bizorax identifies and addresses the challenges businesses face, from market disruptions to operational inefficiencies.",
     openGraph: {
-        title: "",
+        title: "Business Challenges and Strategic Solutions with Bizorax",
         description:
-            "",
-        images: "",
+            "Explore how Bizorax identifies and addresses the challenges businesses face, from market disruptions to operational inefficiencies.",
+        images: "/images/meta-banner.jpg",
     },
 };
 
