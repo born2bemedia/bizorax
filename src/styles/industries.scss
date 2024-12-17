@@ -236,6 +236,7 @@
     @include adaptiv-value("padding-top", 80, 40, 1);
     @include adaptiv-value("padding-bottom", 80, 40, 1);
     background-color: #ecebe7;
+    overflow: hidden;
     &__container {
     }
 
@@ -432,7 +433,7 @@
         gap: 24px;
         margin-left: auto;
         margin-right: auto;
-        @media(max-width: 767px) { 
+        @media (max-width: 767px) {
             flex-direction: column;
             align-items: flex-start;
         }
@@ -441,7 +442,7 @@
     &__link {
         &:nth-child(1) {
             padding: 16px 20px;
-            background-color: #EDEBE7;
+            background-color: #edebe7;
             border-radius: 4px;
             transition: all 0.3s ease 0s;
             display: flex;
@@ -455,15 +456,15 @@
             font-weight: 500;
             text-align: center;
 
-            &:hover { 
+            &:hover {
                 background-color: #cd8c2a;
-                color: #EDEBE7;
+                color: #edebe7;
             }
         }
 
         &:nth-child(2) {
             padding: 16px 20px;
-            background-color: #CD8C2A;
+            background-color: #cd8c2a;
             border-radius: 4px;
             transition: all 0.3s ease 0s;
             display: flex;
@@ -477,10 +478,129 @@
             font-weight: 500;
             text-align: center;
 
-            &:hover { 
-                background-color: #EDEBE7;
+            &:hover {
+                background-color: #edebe7;
                 color: #cd8c2a;
             }
+        }
+    }
+}
+
+.indusctries-slider {
+    @media (min-width: 992px) {
+        overflow: visible !important;
+    }
+    .swiper-wrapper {
+        display: flex;
+        align-items: stretch;
+    }
+
+    &__item {
+        border-radius: 8px;
+        max-width: 411px;
+        width: 100%;
+        transition: all 0.5s ease 0s;
+
+        @media(max-width: 767px) { 
+            max-width: 260px;
+        }
+
+        &:hover { 
+            .indusctries-slider__visible { 
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            .indusctries-slider__hide { 
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+
+        &.swiper-slide-active { 
+            max-width: 844px;
+            border-radius: 16px;
+
+            .indusctries-slider__wrapper { 
+                height: 600px;
+            }
+
+            @media(max-width: 767px) { 
+                max-width: 260px;
+                border-radius: 8px;
+
+                .indusctries-slider__wrapper { 
+                    height: 380px;
+                }
+            }
+        }
+    }
+
+    &__wrapper {
+        border-radius: 8px;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        transition: all 0.5s ease 0s;
+        padding: 24px 24px 32px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        @media(max-width: 767px) { 
+            height: 380px;
+        }
+    }
+
+    &__title {
+        font-size: 24px;
+        line-height: normal;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    &__text {
+        margin: 8px 0 0 0;
+        font-size: 16px;
+        line-height: normal;
+        color: #edebe7;
+    }
+
+    &__label {
+        font-size: 16px;
+        line-height: normal;
+        color: #edebe7;
+    }
+
+    &__desc {
+        margin: 16px 0 0 0;
+        font-size: 24px;
+        line-height: normal;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    &__visible {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        padding: 24px 32px 24px 24px;
+        transition: all 0.3s ease 0s;
+        @media(max-width: 767px) { 
+            padding: 16px 20px;
+        }
+    }
+
+    &__hide {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0;
+        padding: 24px 32px 24px 24px;
+        visibility: hidden;
+        transition: all 0.3s ease 0s;
+        @media(max-width: 767px) { 
+            padding: 16px 20px;
         }
     }
 }
