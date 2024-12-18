@@ -45,7 +45,7 @@ const HomeBlog = () => {
                             </Link>
                             <Link href="/future-proofing-your-business-strategies-for-2025-and-beyond" className="home-blog__item">
                                 <div className="home-blog__wrapper">
-                                    <h3 className="home-blog__label">Future-Proofing Your Business: Strategies for 2025 and Beyond</h3>
+                                    <h3 className="home-blog__label">Future-Proofing Your Business: Strategies for 2025 and Beyond </h3>
                                     <div className="home-blog__text">Preparing for technological and market shifts.</div>
                                     <div className="home-blog__more">Read more <ArrowRight /></div>
                                 </div>
