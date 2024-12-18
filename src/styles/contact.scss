@@ -463,6 +463,20 @@
                     background-color: #ecebe7;
                 }
             }
+
+            .success-message { 
+                max-width: 470px;
+                color: #fff;
+                @include adaptiv-value('font-size', 32, 18, 1);
+                line-height: normal;
+                span { 
+                    display: flex;
+                    margin: 40px 0 0 0;
+                    font-weight: 700;
+                    color: #cd8c2a;
+                    @include adaptiv-value('font-size', 52, 32, 1);
+                }
+            }
         }
     }
 }

@@ -221,8 +221,8 @@ const ServicePopup = () => {
                   </Formik>
                   {isSuccess && (
                     <div className="success-message">
-                      <span>Thank you!</span>
                       Your request has been successfully received. Our team will review your information and contact you shortly to discuss your marketing challenges and the solutions we can provide.
+                      <span>Thank you!</span>
                     </div>
                   )}
                 </div>
