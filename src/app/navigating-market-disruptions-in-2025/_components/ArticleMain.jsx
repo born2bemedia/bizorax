@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { Link as ScrollLink } from "react-scroll";
 import "@/styles/article.scss";
 import Link from "next/link";
+import ArrowRight from "@/icons/other/ArrowRight";
 
 const ArticleMain = () => {
     const [activeSection, setActiveSection] = useState("section1");
