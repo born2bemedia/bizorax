@@ -28,18 +28,18 @@ const Preloader = () => {
         left: 0,
         width: "100%",
         height: "100%",
-        backgroundColor: "#fff",
+        backgroundColor: "#1D0A5B",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         zIndex: 99999,
         opacity: isLoading ? 1 : 0,
-        transition: "opacity 0.5s ease", // Smoothly transition the opacity
+        transition: "opacity 0.5s ease", 
         visibility: isVisible ? 'visible' : 'hidden',
       }}
     >
       <span>
-        <img width={100} src="/images/preloader.gif"/>
+        <img width={100} src="/images/preloader.png"/>
       </span>
     </div>
   );

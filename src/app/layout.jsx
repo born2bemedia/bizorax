@@ -10,6 +10,7 @@ import { usePathname } from "next/navigation";
 import { GoogleAnalytics } from "@next/third-parties/google";
 /* import { NextIntlClientProvider, useMessages } from "next-intl"; */
 import ServicePopup from "@/components/ServicePopup";
+import Preloader from "@/components/Preloader";
 
 
 const geist = Geist({
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
       <body className={`${geist.className}`}>
         <GoogleAnalytics gaId="G-CXE06DH8RK" />
         <PopupsProvider>
+          <Preloader />
           {pathname === "/" || pathname === "/industries" || pathname === "/approach" || pathname === "/insights" || pathname === "/terms-and-conditions" || pathname === "/privacy-policy" || pathname === "/cookie-policy" || pathname === "/refund-policy" ? (
             <HeaderCustom />
           ) : (
