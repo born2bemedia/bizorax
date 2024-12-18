@@ -8,6 +8,7 @@ import Instagram from "@/icons/social/Instagram";
 import LogoWhite from "@/icons/other/LogoWhite";
 import { usePathname } from "next/navigation";
 import Twitter from "@/icons/social/Twitter";
+import ArrowTopRight from "@/icons/other/ArrowTopRight";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -40,7 +41,7 @@ const Header = () => {
               <Link href="/" className="header__logo"><LogoWhite /></Link>
             </div>
             <div className="header__col-02">
-              <nav className="header__nav">
+              <nav className={`header__nav ${menuOpened ? "_active" : ""}`}>
                 <ul className="header__list">
                   <li className="header__item">
                     <Link href="/challenges" className="header__link">Challenges</Link>
@@ -70,6 +71,17 @@ const Header = () => {
                     <Link href="/contact" className="header__link">Contact</Link>
                   </li>
                 </ul>
+                <ul className="header__socials-mobile">
+                  <li className="_facebook">
+                    <Link href="#">Facebook <ArrowTopRight /> </Link>
+                  </li>
+                  <li className="_twitter">
+                    <Link href="#">Instagram <ArrowTopRight /></Link>
+                  </li>
+                  <li className="_instagram">
+                    <Link href="#">Twitter <ArrowTopRight /></Link>
+                  </li>
+                </ul>
               </nav>
               <ul className="header__socials">
                 <li className="header__social _facebook">
@@ -82,6 +94,13 @@ const Header = () => {
                   <Link href="#"><Instagram /></Link>
                 </li>
               </ul>
+              <button onClick={() => menuOpen()} className={`header__menu-btn ${menuOpened ? "_active" : ""}`}>
+                {!menuOpened ? (
+                  <img src="/images/menu-open.svg" alt="menu-burger" />
+                ) : (
+                  <img alt="menu-burger" src="/images/menu-close.svg" />
+                )}
+              </button>
             </div>
           </div>
         </div>

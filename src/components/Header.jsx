@@ -70,6 +70,18 @@ const Header = () => {
                     <Link href="/contact" className="header__link">Contact</Link>
                   </li>
                 </ul>
+
+                <ul className="header__socials _mobile">
+                  <li className="header__social _facebook">
+                    <Link href="#"><Facebook /></Link>
+                  </li>
+                  <li className="header__social _twitter">
+                    <Link href="#"><Twitter /></Link>
+                  </li>
+                  <li className="header__social _instagram">
+                    <Link href="#"><Instagram /></Link>
+                  </li>
+                </ul>
               </nav>
               <ul className="header__socials">
                 <li className="header__social _facebook">
