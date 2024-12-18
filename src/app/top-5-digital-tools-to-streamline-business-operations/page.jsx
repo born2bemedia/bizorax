@@ -10,7 +10,7 @@ export const metadata = {
         title: "Top 5 Digital Tools to Streamline Business Operations",
         description:
             "Learn about the top digital tools to enhance productivity, improve workflows, and streamline business operations.",
-            images: "/images/meta-banner.jpg",А
+            images: "/images/meta-banner.jpg",
     },
 };
 

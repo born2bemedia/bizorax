@@ -29,7 +29,7 @@ const CapabilitiesPricelist = () => {
                             custom={0.1}
                             className="cappa-pricelist__col-02">
                             <h2 className="cappa-pricelist__title">Download Our Full Price List</h2>
-                            <Link href="https://bizorax.com/Bizorax-price-list.pdf" download="download" className="cappa-pricelist__link">
+                            <Link href="https://bizorax.com/Bizorax-price-list.pdf" download="Bizorax-price-list" className="cappa-pricelist__link">
                                 Download price list <ArrowRight />
                             </Link>
                         </motion.div>
