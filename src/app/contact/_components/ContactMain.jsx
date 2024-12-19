@@ -68,7 +68,7 @@ const ContactMain = () => {
                                     className="contact-main__text">
                                     Whether you’re looking for solutions, have a question, or just want to connect, here’s how you can reach us:
                                 </motion.div>
-                                {/* <motion.ul
+                                <motion.ul
                                     initial="hidden"
                                     whileInView="visible"
                                     viewport={{ once: true }}
@@ -79,19 +79,19 @@ const ContactMain = () => {
                                         Email:
                                         <Link href="mailto:info@bizorax.com" className="contact-main__link-contact">info@bizorax.com</Link>
                                     </li>
-                                    <li className="contact-main__contact">
+                                    {/* <li className="contact-main__contact">
                                         Phone:
                                         <Link href="tel:+48573503926" className="contact-main__link-contact">+48573503926</Link>
-                                    </li>
+                                    </li> */}
                                     <li className="contact-main__contact">
                                         Registered address:
-                                        <Link href="#" className="contact-main__link-contact">Królowej Marysieńki 90/lok. 7, Warsaw, 02-954, Poland</Link>
+                                        <Link href="#" className="contact-main__link-contact">2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE</Link>
                                     </li>
-                                    <li className="contact-main__contact">
+                                   {/*  <li className="contact-main__contact">
                                         Office address:
                                         <Link href="#" className="contact-main__link-contact">86 Hoża street, Unit 210, Warsaw, Postcode 00-682, Poland</Link>
-                                    </li>
-                                </motion.ul> */}
+                                    </li> */}
+                                </motion.ul>
                             </div>
                         </div>
                         <div className="contact-main__col-02">
