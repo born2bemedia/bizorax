@@ -3,7 +3,7 @@ title: "Cookie policy"
 ---
 
 
-1. This Cookie Policy explains how Bizorax uses cookies and similar technologies to enhance your experience on our website.
+1. This Cookie Policy explains how SERVEON GLOBAL LIMITED, registered at 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE, with its registration number 16137938, uses cookies and similar technologies to enhance your experience on our website.
 2. By continuing to use our website, you consent to the use of cookies as outlined in this policy.
 3. We encourage you to read this policy thoroughly to understand how we manage, collect, and utilise cookies.
 
@@ -117,4 +117,4 @@ title: "Cookie policy"
 
 ## Contact Us
 
-1. Please provide as much detail as possible regarding your inquiry to help us address your concerns effectively. If you have questions or concerns about this Cookie Policy or how we use cookies, please get in touch with us via: <a href="https://bizorax.com/contact.">https://bizorax.com/contact.</a>
+1. Please provide as much detail as possible regarding your inquiry to help us address your concerns effectively. If you have questions or concerns about this Cookie Policy or how we use cookies, please get in touch with us at info@bizorax.com or <a href="https://bizorax.com/contact">https://bizorax.com/contact.</a>

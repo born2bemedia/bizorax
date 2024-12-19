@@ -2,7 +2,7 @@
 title: "Acknowledgment of Our Terms"
 ---
 
-1. Welcome to Bizorax (“Company,” “we,” “us,” “our”), a brand operated and managed the website <a href="https://bizorax.com/">https://bizorax.com/</a> (the “Site”) and various related services or products that link to or reference these terms (“Legal Terms”) (collectively referred to as the “Services”).
+1. Welcome to Bizorax (“Company,” “we,” “us,” “our”), a brand operated by SERVEON GLOBAL LIMITED, registered at 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE with its registration number 16137938, and managed the website <a href="https://bizorax.com/">https://bizorax.com/</a> / (the “Site”) and various related services or products that link to or reference these terms (“Legal Terms”) (collectively referred to as the “Services”).
 2. Using our Services, you agree to be bound by these Legal Terms. If you do not agree to these Legal Terms, you must discontinue use of the Services immediately.
 3. Bizorax reserves the right to update these Legal Terms periodically. Updates will be indicated by the “Last Updated” date above. It is your responsibility to review these Legal Terms regularly. Continued use of the Services after any updates signifies your acknowledgment and acceptance of the revised terms.
 4. The Services are strictly for users aged 18 and above. By using our Services, you confirm that you meet this age requirement and have the legal capacity to enter into this agreement.
@@ -24,7 +24,7 @@ title: "Acknowledgment of Our Terms"
 - Website designs, graphics, and text.
 - Audio, video, and other multimedia elements
 
-2. These materials (collectively referred to as “Content”) and our trademarks, service marks, and logos (“Marks”) are protected by applicable intellectual property laws worldwide.
+2. These materials (collectively referred to as “Content”) and our trademarks, service marks, and logos (“Marks”) are protected by applicable intellectual property laws in the United Kingdom and worldwide.
 
 ### Your Permitted Use of Our Content
 
@@ -39,7 +39,8 @@ title: "Acknowledgment of Our Terms"
 - Reproduce, distribute, modify, or exploit the Content or Marks for commercial purposes.
 - Create derivative works or sublicense the Content without prior written permission from Bizorax.
 
-4. If you intend to use it beyond the scope outlined above, please contact us at <a href="https://bizorax.com/contact">https://bizorax com/contact</a>.
+4. If you intend to use it beyond the scope outlined above, please contact us at <a href="mailto:info@bizorax.com">info@bizorax.com</a> or <a href="https://bizorax.com/contact">https://bizorax com/contact</a>.
+
 
 ## Your Responsibilities as a User
 
@@ -134,7 +135,7 @@ title: "Acknowledgment of Our Terms"
 
 ## Dispute Resolution and Governing Law
 
-1. These Legal Terms and any disputes arising from your use of Bizorax Services will be governed by applicable laws. By accessing our Services, you consent to the exclusive jurisdiction of the relevant courts.
+1. These Legal Terms and any disputes arising from your use of Bizorax Services will be governed by the laws of the United Kingdom. By accessing our Services, you consent to the exclusive jurisdiction of the United Kingdom courts.
 2. If you initiate legal proceedings outside this jurisdiction, you agree to indemnify Bizorax for all associated costs, including legal fees and administrative expenses.
 3. Both parties agree to seek resolution through dialogue or mediation before pursuing legal action. In the event of a court case, the prevailing party is entitled to recover reasonable attorney fees and legal costs.
 
@@ -147,4 +148,4 @@ title: "Acknowledgment of Our Terms"
 
 ## Contact Information
 
-1. We are here to assist with any inquiries regarding these Terms and Conditions. For questions or concerns, contact us via <a href="https://bizorax.com/contact.">https://bizorax.com/contact.</a>
+1. We are here to assist with any inquiries regarding these Terms and Conditions. For questions or concerns, contact us at <a href="mailto:info@bizorax.com">info@bizorax</a> or <a href="https://bizorax.com/contact.">https://bizorax.com/contact.</a>
