@@ -66,7 +66,7 @@ const InduscriesActions = () => {
                         {items.map((item, index) => (
                             <Link
                                 key={index}
-                                href="#"
+                                href="/cases"
                                 className={`home-our__item ${
                                     activeIndex === index ? "_active" : ""
                                 }`}
