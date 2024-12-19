@@ -16,24 +16,24 @@ const Footer = () => {
           <div className="footer__row-01">
             <div className="footer__col-01">
               <Link href="/" className="footer__logo"><LogoWhite /></Link>
-             {/*  <ul className="footer__contacts">
+               <ul className="footer__contacts">
                 <li className="footer__contact">
                   Email:
-                  <Link href="mailto:info@example.com" className="footer__contact-link">info@example.com</Link>
+                  <Link href="mailto:info@bizorax.com" className="footer__contact-link">info@bizorax.com</Link>
                 </li>
-                <li className="footer__contact">
+                {/* <li className="footer__contact">
                   Phone:
                   <Link href="tel:+19087654321" className="footer__contact-link">#############</Link>
-                </li>
+                </li> */}
                 <li className="footer__contact">
                   Registered address:
-                  <Link href="#" className="footer__contact-link">Example</Link>
+                  <Link href="#" className="footer__contact-link">2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE</Link>
                 </li>
-                <li className="footer__contact">
+                {/* <li className="footer__contact">
                   Office address:
                   <Link href="#" className="footer__contact-link">Example</Link>
-                </li>
-              </ul> */}
+                </li> */}
+              </ul>
             </div>
             <div className="footer__col-02">
               <div className="footer__col">
@@ -101,13 +101,13 @@ const Footer = () => {
                 </ul>
                 <ul className="footer__politics">
                   <li className="footer__policy">
+                    <Link href="/terms-and-conditions" className="footer__policy-link">Terms and Conditions</Link>
+                  </li>
+                  <li className="footer__policy">
                     <Link href="/refund-policy" className="footer__policy-link">Refund Policy</Link>
                   </li>
                   <li className="footer__policy">
                     <Link href="/cookie-policy" className="footer__policy-link">Cookie Policy</Link>
-                  </li>
-                  <li className="footer__policy">
-                    <Link href="/terms-and-conditions" className="footer__policy-link">Terms and Conditions</Link>
                   </li>
                   <li className="footer__policy">
                     <Link href="/privacy-policy" className="footer__policy-link">Privacy Policy</Link>
