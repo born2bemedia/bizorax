@@ -10,16 +10,13 @@ import "@/styles/request.scss";
 import ArrowBtn from "@/icons/other/ArrowBtn";
 import RequestMessage from "./RequestMessage";
 
-const StepOne = ({ next }) => {
-  const [selectedChallenges, setSelectedChallenges] = useState([]);
-
+const StepOne = ({ next, setFieldValue, values }) => {
   const handleCheckboxChange = (event) => {
     const value = event.target.value;
-    setSelectedChallenges((prevState) =>
-      prevState.includes(value)
-        ? prevState.filter((item) => item !== value)
-        : [...prevState, value]
-    );
+    const updatedChallenges = values.challenges.includes(value)
+      ? values.challenges.filter((item) => item !== value)
+      : [...values.challenges, value];
+    setFieldValue("challenges", updatedChallenges);
   };
 
   return (
@@ -48,18 +45,18 @@ const StepOne = ({ next }) => {
           "Poor alignment between teams and departments.",
           "Ineffective leadership or decision-making frameworks.",
           "Other: (Provide details)",
-        ].map((goal, index) => (
+        ].map((challenge, index) => (
           <div key={index} className="request-form__row">
             <label
-              className={selectedChallenges.includes(goal) ? "_active" : ""}
+              className={values.challenges.includes(challenge) ? "_active" : ""}
             >
               <input
                 type="checkbox"
-                value={goal}
+                value={challenge}
                 onChange={handleCheckboxChange}
-                checked={selectedChallenges.includes(goal)}
+                checked={values.challenges.includes(challenge)}
               />
-              {goal}
+              {challenge}
             </label>
           </div>
         ))}
@@ -72,16 +69,13 @@ const StepOne = ({ next }) => {
   );
 };
 
-const StepTwo = ({ next, prev }) => {
-  const [selectedGoals, setSelectedGoals] = useState([]);
-
+const StepTwo = ({ next, prev, setFieldValue, values }) => {
   const handleCheckboxChange = (event) => {
     const value = event.target.value;
-    setSelectedGoals((prevState) =>
-      prevState.includes(value)
-        ? prevState.filter((item) => item !== value)
-        : [...prevState, value]
-    );
+    const updatedGoals = values.goals.includes(value)
+      ? values.goals.filter((item) => item !== value)
+      : [...values.goals, value];
+    setFieldValue("goals", updatedGoals);
   };
 
   return (
@@ -111,13 +105,13 @@ const StepTwo = ({ next, prev }) => {
         ].map((goal, index) => (
           <div key={index} className="request-form__row">
             <label
-              className={selectedGoals.includes(goal) ? "_active" : ""}
+              className={values.goals.includes(goal) ? "_active" : ""}
             >
               <input
                 type="checkbox"
                 value={goal}
                 onChange={handleCheckboxChange}
-                checked={selectedGoals.includes(goal)}
+                checked={values.goals.includes(goal)}
               />
               {goal}
             </label>
@@ -255,49 +249,48 @@ const MultiStepForm = () => {
     goals: [],
     firstName: "",
     lastName: "",
-    lastName: "",
-    buget: "",
+    budget: "",
     email: "",
     phone: "",
     website: "",
     company: "",
+    message: "",
   };
 
-  const validationSchema = [
-    Yup.object().shape({
-      challenges: Yup.array().min(1, "Please select at least one challenge."),
-    }),
-    Yup.object().shape({
-      goals: Yup.array().min(1, "Please select at least one goal."),
-    }),
-    Yup.object().shape({
-      firstName: Yup.string().required("First Name is required."),
-      lastName: Yup.string().required("Last Name is required."),
-      email: Yup.string()
-        .email("Invalid email address.")
-        .required("Email is required."),
-      phone: Yup.string().required("Phone number is required."),
-      website: Yup.string()
-        .url("Invalid website URL.")
-        .required("Website is required."),
-      company: Yup.string().required("Company name is required."),
-      message: Yup.string(),
-      budget: Yup.string(),
-    }),
-  ];
+  const validationSchema = Yup.object().shape({
+    challenges: Yup.array().min(1, "Please select at least one challenge."),
+    goals: Yup.array().min(1, "Please select at least one goal."),
+    firstName: Yup.string().required("First Name is required."),
+    lastName: Yup.string().required("Last Name is required."),
+    email: Yup.string()
+      .email("Invalid email address.")
+      .required("Email is required."),
+    phone: Yup.string().required("Phone number is required."),
+    website: Yup.string()
+      .url("Invalid website URL.")
+      .required("Website is required."),
+    company: Yup.string().required("Company name is required."),
+    message: Yup.string(),
+    budget: Yup.string(),
+  });
 
-  const handleNext = (values) => {
-    setStep(step + 1);
+  const handleNext = async (values) => {
+    try {
+      await validationSchema.validateAt(
+        step === 1 ? "challenges" : "goals",
+        values
+      );
+      setStep(step + 1);
+    } catch (error) {
+      // Handle validation error
+    }
   };
 
   const handlePrev = () => {
     setStep(step - 1);
   };
 
-  const handleSubmit = async (
-    values,
-    { setSubmitting, resetForm, setStatus }
-  ) => {
+  const handleSubmit = async (values, { setSubmitting, resetForm, setStatus }) => {
     try {
       const response = await fetch("/api/emails/proposal", {
         method: "POST",
@@ -312,7 +305,7 @@ const MultiStepForm = () => {
         setStatus({ success: true });
         setStep(4);
       } else {
-        setStatus({ success: false });
+        throw new Error("Submission failed");
       }
     } catch (error) {
       setStatus({ success: false });
@@ -326,14 +319,25 @@ const MultiStepForm = () => {
         <div className="request-form__body">
           <Formik
             initialValues={initialValues}
-            validationSchema={validationSchema[step - 1]}
-            onSubmit={step === 3 ? handleSubmit : handleNext}
+            validationSchema={validationSchema}
+            onSubmit={handleSubmit}
           >
             {({ values, errors, touched, setFieldValue }) => (
               <Form className="request-form__form">
-                {step === 1 && <StepOne next={() => handleNext(values)} />}
+                {step === 1 && (
+                  <StepOne
+                    next={() => handleNext(values)}
+                    setFieldValue={setFieldValue}
+                    values={values}
+                  />
+                )}
                 {step === 2 && (
-                  <StepTwo next={() => handleNext(values)} prev={handlePrev} />
+                  <StepTwo
+                    next={() => handleNext(values)}
+                    prev={handlePrev}
+                    setFieldValue={setFieldValue}
+                    values={values}
+                  />
                 )}
                 {step === 3 && (
                   <StepThree
