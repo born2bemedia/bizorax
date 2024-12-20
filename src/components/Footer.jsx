@@ -29,10 +29,10 @@ const Footer = () => {
                   Registered address:
                   <Link href="#" className="footer__contact-link">2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE</Link>
                 </li>
-                {/* <li className="footer__contact">
+                <li className="footer__contact">
                   Office address:
-                  <Link href="#" className="footer__contact-link">Example</Link>
-                </li> */}
+                  <Link href="#" className="footer__contact-link">2nd floor, 39 Ludgate Hill, London EC4M 7JN, United Kingdom</Link>
+                </li>
               </ul>
             </div>
             <div className="footer__col-02">

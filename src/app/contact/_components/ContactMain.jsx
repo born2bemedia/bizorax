@@ -87,10 +87,10 @@ const ContactMain = () => {
                                         Registered address:
                                         <Link href="#" className="contact-main__link-contact">2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE</Link>
                                     </li>
-                                   {/*  <li className="contact-main__contact">
+                                    <li className="contact-main__contact">
                                         Office address:
-                                        <Link href="#" className="contact-main__link-contact">86 Hoża street, Unit 210, Warsaw, Postcode 00-682, Poland</Link>
-                                    </li> */}
+                                        <Link href="#" className="contact-main__link-contact">2nd floor, 39 Ludgate Hill, London EC4M 7JN, United Kingdom</Link>
+                                    </li>
                                 </motion.ul>
                             </div>
                         </div>
