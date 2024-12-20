@@ -5,7 +5,7 @@ title: "Refund policy"
 
 ## Introduction
 
-1. We value your decision to partner with SERVEON GLOBAL LIMITED, registered at 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE, with its registration number 1613793, accessible at <a href="https://bizorax.com">https://bizorax.com</a>.
+1. We value your decision to partner with Serveon Global Limited, registered at 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE, with its registration number 1613793, accessible at <a href="https://bizorax.com">https://bizorax.com</a>.
 2. While we strive to deliver unparalleled services, we maintain a strict no-refund policy for all services and products purchased through our website. Once a transaction is finalised, it is deemed complete and non-refundable.
 
 ### Customer Responsibility

@@ -2,7 +2,7 @@
 title: "Acknowledgment of Our Terms"
 ---
 
-1. Welcome to Bizorax (“Company,” “we,” “us,” “our”), a brand operated by SERVEON GLOBAL LIMITED, registered at 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE with its registration number 16137938, and managed the website <a href="https://bizorax.com/">https://bizorax.com/</a> / (the “Site”) and various related services or products that link to or reference these terms (“Legal Terms”) (collectively referred to as the “Services”).
+1. Welcome to Bizorax (“Company,” “we,” “us,” “our”), a brand operated by Serveon Global Limited, registered at 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE with its registration number 16137938, and managed the website <a href="https://bizorax.com/">https://bizorax.com/</a> / (the “Site”) and various related services or products that link to or reference these terms (“Legal Terms”) (collectively referred to as the “Services”).
 2. Using our Services, you agree to be bound by these Legal Terms. If you do not agree to these Legal Terms, you must discontinue use of the Services immediately.
 3. Bizorax reserves the right to update these Legal Terms periodically. Updates will be indicated by the “Last Updated” date above. It is your responsibility to review these Legal Terms regularly. Continued use of the Services after any updates signifies your acknowledgment and acceptance of the revised terms.
 4. The Services are strictly for users aged 18 and above. By using our Services, you confirm that you meet this age requirement and have the legal capacity to enter into this agreement.

@@ -16,16 +16,16 @@ title: "Privacy policy"
 
 ## Data Processor Information
 
-1. Bizorax services are provided under the management of SERVEON GLOBAL LIMITED, the company responsible for data processing:
+1. Bizorax services are provided under the management of Serveon Global Limited, the company responsible for data processing:
 
-- Data Processor: SERVEON GLOBAL LIMITED
+- Data Processor: Serveon Global Limited
 - Registered Address: 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE
 - Registration Number: 16137938
 - Contact Information: <a href="mailto:info@bizorax.com">info@bizorax.com</a>
 
 ## Role and Responsibilities
 
-1. As the data processor, SERVEON GLOBAL LIMITED ensures the following:
+1. As the data processor, Serveon Global Limited ensures the following:
 
 - Data Collection and Processing: Handling personal data following privacy regulations and Bizorax’s instructions.
 - Data Security: Implementing technical and organisational measures to secure personal data from unauthorised access or misuse.
