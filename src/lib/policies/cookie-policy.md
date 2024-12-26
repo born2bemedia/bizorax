@@ -117,4 +117,8 @@ title: "Cookie policy"
 
 ## Contact Us
 
-1. Please provide as much detail as possible regarding your inquiry to help us address your concerns effectively. If you have questions or concerns about this Cookie Policy or how we use cookies, please get in touch with us at info@bizorax.com or <a href="https://bizorax.com/contact">https://bizorax.com/contact.</a>
+1. Please provide as much detail as possible regarding your inquiry to help us address your concerns effectively. If you have questions or concerns about this Cookie Policy or how we use cookies, please get in touch with us at:
+
+- <a href="mailto:info@bizorax.com">info@bizorax.com</a>
+- <a href="tel:+447479028330">+447479028330 </a>
+- <a href="https://bizorax.com/contact">https://bizorax.com/contact</a>

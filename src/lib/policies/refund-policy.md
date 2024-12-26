@@ -60,7 +60,11 @@ title: "Refund policy"
 ## Contact Information
 
 1. Our customer support team is here to assist you with any inquiries or concerns about this policy.
-2. If you have any questions or need clarification regarding this Refund Policy, feel free to contact us at <a href="mailto:info@bizorax.com">info@bizorax.com</a> or <a href="https://bizorax.com/contact">https://bizorax.com/contact</a>.
+2. If you have any questions or need clarification regarding this Refund Policy, feel free to contact us at:
+
+- <a href="mailto:info@bizorax.com">info@bizorax.com</a>
+- <a href="tel:+447479028330">+447479028330 </a>
+- <a href="https://bizorax.com/contact">https://bizorax.com/contact</a>
 
 ## Policy Updates
 

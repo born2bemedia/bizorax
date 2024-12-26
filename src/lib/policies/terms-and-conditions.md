@@ -148,4 +148,8 @@ title: "Acknowledgment of Our Terms"
 
 ## Contact Information
 
-1. We are here to assist with any inquiries regarding these Terms and Conditions. For questions or concerns, contact us at <a href="mailto:info@bizorax.com">info@bizorax</a> or <a href="https://bizorax.com/contact.">https://bizorax.com/contact.</a>
+1. We are here to assist with any inquiries regarding these Terms and Conditions. For questions or concerns, contact us at:
+
+- <a href="mailto:info@bizorax.com">info@bizorax.com</a>
+- <a href="tel:+447479028330">+447479028330 </a>
+- <a href="https://bizorax.com/contact">https://bizorax.com/contact</a>
