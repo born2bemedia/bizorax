@@ -79,10 +79,10 @@ const ContactMain = () => {
                                         Email:
                                         <Link href="mailto:info@bizorax.com" className="contact-main__link-contact">info@bizorax.com</Link>
                                     </li>
-                                    {/* <li className="contact-main__contact">
+                                    <li className="contact-main__contact">
                                         Phone:
-                                        <Link href="tel:+48573503926" className="contact-main__link-contact">+48573503926</Link>
-                                    </li> */}
+                                        <Link href="tel:+447479028330" className="contact-main__link-contact">+447479028330</Link>
+                                    </li>
                                     <li className="contact-main__contact">
                                         Registered address:
                                         <Link href="#" className="contact-main__link-contact">2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE</Link>

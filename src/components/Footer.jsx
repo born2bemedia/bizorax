@@ -21,10 +21,10 @@ const Footer = () => {
                   Email:
                   <Link href="mailto:info@bizorax.com" className="footer__contact-link">info@bizorax.com</Link>
                 </li>
-                {/* <li className="footer__contact">
+                <li className="footer__contact">
                   Phone:
-                  <Link href="tel:+19087654321" className="footer__contact-link">#############</Link>
-                </li> */}
+                  <Link href="tel:+447479028330" className="footer__contact-link">+447479028330</Link>
+                </li>
                 <li className="footer__contact">
                   Registered address:
                   <Link href="#" className="footer__contact-link">2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE</Link>
