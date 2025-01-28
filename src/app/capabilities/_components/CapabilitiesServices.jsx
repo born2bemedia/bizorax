@@ -8,7 +8,7 @@ import OrderButton from "@/components/OrderButton";
 const CapabilitiesServices = () => {
     return (
         <>
-            <section className="capa-services">
+            <section className="capa-services" id="packages">
                 <div className="capa-services__container _container">
                     <div className="capa-services__body">
                         <motion.h2
