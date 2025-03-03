@@ -27,7 +27,7 @@ const HomeText = () => {
                             variants={fadeInUp}
                             custom={0.2}
                             className="home-text__text">
-                            At Bizorax, we are a dynamic team of passionate experts committed to transforming your business challenges into opportunities. As a young yet highly experienced agency, we bring a fresh perspective to business consulting, combining innovative thinking with proven strategies. Our mission is to empower businesses across industries, enabling them to achieve sustainable growth and measurable success.
+                            As a young yet highly experienced agency, we bring a fresh perspective to business consulting, combining innovative thinking with proven strategies.
                         </motion.div>
                     </div>
                 </div>
