@@ -35,7 +35,7 @@ const Header = () => {
   return (
     <>
       <header className="header">
-        <div className="header__container _container">
+        <div className="header__container _container"> 
           <div className="header__body">
             <div className="header__col-01">
               <Link href="/" className="header__logo"><LogoWhite /></Link>
