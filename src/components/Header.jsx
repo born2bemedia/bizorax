@@ -8,6 +8,7 @@ import Instagram from "@/icons/social/Instagram";
 import Twitter from "@/icons/social/Twitter";
 import LogoWhite from "@/icons/other/LogoWhite";
 import { usePathname } from "next/navigation";
+import LangSwitcher from "./LangSwitcher";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -70,7 +71,9 @@ const Header = () => {
                     <Link href="/contact" className="header__link">Contact</Link>
                   </li>
                 </ul>
-
+                <div className="language">
+                  <LangSwitcher />
+                </div>
                 <ul className="header__socials _mobile">
                   <li className="header__social _facebook">
                     <Link href="#"><Facebook /></Link>
@@ -83,6 +86,9 @@ const Header = () => {
                   </li>
                 </ul>
               </nav>
+              <div className="language">
+                <LangSwitcher />
+              </div>
               <ul className="header__socials">
                 <li className="header__social _facebook">
                   <Link href="#"><Facebook /></Link>

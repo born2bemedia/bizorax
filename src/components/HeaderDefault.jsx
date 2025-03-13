@@ -83,6 +83,9 @@ const Header = () => {
                   </li>
                 </ul>
               </nav>
+              <div className="language">
+                <LangSwitcher />
+              </div>
               <ul className="header__socials">
                 <li className="header__social _facebook">
                   <Link href="#"><Facebook /></Link>

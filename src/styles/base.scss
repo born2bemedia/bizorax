@@ -94,6 +94,7 @@ body {
   line-height: normal;
   font-weight: 400;
   margin: 0;
+  top: 0 !important;
   background-color: #ecebe7;
   &::-webkit-scrollbar {
     background: transparent;
@@ -136,6 +137,10 @@ body {
 .site {
   position: relative;
   /* overflow: hidden; */
+}
+
+.skiptranslate { 
+  display: none !important;
 }
 
 .request-popup-wrap {
