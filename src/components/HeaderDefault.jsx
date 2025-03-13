@@ -71,7 +71,7 @@ const Header = () => {
                     <Link href="/contact" className="header__link">Contact</Link>
                   </li>
                 </ul>
-                <ul className="header__socials-mobile">
+                <ul className="header__socials-mobile"> 
                   <li className="_facebook">
                     <Link href="#">Facebook <ArrowTopRight /> </Link>
                   </li>
