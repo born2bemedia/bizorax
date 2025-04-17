@@ -17,32 +17,32 @@ const HomeMain = () => {
         {
             title: "Strategic Planning",
             text: "Crafting roadmaps to align goals and resources for optimal success.",
-            image: "/images/home/home-main-01.jpg",
+            image: "/images/home/asian-woman-standing-window-office-looking-printouts-with-business-graphs-glass.webp",
         },
         {
             title: "Operational Efficiency",
             text: "Streamlining processes to boost productivity and reduce costs.",
-            image: "/images/home/home-main-02.jpg",
+            image: "/images/home/business-people-meeting.webp",
         },
         {
             title: "Market Entry Strategies",
             text: "Guiding businesses into new markets with confidence and precision.",
-            image: "/images/home/home-main-03.jpg",
+            image: "/images/home/empty-hallway-office-building.webp",
         },
         {
             title: "Digital Transformation",
             text: "Leveraging technology to modernise and enhance business capabilities.",
-            image: "/images/home/home-main-01.jpg",
+            image: "/images/home/thisisengineering-raeng-H4ClLKv3pqw-unsplash.webp",
         },
         {
             title: "Change Management",
             text: "Facilitating smooth transitions during organisational shifts or expansions.",
-            image: "/images/home/home-main-02.jpg",
+            image: "/images/home/long-shot-women-climbing-up-stairs.webp",
         },
         {
             title: "Performance Optimization",
             text: "Enhancing team effectiveness and achieving measurable growth.",
-            image: "/images/home/home-main-03.jpg",
+            image: "/images/home/census-concept-photographed-city-building.webp",
         },
     ];
 

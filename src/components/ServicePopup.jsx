@@ -92,7 +92,7 @@ const ServicePopup = () => {
         <div className="order-popup">
           <div className="order-popup__content">
             <div className="order-popup__col-01">
-              <img src="/images/capabilites/img-02.jpg" alt="image" />
+              <img src="/images/capabilites/asian-girl-smart-city-futuristic-technology.webp" alt="image" />
             </div>
             <div className={`order-popup__col-02 ${isSuccess ? "hidden" : ""}`}>
               <h2 className="order-popup__title">{currentService}</h2>

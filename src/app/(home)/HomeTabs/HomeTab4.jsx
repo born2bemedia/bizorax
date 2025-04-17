@@ -12,7 +12,7 @@ const HomeTab4 = () => {
                     <div className="tabs-solutions__text">Employing proven methodologies to deliver measurable outcomes</div>
                     <Link href="/approach" className="tabs-solutions__link">Explore <ArrowRight /></Link>
                 </div>
-                <div className="tabs-solutions__col-02"><img src="/images/home/home-tab-04.jpg" alt="image" /></div>
+                <div className="tabs-solutions__col-02"><img src="/images/home/man-near-window.webp" alt="image" /></div>
             </div>
         </div>
     );

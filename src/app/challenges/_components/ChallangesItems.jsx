@@ -22,7 +22,7 @@ const ChallangesItems = () => {
                                     <h2 className="title">Adapting to rapidly shifting market conditions</h2>
                                     <div className="text">Sudden changes in customer preferences, competition, or regulations can disrupt operations.</div>
                                 </div>
-                                <div className="image"><img src="/images/challanges/img-01.jpg" alt="image" /></div>
+                                <div className="image"><img src="/images/challanges/selective-focus-computer.webp" alt="image" /></div>
                             </motion.div>
                             <motion.div
                                 initial="hidden"
@@ -35,7 +35,7 @@ const ChallangesItems = () => {
                                     <h2 className="title">Navigating complex digital transformations and integrating modern technologies:</h2>
                                     <div className="text">Implementing technology without disrupting workflows requires careful planning.</div>
                                 </div>
-                                <div className="image"><img src="/images/challanges/img-02.jpg" alt="image" /></div>
+                                <div className="image"><img src="/images/challanges/blonde-woman-glasses-black-shirt-working-table-with-computer-documents-it.webp" alt="image" /></div>
                             </motion.div>
                             <motion.div
                                 initial="hidden"
@@ -48,7 +48,7 @@ const ChallangesItems = () => {
                                     <h2 className="title">Achieving scalable growth without compromising efficiency</h2>
                                     <div className="text">Expanding too quickly often leads to bottlenecks or quality compromises.</div>
                                 </div>
-                                <div className="image"><img src="/images/challanges/img-03.jpg" alt="image" /></div>
+                                <div className="image"><img src="/images/challanges/full-shot-students-studying-indoors.webp" alt="image" /></div>
                             </motion.div>
                             <motion.div
                                 initial="hidden"
@@ -61,7 +61,7 @@ const ChallangesItems = () => {
                                     <h2 className="title">Attracting and retaining skilled talent in competitive industries</h2>
                                     <div className="text">Finding and keeping the right people is critical for long-term success.</div>
                                 </div>
-                                <div className="image"><img src="/images/challanges/img-04.jpg" alt="image" /></div>
+                                <div className="image"><img src="/images/challanges/vertical-full-length-it-programmers-students-using-computers-office-interior-with-glass-wall-copy-space.webp" alt="image" /></div>
                             </motion.div>
                             <motion.div
                                 initial="hidden"
@@ -74,7 +74,7 @@ const ChallangesItems = () => {
                                     <h2 className="title">Streamlining operational processes to reduce costs and enhance productivity</h2>
                                     <div className="text">Identifying inefficiencies is the first step to sustainable growth.</div>
                                 </div>
-                                <div className="image"><img src="/images/challanges/img-05.jpg" alt="image" /></div>
+                                <div className="image"><img src="/images/challanges/futurism-perspective-digital-nomads-lifestyle.webp" alt="image" /></div>
                             </motion.div>
                         </div>
                         <motion.div

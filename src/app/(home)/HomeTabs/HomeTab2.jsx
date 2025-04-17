@@ -12,7 +12,7 @@ const HomeTab2 = () => {
                     <div className="tabs-solutions__text">Designing tailored strategies that amplify efficiency and drive results.</div>
                     <Link href="/capabilities" className="tabs-solutions__link">Explore <ArrowRight /></Link>
                 </div>
-                <div className="tabs-solutions__col-02"><img src="/images/home/home-tab-02.jpg" alt="image" /></div>
+                <div className="tabs-solutions__col-02"><img src="/images/home/demographic-census-concept-representation.webp" alt="image" /></div>
             </div>
         </div>
     );

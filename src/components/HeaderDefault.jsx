@@ -9,6 +9,7 @@ import LogoWhite from "@/icons/other/LogoWhite";
 import { usePathname } from "next/navigation";
 import Twitter from "@/icons/social/Twitter";
 import ArrowTopRight from "@/icons/other/ArrowTopRight";
+import LangSwitcher from "./LangSwitcher";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
