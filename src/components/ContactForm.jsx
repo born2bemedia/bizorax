@@ -8,11 +8,17 @@ import useCountryCode from "@/utils/useCountryCode";
 import ArrowRight from "@/icons/slider/ArrowRight";
 import Mark from "@/icons/other/Mark";
 import Snipper from "@/icons/loading/Snipper";
+import ReCaptcha from "react-google-recaptcha";
 
 
 function ContactForm() {
     const countryCode = useCountryCode();
     const [isSuccess, setIsSuccess] = useState(false);
+    const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
+
+    const onCaptchaVerify = (token) => {
+        setIsCaptchaVerified(!!token);
+    };
 
     const validationSchema = Yup.object({
         yourName: Yup.string().required("The field is required."),
@@ -223,11 +229,11 @@ function ContactForm() {
                                     This fields is required.
                                 </span>
                             )}
-
+                            <ReCaptcha sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY} onChange={onCaptchaVerify} />
                             <button
                                 type="submit"
                                 className="button"
-                                disabled={isSubmitting}
+                                disabled={isSubmitting || !isCaptchaVerified}
                             >
                                 Submit Message
                             </button>
