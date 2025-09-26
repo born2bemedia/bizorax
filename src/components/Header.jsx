@@ -3,9 +3,6 @@ import React, { useEffect, useState } from "react";
 import "@/styles/header.scss";
 import "@/styles/base.scss";
 import Link from "next/link";
-import Facebook from "@/icons/social/Facebook";
-import Instagram from "@/icons/social/Instagram";
-import Twitter from "@/icons/social/Twitter";
 import LogoWhite from "@/icons/other/LogoWhite";
 import { usePathname } from "next/navigation";
 import LangSwitcher from "./LangSwitcher";
@@ -74,7 +71,7 @@ const Header = () => {
                 <div className="language">
                   <LangSwitcher />
                 </div>
-                <ul className="header__socials _mobile">
+                {/* <ul className="header__socials _mobile">
                   <li className="header__social _facebook">
                     <Link href="#"><Facebook /></Link>
                   </li>
@@ -84,12 +81,12 @@ const Header = () => {
                   <li className="header__social _instagram">
                     <Link href="#"><Instagram /></Link>
                   </li>
-                </ul>
+                </ul> */}
               </nav>
               <div className="language">
                 <LangSwitcher />
               </div>
-              <ul className="header__socials">
+              {/* <ul className="header__socials">
                 <li className="header__social _facebook">
                   <Link href="#"><Facebook /></Link>
                 </li>
@@ -99,7 +96,7 @@ const Header = () => {
                 <li className="header__social _instagram">
                   <Link href="#"><Instagram /></Link>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
