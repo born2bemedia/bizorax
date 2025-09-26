@@ -14,7 +14,7 @@ const ContactMain = () => {
                 <div className="contact-main__container _container">
                     <div className="contact-main__body">
                         <div className="contact-main__col-01">
-                            <div className="contact-main__block-01">
+                            {/* <div className="contact-main__block-01">
                                 <motion.h2
                                     initial="hidden"
                                     whileInView="visible"
@@ -48,7 +48,7 @@ const ContactMain = () => {
                                         <Link href="#" className="contact-main__link _twitter">Twitter <ArrowTopRight /></Link>
                                     </li>
                                 </motion.ul>
-                            </div>
+                            </div> */}
                             <div className="contact-main__block-02">
                                 <motion.h2
                                     initial="hidden"

@@ -72,7 +72,7 @@ const Header = () => {
                     <Link href="/contact" className="header__link">Contact</Link>
                   </li>
                 </ul>
-                <ul className="header__socials-mobile">
+                {/* <ul className="header__socials-mobile">
                   <li className="_facebook">
                     <Link href="#">Facebook <ArrowTopRight /> </Link>
                   </li>
@@ -82,12 +82,12 @@ const Header = () => {
                   <li className="_instagram">
                     <Link href="#">Twitter <ArrowTopRight /></Link>
                   </li>
-                </ul>
+                </ul> */}
               </nav>
               <div className="language">
                 <LangSwitcher />
               </div>
-              <ul className="header__socials">
+              {/* <ul className="header__socials">
                 <li className="header__social _facebook">
                   <Link href="#"><Facebook /></Link>
                 </li>
@@ -97,7 +97,7 @@ const Header = () => {
                 <li className="header__social _instagram">
                   <Link href="#"><Instagram /></Link>
                 </li>
-              </ul>
+              </ul> */}
               <button onClick={() => menuOpen()} className={`header__menu-btn ${menuOpened ? "_active" : ""}`}>
                 {!menuOpened ? (
                   <img src="/images/menu-open-white.svg" alt="menu-burger" />
