@@ -22,6 +22,10 @@
     display: block;
   }
 
+  &.hidden {
+    display: none;
+  }
+
   h2 {
     color: #181818;
     font-family: Geist;
