@@ -11,6 +11,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 /* import { NextIntlClientProvider, useMessages } from "next-intl"; */
 import ServicePopup from "@/components/ServicePopup";
 import Preloader from "@/components/Preloader";
+import { CookiePopup } from "@/components/CookiePopup";
 
 
 const geist = Geist({
@@ -39,6 +40,7 @@ export default function RootLayout({ children }) {
           )}
           <main className="site">{children}</main>
           <Footer />
+          <CookiePopup />
           <ServicePopup />
         </PopupsProvider>
       </body>
