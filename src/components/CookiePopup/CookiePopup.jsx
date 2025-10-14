@@ -12,6 +12,8 @@ export const CookiePopup = () => {
   useEffect(() => {
     const hasAcceptedCookies = localStorage.getItem('cookiesAccepted');
 
+    console.log(hasAcceptedCookies);
+
     if (!hasAcceptedCookies) {
       setIsVisible(true);
     }
@@ -21,6 +23,8 @@ export const CookiePopup = () => {
     localStorage.setItem('cookiesAccepted', 'true');
     setIsVisible(false);
   };
+
+  if (!isVisible) return null;
 
   return (
     <div
