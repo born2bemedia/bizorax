@@ -81,7 +81,7 @@ const ContactMain = () => {
                                     </li>
                                     <li className="contact-main__contact">
                                         Phone:
-                                        <Link href="tel:+447479028330" className="contact-main__link-contact">+447479028330</Link>
+                                        <Link href="tel:+447397703568" className="contact-main__link-contact">+447397703568</Link>
                                     </li>
                                     <li className="contact-main__contact">
                                         Registered address:
