@@ -23,7 +23,7 @@ const Footer = () => {
                 </li>
                 <li className="footer__contact">
                   Phone:
-                  <Link href="tel:+447479028330" className="footer__contact-link">+447479028330</Link>
+                  <Link href="tel:+447397703568" className="footer__contact-link">+447397703568</Link>
                 </li>
                 <li className="footer__contact">
                   Registered address:

@@ -179,5 +179,5 @@ title: "Privacy policy"
 1. We are committed to addressing your inquiries and ensuring your privacy is protected. If you have questions or concerns regarding this Privacy Policy or our data practices, you can reach us at:
 
 - <a href="mailto:info@bizorax.com">info@bizorax.com</a>
-- <a href="tel:+447479028330">+447479028330 </a>
+- <a href="tel:+447397703568">+447397703568</a>
 - <a href="https://bizorax.com/contact">https://bizorax.com/contact</a>
