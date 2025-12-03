@@ -9,6 +9,7 @@ import ArrowRight from "@/icons/slider/ArrowRight";
 import Mark from "@/icons/other/Mark";
 import Snipper from "@/icons/loading/Snipper";
 import ReCaptcha from "react-google-recaptcha";
+import { allowedCountriesOptions, defaultCountries, excludedCountries } from "@/lib/phone";
 
 
 function ContactForm() {
@@ -192,10 +193,11 @@ function ContactForm() {
                                 <Field name="phone">
                                     {({ field, form }) => (
                                         <PhoneInput
-                                            country={countryCode}
+                                            country={excludedCountries.includes(countryCode) ? "gb" : countryCode}
                                             value={field.value}
                                             onChange={(value) => form.setFieldValue("phone", value)}
                                             placeholder="Your phone"
+                                            excludeCountries={excludedCountries}
                                             className={
                                                 form.touched.phone && form.errors.phone
                                                     ? "invalid"

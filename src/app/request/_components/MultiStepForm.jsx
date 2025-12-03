@@ -9,6 +9,7 @@ import useCountryCode from "@/utils/useCountryCode";
 import "@/styles/request.scss";
 import ArrowBtn from "@/icons/other/ArrowBtn";
 import RequestMessage from "./RequestMessage";
+import { excludedCountries } from "@/lib/phone";
 
 const StepOne = ({ next, setFieldValue, values }) => {
   const handleCheckboxChange = (event) => {
@@ -177,8 +178,9 @@ const StepThree = ({ prev, country, touched, errors, setFieldValue }) => {
 
           <div className="row _phone">
             <PhoneInput
-              country={country}
+              country={excludedCountries.includes(country) ? "gb" : country}
               value=""
+              excludeCountries={excludedCountries}
               onChange={(value) => setFieldValue("phone", value)}
               placeholder="Phone Number"
               className={touched.phone && errors.phone ? "invalid" : ""}
