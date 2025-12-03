@@ -8,6 +8,7 @@ import PhoneInput from "react-phone-input-2";
 import useCountryCode from "@/utils/useCountryCode";
 import CloseIcon from "@/icons/other/CloseIcon";
 import Snipper from "@/icons/loading/Snipper";
+import { excludedCountries } from "@/lib/phone";
 
 const ServicePopup = () => {
   const { servicePopupDisplay, setServicePopupDisplay, currentService } = usePopup();
@@ -181,11 +182,12 @@ const ServicePopup = () => {
 
                         <div className="row _phone">
                           <PhoneInput
-                            country={countryCode}
+                            country={excludedCountries.includes(countryCode) ? "gb" : countryCode}
                             value={values.phone}
                             onChange={(value) => setFieldValue("phone", value)}
                             placeholder="Phone"
                             className={touched.phone && errors.phone ? "invalid" : ""}
+                            excludeCountries={excludedCountries}
                           />
                         </div>
 
