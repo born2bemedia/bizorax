@@ -284,7 +284,7 @@ const MultiStepForm = () => {
       );
       setStep(step + 1);
     } catch (error) {
-      // Handle validation error
+      
     }
   };
 
@@ -343,14 +343,14 @@ const MultiStepForm = () => {
                 )}
                 {step === 3 && (
                   <StepThree
-                    prev={handlePrev}
+                    prev={handlePrev} 
                     country={countryCode}
                     touched={touched}
                     errors={errors}
                     setFieldValue={setFieldValue}
                   />
                 )}
-                {step === 4 && (
+                {step === 4 && ( 
                   <RequestMessage />
                 )}
               </Form>
