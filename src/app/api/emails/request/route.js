@@ -1,10 +1,11 @@
-import { NextResponse, NextRequest } from "next/server";
-const nodemailer = require("nodemailer");
+import { NextResponse } from "next/server";
+import sgMail from "@sendgrid/mail";
+
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 export async function POST(request) {
   try {
-    const requestBody = await request.text();
-    const bodyJSON = JSON.parse(requestBody);
+    const bodyJSON = await request.json();
     const {
       yourName,
       lastName,
@@ -16,23 +17,12 @@ export async function POST(request) {
       message,
     } = bodyJSON;
 
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
-      },
-      tls: {
-        rejectUnauthorized: false,
-      },
-    });
-
-    const mailOptionsRecipient = {
-      from: '"Bizorax" <noreply@bizorax.com>',
-      to: "noreply@bizorax.com",
+    const msgRecipient = {
+      to: process.env.ADMIN_EMAIL,
+      from: process.env.FROM_EMAIL,
       subject: "Consultation Request",
       text: `Name: ${yourName}
-      Last Name: ${lastName}
+Last Name: ${lastName}
 Company: ${company}
 Email: ${email}
 Phone: ${phone}
@@ -41,9 +31,9 @@ Website: ${website}
 Message: ${message}`,
     };
 
-    const mailOptionsClient = {
-      from: '"Bizorax" <noreply@bizorax.com>',
+    const msgClient = {
       to: email,
+      from: process.env.FROM_EMAIL,
       subject: "Your Consultation Request Has Been Received",
       html: `
         <table width="640" style="border-collapse: collapse; margin: 0 auto; font-style: sans-serif; border-right: 1px solid #222222; border-left: 1px solid #222222;">
@@ -52,8 +42,8 @@ Message: ${message}`,
       `,
     };
 
-    await transporter.sendMail(mailOptionsRecipient);
-    await transporter.sendMail(mailOptionsClient);
+    await sgMail.send(msgRecipient);
+    await sgMail.send(msgClient);
 
     return NextResponse.json({ message: "Success: emails were sent" });
   } catch (error) {

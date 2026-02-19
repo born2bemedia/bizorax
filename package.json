@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@next/third-parties": "^15.0.3",
+    "@sendgrid/mail": "^8.1.6",
     "axios": "^1.7.8",
     "classnames": "^2.5.1",
     "countries-list": "^3.2.0",

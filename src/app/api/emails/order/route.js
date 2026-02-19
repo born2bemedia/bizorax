@@ -1,36 +1,34 @@
-import { NextResponse, NextRequest } from "next/server";
-const nodemailer = require("nodemailer");
+import { NextResponse } from "next/server";
+import sgMail from "@sendgrid/mail";
+
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 export async function POST(request) {
   try {
-    const requestBody = await request.text();
-    const bodyJSON = JSON.parse(requestBody);
+    const bodyJSON = await request.json();
     const { firstName, lastName, email, phone, service, company, website, budget, message } = bodyJSON;
 
-    const transporter = nodemailer.createTransport({
-      service: 'gmail',
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
-      },
-      tls: {
-        rejectUnauthorized: false,
-      },
-    });
-
-    const mailOptionsRecipient = {
-      from: '"Bizorax" <noreply@bizorax.com>',
-      to: "noreply@bizorax.com",
+    const msgRecipient = {
+      to: process.env.ADMIN_EMAIL,
+      from: process.env.FROM_EMAIL,
       subject: "Order Form Submission",
-      text: `Name: ${firstName}\nEmail: ${email}\nPhone: ${phone}\nService: ${service}\nCompany name: ${company}\nCompany website: ${website}\nbudget: ${budget}\lastName: ${lastName}\message: ${message}`,
+      text: `Name: ${firstName}
+Last Name: ${lastName}
+Email: ${email}
+Phone: ${phone}
+Service: ${service}
+Company name: ${company}
+Company website: ${website}
+Budget: ${budget}
+Message: ${message}`,
     };
 
-    const mailOptionsClient = {
-      from: '"Bizorax" <noreply@bizorax.com>',
+    const msgClient = {
       to: email,
+      from: process.env.FROM_EMAIL,
       subject: "Your Service Request Has Been Received",
       html: `
-         <table width="640" style="border-collapse: collapse; margin: 0 auto; font-style: sans-serif; border-right: 1px solid #222222; border-left: 1px solid #222222;">
+        <table width="640" style="border-collapse: collapse; margin: 0 auto; font-style: sans-serif; border-right: 1px solid #222222; border-left: 1px solid #222222;">
             <thead>
                 <tr>
                     <th style="background-image: url('https://bizorax.com/images/letter-top.jpg'); background-size: cover;background-position: center center; background-repeat: no-repeat; height: 117px;"></th>
@@ -63,13 +61,15 @@ export async function POST(request) {
       `,
     };
 
-    await transporter.sendMail(mailOptionsRecipient);
-    await transporter.sendMail(mailOptionsClient);
+    await sgMail.send(msgRecipient);
+    await sgMail.send(msgClient);
 
-    console.log("Emails sent successfully.");
     return NextResponse.json({ message: "Success: emails were sent" });
   } catch (error) {
     console.error("Error sending emails:", error);
-    return NextResponse.status(500).json({ message: "COULD NOT SEND MESSAGE", error: error.message });
+    return NextResponse.json(
+      { message: "COULD NOT SEND MESSAGE", error: error.message },
+      { status: 500 }
+    );
   }
 }
