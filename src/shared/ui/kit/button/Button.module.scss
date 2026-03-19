@@ -1,0 +1,44 @@
+.button {
+  min-height: 44px;
+  border: 1px solid transparent;
+  padding: 10px 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    opacity 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+
+  &:hover {
+    opacity: 0.86;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.white {
+  background: #fff;
+  color: #1d0a5b;
+}
+
+.blue {
+  background: #1d0a5b;
+  color: #fff;
+}
+
+.bordered {
+  border-color: rgba(255, 255, 255, 0.24);
+  background: transparent;
+  color: #fff;
+}

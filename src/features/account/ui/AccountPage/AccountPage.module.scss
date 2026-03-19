@@ -1,0 +1,362 @@
+@use '@/shared/lib/styles/mixin.scss' as *;
+
+.account {
+  background: #edebe7;
+  color: #232323;
+}
+
+.shell {
+  width: min(1280px, calc(100% - 160px));
+  margin: 0 auto;
+}
+
+.loadingText {
+  margin: 0;
+  padding: 120px 0;
+  color: rgba(35, 35, 35, 0.72);
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* ── Hero ── */
+
+.hero {
+  padding: 120px 0 40px;
+}
+
+.hero__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.hero__title {
+  max-width: 420px;
+  margin: 0;
+  color: #232323;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.logoutButton {
+  border: 0;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  padding: 0 0 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #232323;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.72;
+  }
+}
+
+/* ── Image band ── */
+
+.imageBand {
+  height: 200px;
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* ── Dashboard ── */
+
+.dashboardSection {
+  background: #cd8c2a;
+  padding: 60px 80px;
+}
+
+/* ── Account Management ── */
+
+.managementSection {
+  background: #1d0a5b;
+  padding: 60px 80px 80px;
+  color: #fff;
+}
+
+.sectionTitle {
+  margin: 0 0 24px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #fff;
+}
+
+/* ── Management layout ── */
+
+.managementGrid {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.profileForm {
+  display: flex;
+  flex-direction: column;
+  width: 845px;
+  flex-shrink: 0;
+}
+
+.passwordForm {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.formColumnHeader {
+  margin-bottom: 24px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+/* ── Profile grid ── */
+
+.profileGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.addressRow {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+
+/* ── Password fields ── */
+
+.passwordFields {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ── Field (Figma: border-b white, p-16, no label) ── */
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    padding: 16px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+/* ── Password input with eye toggle ── */
+
+.passwordInput {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+
+  input {
+    border-bottom: 0;
+    flex: 1;
+  }
+}
+
+.passwordToggle {
+  border: 0;
+  background: transparent;
+  padding: 0 16px 0 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+/* ── Actions ── */
+
+.profileActions,
+.passwordActions {
+  margin-top: 24px;
+  display: flex;
+}
+
+.profileActions {
+  justify-content: flex-start;
+}
+
+.passwordActions {
+  justify-content: flex-end;
+}
+
+.saveButton {
+  min-width: 200px;
+  height: 50px;
+  border: 0;
+  border-radius: 4px;
+  background: #cd8c2a;
+  padding: 0 20px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.84;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+/* ── Messages ── */
+
+.message {
+  margin: 14px 0 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.message_success {
+  color: #dbe9bc;
+}
+
+.message_error,
+.error {
+  color: #ffb7b1;
+}
+
+.error {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+/* ── Tablet ── */
+
+@include tablet {
+  .shell {
+    width: min(1280px, calc(100% - 64px));
+  }
+
+  .dashboardSection {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .managementSection {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .managementGrid {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .profileForm {
+    width: 100%;
+  }
+}
+
+/* ── Mobile ── */
+
+@include mobile {
+  .shell {
+    width: calc(100% - 32px);
+  }
+
+  .hero {
+    padding: 100px 0 40px;
+  }
+
+  .hero__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .hero__title {
+    max-width: none;
+  }
+
+  .imageBand {
+    height: 100px;
+  }
+
+  .dashboardSection,
+  .managementSection {
+    padding: 40px 16px;
+  }
+
+  .sectionTitle {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: capitalize;
+  }
+
+  .formColumnHeader {
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .profileGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .addressRow {
+    grid-template-columns: 1fr;
+  }
+
+  .profileActions,
+  .passwordActions {
+    justify-content: flex-start;
+  }
+
+  .saveButton {
+    width: 100%;
+  }
+}

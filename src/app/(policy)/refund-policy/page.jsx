@@ -1,25 +1,9 @@
-import { getPage, getPageSlugs } from "@/utils/blogUtils";
+import { getPage } from "@/utils/blogUtils";
 import React from "react";
 import "@/styles/policy.scss";
 
-export async function generateStaticParams() {
-  const slugs = await getPageSlugs();
-  const locales = ["en", "it", "de"];
-
-  const params = [];
-  slugs.forEach((slug) => {
-    if (!slug.startsWith("IT-") && !slug.startsWith("DE-")) {
-      locales.forEach((locale) => {
-        params.push({ slug, locale });
-      });
-    }
-  });
-
-  return params;
-}
-
-export async function generateMetadata({ params: { locale } }) {
-  const page = await getPage("refund-policy", locale);
+export async function generateMetadata() {
+  const page = await getPage("refund-policy");
 
   return {
     title: page.title,
@@ -49,3 +33,5 @@ const RefundPolicy = async () => {
 };
 
 export default RefundPolicy;
+
+

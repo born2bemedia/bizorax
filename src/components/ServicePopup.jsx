@@ -70,16 +70,20 @@ const ServicePopup = () => {
         body: JSON.stringify(valuesWithService),
       });
 
+      const responseData = await response.json();
+      console.log("[ServicePopup] Response status:", response.status, "body:", responseData);
+
       if (response.ok) {
         setSubmitting(false);
         setIsSuccess(true);
         resetForm();
       } else {
+        console.error("[ServicePopup] Server error:", responseData);
         setStatus({ success: false });
         setIsSuccess(false);
       }
     } catch (error) {
-      console.error(error);
+      console.error("[ServicePopup] Fetch error:", error);
       setStatus({ success: false });
       setSubmitting(false);
       setIsSuccess(false);

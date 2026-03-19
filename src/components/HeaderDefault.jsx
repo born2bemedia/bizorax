@@ -8,11 +8,13 @@ import { usePathname } from "next/navigation";
 import Twitter from "@/icons/social/Twitter";
 import ArrowTopRight from "@/icons/other/ArrowTopRight";
 import LangSwitcher from "./LangSwitcher";
+import { useAuthStore } from "@/features/account/store/auth";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const [submenuOpen, setSubmenuOpen] = useState({});
   const pathname = usePathname();
+  const user = useAuthStore((s) => s.user);
 
   const menuOpen = () => {
     setMenuOpened(!menuOpened);
@@ -34,41 +36,81 @@ const Header = () => {
   return (
     <>
       <header className="header">
-        <div className="header__container _container"> 
+        <div className="header__container _container">
           <div className="header__body">
             <div className="header__col-01">
-              <Link href="/" className="header__logo"><LogoWhite /></Link>
+              <Link href="/" className="header__logo">
+                <LogoWhite />
+              </Link>
             </div>
             <div className="header__col-02">
               <nav className={`header__nav ${menuOpened ? "_active" : ""}`}>
                 <ul className="header__list">
                   <li className="header__item">
-                    <Link href="/challenges" className="header__link">Challenges</Link>
+                    <Link href="/challenges" className="header__link">
+                      Challenges
+                    </Link>
                   </li>
                   <li className="header__item">
-                    <Link href="/capabilities" className="header__link">Capabilities</Link>
+                    <Link href="/capabilities" className="header__link">
+                      Capabilities
+                    </Link>
                   </li>
                   <li className="header__item">
-                    <Link href="/industries" className="header__link">Industries</Link>
+                    <Link href="/industries" className="header__link">
+                      Industries
+                    </Link>
                   </li>
                   <li className="header__item">
-                    <Link href="/approach" className="header__link">Approach</Link>
+                    <Link href="/approach" className="header__link">
+                      Approach
+                    </Link>
                   </li>
                   <li className="header__item">
-                    <Link href="/cases" className="header__link">Cases</Link>
+                    <Link href="/cases" className="header__link">
+                      Cases
+                    </Link>
                   </li>
                   <li className="header__item">
-                    <Link href="/team" className="header__link">Team</Link>
+                    <Link href="/team" className="header__link">
+                      Team
+                    </Link>
                   </li>
                   <li className="header__item">
-                    <Link href="/request" className="header__link">Request</Link>
+                    <Link href="/request" className="header__link">
+                      Request
+                    </Link>
                   </li>
                   <li className="header__item">
-                    <Link href="/insights" className="header__link">Insights</Link>
+                    <Link href="/insights" className="header__link">
+                      Insights
+                    </Link>
                   </li>
                   <li className="header__item">
-                    <Link href="/contact" className="header__link">Contact</Link>
+                    <Link href="/contact" className="header__link">
+                      Contact
+                    </Link>
                   </li>
+                  {user ? (
+                    <li className="header__item">
+                      <Link href="/account" className="header__link">
+                        Account
+                      </Link>
+                    </li>
+                  ) : (
+                    <>
+                      <li className="header__item">
+                        <Link href="/sign-in" className="header__link">
+                          Sign In
+                        </Link>
+                      </li>
+                      <li className="header__item">
+                        <Link href="/sign-up" className="header__link">
+                          Sign Up
+                        </Link>
+                      </li>
+                    </>
+                  )}
                 </ul>
                 {/* <ul className="header__socials-mobile"> 
                   <li className="_facebook">
@@ -96,7 +138,10 @@ const Header = () => {
                   <Link href="#"><Instagram /></Link>
                 </li>
               </ul> */}
-              <button onClick={() => menuOpen()} className={`header__menu-btn ${menuOpened ? "_active" : ""}`}>
+              <button
+                onClick={() => menuOpen()}
+                className={`header__menu-btn ${menuOpened ? "_active" : ""}`}
+              >
                 {!menuOpened ? (
                   <img src="/images/menu-open.svg" alt="menu-burger" />
                 ) : (
