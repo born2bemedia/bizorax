@@ -281,7 +281,9 @@ export const MyOrdersPage = () => {
                     Download
                   </a>
                 ) : (
-                  <p className={styles.cardValue}>–</p>
+                  <span className={`${styles.downloadButton} ${styles.downloadButton_disabled}`}>
+                    {labels.download}
+                  </span>
                 )}
               </div>
             </article>
