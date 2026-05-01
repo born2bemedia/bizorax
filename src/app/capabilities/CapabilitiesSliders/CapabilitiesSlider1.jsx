@@ -13,6 +13,21 @@ const CapabilitiesSlider1 = () => {
 
     const slides = [
         {
+            title: "<span>Strategy</span> <span>Alignment Call</span> <span>(60 min)</span>",
+            text: "A focused consultation to clarify priorities and immediate next steps.",
+            service: 'Strategy Alignment Call (60 min)',
+        },
+        {
+            title: "<span>Quick</span> <span>Business</span> <span>Review</span>",
+            text: "A concise overview of your current position with initial recommendations.",
+            service: 'Quick Business Review',
+        },
+        {
+            title: "<span>Market</span> <span>Position</span> <span>Snapshot</span>",
+            text: "A brief assessment of your current market positioning with immediate differentiation insights.",
+            service: 'Market Position Snapshot',
+        },
+        {
             title: "<span>Business</span> <span>Needs</span> <span>Assessment</span>",
             text: "Deep dive into your organisation to identify key focus areas.",
             service: 'Business Needs Assessment',

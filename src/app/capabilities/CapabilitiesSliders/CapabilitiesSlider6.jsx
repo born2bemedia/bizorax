@@ -13,6 +13,16 @@ const CapabilitiesSlider6 = () => {
 
     const slides = [
         {
+            title: "<span>Customer</span> <span>Journey</span> <span>Quick Audit</span>",
+            text: "A focused review of your customer flow with key optimisation insights.",
+            service: 'Customer Journey Quick Audit',
+        },
+        {
+            title: "<span>Sales</span> <span>Funnel</span> <span>Snapshot Review</span>",
+            text: "A high-level evaluation of your conversion flow with actionable recommendations.",
+            service: 'Sales Funnel Snapshot Review',
+        },
+        {
             title: "<span>Employee</span> <span>Performance</span> <span>Metrics</span> <span>Development</span>",
             text: "Defining measurable KPIs for staff.",
             service: 'Employee Performance Metrics Development',

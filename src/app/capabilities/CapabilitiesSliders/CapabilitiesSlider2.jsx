@@ -13,6 +13,11 @@ const CapabilitiesSlider2 = () => {
 
     const slides = [
         {
+            title: "<span>Operational</span> <span>Process</span> <span>Check</span>",
+            text: "A targeted review of a selected workflow with practical improvement suggestions.",
+            service: 'Operational Process Check',
+        },
+        {
             title: "<span>Process</span> <span>Optimization</span>",
             text: "Identifying and eliminating inefficiencies in workflows.",
             service: 'Process Optimization',
