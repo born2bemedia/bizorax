@@ -73,7 +73,7 @@ const CapabilitiesServices = () => {
                                 </ul>
                                 <div className="capa-services__price">
                                     <h4 className="title">Price:</h4>
-                                    <div className="price">From <span>€3,000</span></div>
+                                    <div className="price">From <span>€6,000</span></div>
                                 </div>
                                 <OrderButton
                                     className={"capa-services__link"}
@@ -105,7 +105,7 @@ const CapabilitiesServices = () => {
                                 </ul>
                                 <div className="capa-services__price">
                                     <h4 className="title">Price:</h4>
-                                    <div className="price">From <span>€3,000</span></div>
+                                    <div className="price">From <span>€10,000</span></div>
                                 </div>
                                 <OrderButton
                                     className={"capa-services__link"}
@@ -137,7 +137,7 @@ const CapabilitiesServices = () => {
                                 </ul>
                                 <div className="capa-services__price">
                                     <h4 className="title">Price:</h4>
-                                    <div className="price">From <span>€3,000</span></div>
+                                    <div className="price">From <span>€20,000</span></div>
                                 </div>
                                 <OrderButton
                                     className={"capa-services__link"}
