@@ -112,32 +112,78 @@ const Header = () => {
                     </>
                   )}
                 </ul>
-                {/* <ul className="header__socials-mobile"> 
+                <ul className="header__socials-mobile">
                   <li className="_facebook">
-                    <Link href="#">Facebook <ArrowTopRight /> </Link>
+                    <Link href="https://www.facebook.com/bizorax/">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                      >
+                        <path
+                          d="M13.263 10.868L13.643 8.45396H11.3025V6.88482C11.3025 6.22473 11.6293 5.57973 12.6741 5.57973H13.7532V3.52401C13.1248 3.42381 12.4898 3.36959 11.8534 3.36182C9.92711 3.36182 8.66948 4.51981 8.66948 6.61324V8.45396H6.53418V10.868H8.66948V16.707H11.3025V10.868H13.263Z"
+                          fill="#E6DED0"
+                        />
+                      </svg>
+                    </Link>
                   </li>
-                  <li className="_twitter">
-                    <Link href="#">Instagram <ArrowTopRight /></Link>
+                  <li className="_linkedin">
+                    <Link href="https://www.linkedin.com/company/bizorax/">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                      >
+                        <path
+                          d="M6.9326 15.4036V8.20012H4.54042V15.4036H6.93285H6.9326ZM5.73701 7.21679C6.57104 7.21679 7.09028 6.66365 7.09028 5.97238C7.07467 5.26536 6.57104 4.72766 5.75287 4.72766C4.93414 4.72766 4.39941 5.26536 4.39941 5.97232C4.39941 6.66359 4.91847 7.21672 5.72134 7.21672H5.73682L5.73701 7.21679ZM8.25671 15.4036H10.6487V11.3813C10.6487 11.1663 10.6643 10.9507 10.7275 10.7971C10.9004 10.3668 11.294 9.92136 11.955 9.92136C12.8203 9.92136 13.1667 10.5819 13.1667 11.5503V15.4036H15.5587V11.2733C15.5587 9.06083 14.3787 8.03125 12.8048 8.03125C11.5145 8.03125 10.9478 8.75308 10.633 9.24471H10.6489V8.20037H8.25683C8.28806 8.87614 8.25665 15.4038 8.25665 15.4038L8.25671 15.4036Z"
+                          fill="#E6DED0"
+                        />
+                      </svg>
+                    </Link>
                   </li>
-                  <li className="_instagram">
-                    <Link href="#">Twitter <ArrowTopRight /></Link>
-                  </li>
-                </ul> */}
+                </ul>
               </nav>
               <div className="language">
                 <LangSwitcher />
               </div>
-              {/* <ul className="header__socials">
-                <li className="header__social _facebook">
-                  <Link href="#"><Facebook /></Link>
+              <ul className="header__socials">
+                <li className="_facebook">
+                  <Link href="https://www.facebook.com/bizorax/">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M13.263 10.868L13.643 8.45396H11.3025V6.88482C11.3025 6.22473 11.6293 5.57973 12.6741 5.57973H13.7532V3.52401C13.1248 3.42381 12.4898 3.36959 11.8534 3.36182C9.92711 3.36182 8.66948 4.51981 8.66948 6.61324V8.45396H6.53418V10.868H8.66948V16.707H11.3025V10.868H13.263Z"
+                        fill="#E6DED0"
+                      />
+                    </svg>
+                  </Link>
                 </li>
-                <li className="header__social _twitter">
-                  <Link href="#"><Twitter /></Link>
+                <li className="_linkedin">
+                  <Link href="https://www.linkedin.com/company/bizorax/">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M6.9326 15.4036V8.20012H4.54042V15.4036H6.93285H6.9326ZM5.73701 7.21679C6.57104 7.21679 7.09028 6.66365 7.09028 5.97238C7.07467 5.26536 6.57104 4.72766 5.75287 4.72766C4.93414 4.72766 4.39941 5.26536 4.39941 5.97232C4.39941 6.66359 4.91847 7.21672 5.72134 7.21672H5.73682L5.73701 7.21679ZM8.25671 15.4036H10.6487V11.3813C10.6487 11.1663 10.6643 10.9507 10.7275 10.7971C10.9004 10.3668 11.294 9.92136 11.955 9.92136C12.8203 9.92136 13.1667 10.5819 13.1667 11.5503V15.4036H15.5587V11.2733C15.5587 9.06083 14.3787 8.03125 12.8048 8.03125C11.5145 8.03125 10.9478 8.75308 10.633 9.24471H10.6489V8.20037H8.25683C8.28806 8.87614 8.25665 15.4038 8.25665 15.4038L8.25671 15.4036Z"
+                        fill="#E6DED0"
+                      />
+                    </svg>
+                  </Link>
                 </li>
-                <li className="header__social _instagram">
-                  <Link href="#"><Instagram /></Link>
-                </li>
-              </ul> */}
+              </ul>
               <button
                 onClick={() => menuOpen()}
                 className={`header__menu-btn ${menuOpened ? "_active" : ""}`}

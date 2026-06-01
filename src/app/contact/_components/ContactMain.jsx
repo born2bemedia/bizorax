@@ -14,7 +14,7 @@ const ContactMain = () => {
                 <div className="contact-main__container _container">
                     <div className="contact-main__body">
                         <div className="contact-main__col-01">
-                            {/* <div className="contact-main__block-01">
+                            <div className="contact-main__block-01">
                                 <motion.h2
                                     initial="hidden"
                                     whileInView="visible"
@@ -39,16 +39,13 @@ const ContactMain = () => {
                                     custom={0.3}
                                     className="contact-main__socials">
                                     <li className="contact-main__social">
-                                        <Link href="#" className="contact-main__link _facebook">Facebook <ArrowTopRight /></Link>
+                                        <Link href="https://www.facebook.com/bizorax/" className="contact-main__link _facebook">Facebook <ArrowTopRight /></Link>
                                     </li>
                                     <li className="contact-main__social">
-                                        <Link href="#" className="contact-main__link _instagram">Instagram <ArrowTopRight /></Link>
-                                    </li>
-                                    <li className="contact-main__social">
-                                        <Link href="#" className="contact-main__link _twitter">Twitter <ArrowTopRight /></Link>
+                                        <Link href="https://www.linkedin.com/company/bizorax/" className="contact-main__link _linkedin">Linkedin <ArrowTopRight /></Link>
                                     </li>
                                 </motion.ul>
-                            </div> */}
+                            </div> 
                             <div className="contact-main__block-02">
                                 <motion.h2
                                     initial="hidden"

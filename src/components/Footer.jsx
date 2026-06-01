@@ -81,20 +81,14 @@ const Footer = () => {
               <div className="footer__col">
                 <ul className="footer__socials">
                   <li className="footer__social">
-                    <Link href="#" className="footer__social-link">
+                    <Link href="https://www.facebook.com/bizorax/" className="footer__social-link">
                       Facebook
                       <ArrowTop />
                     </Link>
                   </li>
                   <li className="footer__social">
-                    <Link href="#" className="footer__social-link">
-                      Instagram
-                      <ArrowTop />
-                    </Link>
-                  </li>
-                  <li className="footer__social">
-                    <Link href="#" className="footer__social-link">
-                      Twitter
+                    <Link href="https://www.linkedin.com/company/bizorax/" className="footer__social-link">
+                      Linkedin
                       <ArrowTop />
                     </Link>
                   </li>
