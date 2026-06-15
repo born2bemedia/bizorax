@@ -44,6 +44,9 @@ const ContactMain = () => {
                                     <li className="contact-main__social">
                                         <Link href="https://www.linkedin.com/company/bizorax/" className="contact-main__link _linkedin">Linkedin <ArrowTopRight /></Link>
                                     </li>
+                                    <li className="contact-main__social">
+                                        <Link href="https://x.com/bizorax" className="contact-main__link _x">X <ArrowTopRight /></Link>
+                                    </li>
                                 </motion.ul>
                             </div> 
                             <div className="contact-main__block-02">

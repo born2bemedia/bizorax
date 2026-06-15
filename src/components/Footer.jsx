@@ -92,6 +92,12 @@ const Footer = () => {
                       <ArrowTop />
                     </Link>
                   </li>
+                  <li className="footer__social">
+                    <Link href="https://x.com/bizorax" className="footer__social-link">
+                      X
+                      <ArrowTop />
+                    </Link>
+                  </li>
                 </ul>
                 <ul className="footer__politics">
                   <li className="footer__policy">
